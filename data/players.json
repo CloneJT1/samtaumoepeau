@@ -917,7 +917,8 @@
     "twitterHandle": "",
     "ncaaId": "",
     "notes": "",
-    "featured": false
+    "featured": false,
+    "approved": true
   },
   {
     "id": "47",
@@ -939,7 +940,8 @@
     "twitterHandle": "",
     "ncaaId": "",
     "notes": "Twin brother of Zamar Reese",
-    "featured": false
+    "featured": false,
+    "approved": true
   },
   {
     "id": "48",
@@ -961,7 +963,8 @@
     "twitterHandle": "",
     "ncaaId": "",
     "notes": "",
-    "featured": false
+    "featured": false,
+    "approved": true
   },
   {
     "id": "49",
@@ -983,7 +986,8 @@
     "twitterHandle": "",
     "ncaaId": "",
     "notes": "",
-    "featured": false
+    "featured": false,
+    "approved": true
   },
   {
     "id": "50",
@@ -1005,7 +1009,8 @@
     "twitterHandle": "SebasTucker3",
     "ncaaId": "2502512656",
     "notes": "",
-    "featured": false
+    "featured": false,
+    "approved": true
   },
   {
     "id": "51",
@@ -1027,7 +1032,8 @@
     "twitterHandle": "",
     "ncaaId": "",
     "notes": "",
-    "featured": false
+    "featured": false,
+    "approved": true
   },
   {
     "id": "52",
@@ -1049,6 +1055,7 @@
     "twitterHandle": "",
     "ncaaId": "",
     "notes": "",
-    "featured": false
+    "featured": false,
+    "approved": true
   }
 ]
