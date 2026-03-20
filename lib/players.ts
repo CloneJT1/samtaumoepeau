@@ -14,7 +14,8 @@ export interface Player {
   weight: number;
   hudlLink?: string;
   gpa?: number;
-  committed?: string | null;
+  committed?: boolean | string | null;
+  committedTo?: string | null;
   stats?: string;
   approved: boolean;
   createdAt: string;
