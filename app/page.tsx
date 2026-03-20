@@ -90,6 +90,36 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 2027 Coming Soon Banner */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-2">
+        <div
+          className="rounded-2xl px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4"
+          style={{ backgroundColor: '#002147' }}
+        >
+          <div className="text-center sm:text-left">
+            <span
+              className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+              style={{ backgroundColor: '#FFD700', color: '#002147' }}
+            >
+              Coming Soon
+            </span>
+            <h2 className="text-xl font-black text-white mt-2">Class of 2027 Rankings</h2>
+            <p className="text-gray-300 text-sm mt-1">
+              Evaluations underway — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
+            </p>
+          </div>
+          <a
+            href="https://x.com/SDProspectsFB"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2.5 rounded-lg font-bold text-sm shrink-0 transition-all hover:scale-105"
+            style={{ backgroundColor: '#FFD700', color: '#002147' }}
+          >
+            Follow Us
+          </a>
+        </div>
+      </section>
+
       {/* Mission Statement */}
       <section style={{ backgroundColor: '#f8f9fa' }} className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -143,27 +173,6 @@ export default function HomePage() {
           {top10.map((player) => (
             <PlayerCard key={player.id} player={player} featured />
           ))}
-        </div>
-      </section>
-
-      {/* 2027 Coming Soon Banner */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div
-          className="rounded-2xl px-8 py-8 text-center"
-          style={{ backgroundColor: '#002147' }}
-        >
-          <span
-            className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
-            style={{ backgroundColor: '#FFD700', color: '#002147' }}
-          >
-            Coming Soon
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-white mt-4">
-            Class of 2027 Rankings
-          </h2>
-          <p className="text-gray-300 mt-2 max-w-xl mx-auto">
-            We&apos;re currently evaluating San Diego County&apos;s junior class. Rankings will be released later this year — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
-          </p>
         </div>
       </section>
 
