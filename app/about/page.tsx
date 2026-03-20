@@ -77,11 +77,11 @@ export default function AboutPage() {
           </h3>
           <div className="space-y-3">
             {[
-              { stars: '⭐⭐⭐⭐⭐', level: 'Top 15 Program', desc: 'Alabama, Georgia, Ohio State, USC tier — national title contender caliber' },
-              { stars: '⭐⭐⭐⭐', level: 'FBS', desc: 'Mid-major up to Top 16 — solid Power 4 / elite G5 programs' },
-              { stars: '⭐⭐⭐', level: 'FCS', desc: 'CAA, Big South, MVFC caliber — real college starter' },
-              { stars: '⭐⭐', level: 'D2 / D3 / JUCO', desc: 'College level — could develop into higher' },
-              { stars: '⭐', level: 'NAIA', desc: 'Small college — still competes beyond high school' },
+              { stars: '⭐⭐⭐⭐⭐', level: 'Top 15 Ability', desc: 'Elite prospect with the ability to compete at the highest level of college football.' },
+              { stars: '⭐⭐⭐⭐', level: 'FBS / FCS', desc: 'Has the ability to play at any level, just below the Top 15. FBS and FCS caliber.' },
+              { stars: '⭐⭐⭐', level: 'FCS / Top D2', desc: 'Has FCS ability and top D2 ability.' },
+              { stars: '⭐⭐', level: 'D2 / D3 / JUCO', desc: 'D2, D3, or JUCO level talent.' },
+              { stars: '⭐', level: 'NAIA', desc: 'NAIA level — still competes beyond high school.' },
             ].map(({ stars, level, desc }) => (
               <div key={level} className="flex items-start gap-3 pb-3 border-b border-gray-100 last:border-0 last:pb-0">
                 <div className="text-lg leading-tight w-24 shrink-0">{stars}</div>

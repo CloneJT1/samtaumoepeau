@@ -66,12 +66,12 @@ export default function PlayerTable({ players }: PlayerTableProps) {
                   <span className="font-bold text-gray-900 hover:underline" style={{ color: '#002147' }}>
                     {player.firstName} {player.lastName}
                   </span>
-                  {player.committed && (
+                  {player.committed && player.committedTo && (
                     <span
                       className="ml-2 text-xs font-semibold px-1.5 py-0.5 rounded"
                       style={{ backgroundColor: '#FFD700', color: '#002147' }}
                     >
-                      {player.committed}
+                      {player.committedTo}
                     </span>
                   )}
                 </Link>

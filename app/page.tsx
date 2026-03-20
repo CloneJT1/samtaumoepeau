@@ -8,7 +8,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SD Prospects — San Diego County Football Recruiting Database',
-  description: "San Diego County's football recruiting database. Class of 2026 Top 30 prospects ranked by size, production, and film. Class of 2027 evaluations coming soon.",
+  description: "San Diego County's football recruiting database. Class of 2026 Top 50 prospects ranked by size, production, and film. Class of 2027 evaluations coming soon.",
   alternates: { canonical: 'https://sandiegoprospects.com' },
 };
 
@@ -136,7 +136,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="mb-6 px-4 py-3 rounded-lg border border-yellow-200 bg-yellow-50 text-sm text-yellow-900">
-          <strong>Class of 2026 Final Top 30</strong> — Listed in alphabetical order. These are the top 30 prospects from San Diego County's graduating class of 2026. <span className="font-semibold">Class of 2027 rankings are currently being evaluated and will be released soon.</span>
+          <strong>Class of 2026 Final Top 50</strong> — Listed in alphabetical order. These are the top 50 prospects from San Diego County's graduating class of 2026. <span className="font-semibold">Class of 2027 rankings are currently being evaluated and will be released soon.</span>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

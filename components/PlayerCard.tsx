@@ -49,12 +49,12 @@ export default function PlayerCard({ player, featured = false }: PlayerCardProps
             {player.weight && <span>{player.weight} lbs</span>}
           </div>
 
-          {player.committed && (
+          {player.committed && player.committedTo && (
             <div
               className={`mt-3 font-semibold px-3 py-1.5 rounded-full inline-block ${featured ? 'text-sm' : 'text-xs'}`}
               style={{ backgroundColor: '#FFD700', color: '#002147' }}
             >
-              ✍️ Committed to {player.committed}
+              ✍️ Committed to {player.committedTo}
             </div>
           )}
         </div>
