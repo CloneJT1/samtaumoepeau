@@ -133,13 +133,15 @@ export default function AboutPage() {
           Get in Touch
         </h3>
         <p className="text-gray-500 text-sm">
-          Questions, corrections, or media inquiries?{' '}
+          Questions, corrections, or media inquiries? Reach us on X at{' '}
           <a
-            href="mailto:contact@sandiegoprospects.com"
+            href="https://x.com/SDProspectsFB"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-semibold hover:underline"
             style={{ color: '#002147' }}
           >
-            contact@sandiegoprospects.com
+            @SDProspectsFB
           </a>
         </p>
       </div>
