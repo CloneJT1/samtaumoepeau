@@ -2,22 +2,17 @@ import { Suspense } from 'react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Class of 2026 Rankings',
-  description: 'San Diego County Class of 2026 football prospect rankings. Top 30 players ranked by position, measurables, and on-field production. No offer bias — pure talent evaluation.',
+  title: 'Class of 2026 Rankings | SD Prospects',
+  description: 'Full San Diego County high school football prospect rankings. Filter by position, class year, and school.',
   openGraph: {
     title: 'Class of 2026 Rankings | SD Prospects',
-    description: 'Top 30 San Diego County football prospects for the Class of 2026. Rankings based on size, production, and film — not offer sheets.',
+    description: 'Top San Diego County football prospects for the Class of 2026. Rankings based on size, production, and film — not offer sheets.',
     url: 'https://sandiegoprospects.com/rankings',
   },
 };
 import { getPlayers } from '@/lib/players';
 import FilterBar from '@/components/FilterBar';
 import PlayerTable from '@/components/PlayerTable';
-
-export const metadata: Metadata = {
-  title: 'Rankings',
-  description: 'Full San Diego County high school football prospect rankings. Filter by position, class year, and school.',
-};
 
 export default function RankingsPage() {
   const players = getPlayers();
