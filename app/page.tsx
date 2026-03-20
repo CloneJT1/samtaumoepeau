@@ -146,6 +146,27 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 2027 Coming Soon Banner */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div
+          className="rounded-2xl px-8 py-8 text-center"
+          style={{ backgroundColor: '#002147' }}
+        >
+          <span
+            className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+            style={{ backgroundColor: '#FFD700', color: '#002147' }}
+          >
+            Coming Soon
+          </span>
+          <h2 className="text-2xl sm:text-3xl font-black text-white mt-4">
+            Class of 2027 Rankings
+          </h2>
+          <p className="text-gray-300 mt-2 max-w-xl mx-auto">
+            We&apos;re currently evaluating San Diego County&apos;s junior class. Rankings will be released later this year — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
+          </p>
+        </div>
+      </section>
+
       {/* Full Rankings with Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14">
         <div className="mb-6">
