@@ -670,10 +670,11 @@
     "weight": 170,
     "hudlLink": null,
     "gpa": null,
-    "committed": null,
+    "committed": true,
     "stats": "91 rec | 928 yds | 7 TDs (Sr.) | 1,632 career rec yds | 17 career TDs",
     "approved": true,
-    "createdAt": "2026-03-20"
+    "createdAt": "2026-03-20",
+    "committedTo": "Southern Connecticut State"
   },
   {
     "id": "33",
