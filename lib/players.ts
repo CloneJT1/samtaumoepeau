@@ -13,6 +13,7 @@ export interface Player {
   height: string;
   weight: number;
   hudlLink?: string;
+  xHandle?: string;
   gpa?: number;
   committed?: boolean | string | null;
   committedTo?: string | null;

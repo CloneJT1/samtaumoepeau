@@ -120,6 +120,22 @@ export default async function PlayerProfilePage({ params }: Props) {
                 </a>
               </div>
             )}
+
+            {/* X Handle */}
+            {player.xHandle && (
+              <div className="border-t border-gray-100 px-6 py-4">
+                <a
+                  href={`https://x.com/${player.xHandle.replace('@', '')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg font-bold text-sm text-white transition-all hover:opacity-90"
+                  style={{ backgroundColor: '#000000' }}
+                >
+                  <span>𝕏</span>
+                  {player.xHandle.startsWith('@') ? player.xHandle : `@${player.xHandle}`}
+                </a>
+              </div>
+            )}
           </div>
         </div>
 
