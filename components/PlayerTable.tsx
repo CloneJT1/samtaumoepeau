@@ -71,7 +71,7 @@ export default function PlayerTable({ players }: PlayerTableProps) {
                       className="ml-2 text-xs font-semibold px-1.5 py-0.5 rounded"
                       style={{ backgroundColor: '#FFD700', color: '#002147' }}
                     >
-                      {player.committedTo}
+                      {player.stars === 5 ? '🖊️ Signed' : '✍️ Committed'} — {player.committedTo}
                     </span>
                   )}
                 </Link>
