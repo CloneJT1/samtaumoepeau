@@ -68,7 +68,7 @@ export default function AboutPage() {
               </li>
             ))}
           </ul>
-          <p className="text-gray-500 text-sm italic">Ratings reflect projected ability — not current offer sheets.</p>
+          <p className="text-sm font-bold" style={{ color: '#FFD700' }}>Ratings reflect projected ability — not current offer sheets.</p>
         </div>
 
         <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
