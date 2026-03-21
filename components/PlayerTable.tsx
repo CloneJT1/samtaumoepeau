@@ -46,6 +46,7 @@ export default function PlayerTable({ players }: PlayerTableProps) {
             <th className="px-4 py-3 text-left font-semibold text-xs uppercase tracking-wide hidden lg:table-cell">Ht</th>
             <th className="px-4 py-3 text-left font-semibold text-xs uppercase tracking-wide hidden lg:table-cell">Wt</th>
             <th className="px-4 py-3 text-center font-semibold text-xs uppercase tracking-wide hidden md:table-cell">Film</th>
+            <th className="px-4 py-3 text-center font-semibold text-xs uppercase tracking-wide hidden md:table-cell">X</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100 bg-white">
@@ -110,6 +111,23 @@ export default function PlayerTable({ players }: PlayerTableProps) {
                     title="Watch on Hudl"
                   >
                     ▶
+                  </a>
+                ) : (
+                  <span className="text-gray-300">—</span>
+                )}
+              </td>
+              <td className="px-4 py-3 text-center hidden md:table-cell">
+                {player.xHandle ? (
+                  <a
+                    href={`https://x.com/${player.xHandle.replace('@', '')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold transition-opacity hover:opacity-80"
+                    style={{ backgroundColor: '#000000' }}
+                    title={player.xHandle}
+                  >
+                    𝕏
                   </a>
                 ) : (
                   <span className="text-gray-300">—</span>
