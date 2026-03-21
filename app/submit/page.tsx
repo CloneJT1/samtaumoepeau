@@ -16,6 +16,7 @@ interface FormState {
   heightFeet: string;
   heightInches: string;
   weight: string;
+  xHandle: string;
   hudlLink: string;
   otherFilmLink: string;
   gpa: string;
@@ -33,6 +34,7 @@ const defaultForm: FormState = {
   heightFeet: '',
   heightInches: '',
   weight: '',
+  xHandle: '',
   hudlLink: '',
   otherFilmLink: '',
   gpa: '',
@@ -248,6 +250,18 @@ export default function SubmitPage() {
           <h2 className="font-bold text-gray-800 mb-4">Film &amp; Links</h2>
 
           <div>
+            <label className={labelClass}>X (Twitter) Handle</label>
+            <input
+              type="text"
+              name="xHandle"
+              value={form.xHandle}
+              onChange={handleChange}
+              placeholder="@PlayerHandle"
+              className={inputClass}
+            />
+          </div>
+
+          <div className="mt-4">
             <label className={labelClass}>Hudl Profile Link</label>
             <input
               type="url"
