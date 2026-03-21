@@ -58,9 +58,9 @@ export default function AboutPage() {
           </p>
           <ul className="text-gray-600 space-y-2 mb-6">
             {[
-              'Size vs. D1 standards — does this player physically project to the next level?',
-              'Production & accolades — all-league, all-county, stats against real competition',
-              'Film & athletic grade — we watch the tape and evaluate the intangibles',
+              'Size vs. College Standards — does this player physically project to the next level?',
+              'On-Field Production — stats and performance against real competition',
+              'Film & Athletic Grade — we watch the tape and evaluate the intangibles',
             ].map((item) => (
               <li key={item} className="flex items-start gap-2">
                 <span style={{ color: '#FFD700' }} className="mt-0.5">★</span>
@@ -98,11 +98,13 @@ export default function AboutPage() {
           <h3 className="text-xl font-bold mb-3" style={{ color: '#002147' }}>
             🌊 San Diego Football
           </h3>
-          <p className="text-gray-600 leading-relaxed">
-            San Diego County has a rich tradition of producing NFL-caliber talent. The region&apos;s
-            competitive CIF San Diego Section features some of the top programs in California, with schools
-            like Helix High School producing multiple first-round NFL draft picks. Our goal is to ensure
+          <p className="text-gray-600 leading-relaxed mb-4">
+            San Diego County has a rich tradition of producing elite football talent. The region&apos;s
+            competitive CIF San Diego Section features some of the top programs in California. Our goal is to ensure
             no San Diego prospect goes unnoticed.
+          </p>
+          <p className="text-gray-600 leading-relaxed">
+            San Diego County has produced <span className="font-bold" style={{ color: '#002147' }}>4 Heisman Trophy winners</span> — Marcus Allen (Lincoln HS, 1981), Rashaan Salaam (La Jolla Country Day, 1994), Ricky Williams (Patrick Henry HS, 1998), and Reggie Bush (Helix HS, 2005). The talent has always been here.
           </p>
         </div>
 
