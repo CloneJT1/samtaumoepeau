@@ -23,12 +23,13 @@ export default function PlayerTable({ players }: PlayerTableProps) {
       return true;
     })
     .sort((a, b) => {
-      if (parseInt(classYear) === 2026) {
+      const cy = classYear || '2026';
+      if (cy === '2026') {
         return a.lastName.localeCompare(b.lastName);
       }
-      // 2027+: sort by stars desc, then rank asc
-      if ((b.stars ?? 0) !== (a.stars ?? 0)) return (b.stars ?? 0) - (a.stars ?? 0);
+      // 2027+: sort by rank asc (rank already reflects score order)
       if (a.rank && b.rank) return a.rank - b.rank;
+      if ((b.stars ?? 0) !== (a.stars ?? 0)) return (b.stars ?? 0) - (a.stars ?? 0);
       return 0;
     });
 
