@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
 import StarRating from './StarRating';
 import type { Player } from '@/lib/players';
 
@@ -10,28 +9,7 @@ interface PlayerTableProps {
 }
 
 export default function PlayerTable({ players }: PlayerTableProps) {
-  const searchParams = useSearchParams();
-  const position = searchParams.get('position') || '';
-  const classYear = searchParams.get('classYear') || '2026';
-  const school = searchParams.get('school') || '';
-
-  const filtered = players
-    .filter((p) => {
-      if (position && p.position !== position) return false;
-      if (classYear && p.classYear !== parseInt(classYear)) return false;
-      if (school && !p.school.toLowerCase().includes(school.toLowerCase())) return false;
-      return true;
-    })
-    .sort((a, b) => {
-      const cy = classYear || '2026';
-      if (cy === '2026') return a.lastName.localeCompare(b.lastName);
-      // 2027+: sort by rank
-      if (a.rank && b.rank) return a.rank - b.rank;
-      if ((b.stars ?? 0) !== (a.stars ?? 0)) return (b.stars ?? 0) - (a.stars ?? 0);
-      return 0;
-    });
-
-  if (filtered.length === 0) {
+  if (players.length === 0) {
     return (
       <div className="text-center py-16 text-gray-400">
         <div className="text-5xl mb-4">🏈</div>
@@ -46,7 +24,6 @@ export default function PlayerTable({ players }: PlayerTableProps) {
       <table className="w-full text-sm">
         <thead>
           <tr style={{ backgroundColor: '#002147' }} className="text-white">
-            
             <th className="px-4 py-3 text-center font-semibold text-xs uppercase tracking-wide w-10">#</th>
             <th className="px-4 py-3 text-left font-semibold text-xs uppercase tracking-wide">Rating</th>
             <th className="px-4 py-3 text-left font-semibold text-xs uppercase tracking-wide">Name</th>
@@ -60,7 +37,7 @@ export default function PlayerTable({ players }: PlayerTableProps) {
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100 bg-white">
-          {filtered.map((player, idx) => (
+          {players.map((player, idx) => (
             <tr
               key={player.id}
               className={`hover:bg-blue-50 transition-colors cursor-pointer ${

@@ -1,13 +1,14 @@
 import { Suspense } from 'react';
 export const dynamic = 'force-dynamic';
 import type { Metadata } from 'next';
+import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
-  title: 'Class of 2026 Rankings | SD Prospects',
+  title: 'Rankings | SD Prospects',
   description: 'Full San Diego County high school football prospect rankings. Filter by position, class year, and school.',
   openGraph: {
-    title: 'Class of 2026 Rankings | SD Prospects',
-    description: 'Top San Diego County football prospects for the Class of 2026. Rankings based on size, production, and film — not offer sheets.',
+    title: 'Rankings | SD Prospects',
+    description: 'Top San Diego County football prospects from San Diego County. Rankings based on size, production, and film — not offer sheets.',
     url: 'https://sandiegoprospects.com/rankings',
   },
 };
@@ -15,8 +16,43 @@ import { getPlayers } from '@/lib/players';
 import FilterBar from '@/components/FilterBar';
 import PlayerTable from '@/components/PlayerTable';
 
-export default function RankingsPage() {
-  const players = getPlayers();
+interface SearchParams {
+  position?: string;
+  classYear?: string;
+  school?: string;
+}
+
+export default async function RankingsPage({ searchParams }: { searchParams: Promise<SearchParams> }) {
+  const params = await searchParams;
+
+  // Default to 2026 if no classYear specified
+  if (!params.classYear) {
+    redirect('/rankings?classYear=2026');
+  }
+
+  const allPlayers = getPlayers();
+  const classYear = parseInt(params.classYear || '2026');
+  const position = params.position || '';
+  const school = params.school || '';
+
+  // Filter server-side
+  let filtered = allPlayers.filter((p) => {
+    if (p.classYear !== classYear) return false;
+    if (position && position !== 'All Positions' && p.position !== position) return false;
+    if (school && !p.school.toLowerCase().includes(school.toLowerCase())) return false;
+    return true;
+  });
+
+  // Sort server-side
+  if (classYear === 2026) {
+    filtered = filtered.sort((a, b) => a.lastName.localeCompare(b.lastName));
+  } else {
+    filtered = filtered.sort((a, b) => {
+      if (a.rank && b.rank) return a.rank - b.rank;
+      if ((b.stars ?? 0) !== (a.stars ?? 0)) return (b.stars ?? 0) - (a.stars ?? 0);
+      return 0;
+    });
+  }
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -32,7 +68,7 @@ export default function RankingsPage() {
           </h1>
         </div>
         <p className="text-gray-500 ml-4 pl-3">
-          {players.length} ranked prospects from San Diego County high schools
+          {filtered.length} ranked prospects from San Diego County high schools
         </p>
       </div>
 
@@ -43,9 +79,7 @@ export default function RankingsPage() {
 
       {/* Table */}
       <div className="mt-4">
-        <Suspense fallback={<div className="h-64 bg-gray-100 rounded-xl animate-pulse" />}>
-          <PlayerTable players={players} />
-        </Suspense>
+        <PlayerTable players={filtered} />
       </div>
 
       {/* Submit CTA */}
