@@ -1094,7 +1094,7 @@
   },
   {
     "id": "54",
-    "rank": 2,
+    "rank": 3,
     "stars": 4,
     "firstName": "Isaac",
     "lastName": "Cook",
@@ -1114,7 +1114,7 @@
   },
   {
     "id": "55",
-    "rank": 3,
+    "rank": 2,
     "stars": 4,
     "firstName": "Zachary",
     "lastName": "Benitez",
@@ -1154,7 +1154,7 @@
   },
   {
     "id": "57",
-    "rank": 5,
+    "rank": 7,
     "stars": 4,
     "firstName": "Xavier",
     "lastName": "St. John",
@@ -1174,7 +1174,7 @@
   },
   {
     "id": "58",
-    "rank": 6,
+    "rank": 5,
     "stars": 4,
     "firstName": "Lincoln",
     "lastName": "Mageo",
@@ -1194,7 +1194,7 @@
   },
   {
     "id": "59",
-    "rank": 7,
+    "rank": 8,
     "stars": 3,
     "firstName": "Delontay",
     "lastName": "Williams",
@@ -1214,7 +1214,7 @@
   },
   {
     "id": "60",
-    "rank": 8,
+    "rank": 11,
     "stars": 3,
     "firstName": "Caleb",
     "lastName": "McNickle",
@@ -1234,7 +1234,7 @@
   },
   {
     "id": "61",
-    "rank": 9,
+    "rank": 10,
     "stars": 3,
     "firstName": "Conner",
     "lastName": "Nichols",
@@ -1254,7 +1254,7 @@
   },
   {
     "id": "62",
-    "rank": 10,
+    "rank": 9,
     "stars": 3,
     "firstName": "Lotu",
     "lastName": "Seumalo",
@@ -1274,7 +1274,7 @@
   },
   {
     "id": "63",
-    "rank": 11,
+    "rank": 12,
     "stars": 3,
     "firstName": "Judah",
     "lastName": "Reed Bogard",
@@ -1294,7 +1294,7 @@
   },
   {
     "id": "64",
-    "rank": 12,
+    "rank": 13,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Loper",
@@ -1314,7 +1314,7 @@
   },
   {
     "id": "65",
-    "rank": 13,
+    "rank": 6,
     "stars": 4,
     "firstName": "Kye",
     "lastName": "Cooper",
