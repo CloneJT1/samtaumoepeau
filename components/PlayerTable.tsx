@@ -15,12 +15,22 @@ export default function PlayerTable({ players }: PlayerTableProps) {
   const classYear = searchParams.get('classYear') || '2026';
   const school = searchParams.get('school') || '';
 
-  const filtered = players.filter((p) => {
-    if (position && p.position !== position) return false;
-    if (classYear && p.classYear !== parseInt(classYear)) return false;
-    if (school && !p.school.toLowerCase().includes(school.toLowerCase())) return false;
-    return true;
-  });
+  const filtered = players
+    .filter((p) => {
+      if (position && p.position !== position) return false;
+      if (classYear && p.classYear !== parseInt(classYear)) return false;
+      if (school && !p.school.toLowerCase().includes(school.toLowerCase())) return false;
+      return true;
+    })
+    .sort((a, b) => {
+      if (parseInt(classYear) === 2026) {
+        return a.lastName.localeCompare(b.lastName);
+      }
+      // 2027+: sort by stars desc, then rank asc
+      if ((b.stars ?? 0) !== (a.stars ?? 0)) return (b.stars ?? 0) - (a.stars ?? 0);
+      if (a.rank && b.rank) return a.rank - b.rank;
+      return 0;
+    });
 
   if (filtered.length === 0) {
     return (
