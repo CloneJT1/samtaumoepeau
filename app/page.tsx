@@ -101,11 +101,11 @@ export default function HomePage() {
               className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
               style={{ backgroundColor: '#FFD700', color: '#002147' }}
             >
-              Coming Soon
+              🔴 LIVE NOW
             </span>
             <h2 className="text-xl font-black text-white mt-2">Class of 2027 Rankings</h2>
             <p className="text-gray-300 text-sm mt-1">
-              Evaluations underway — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
+              Top 15 is out — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
             </p>
           </div>
           <a
