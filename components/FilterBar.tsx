@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useCallback } from 'react';
+import { useCallback, useEffect } from 'react';
 
 const POSITIONS = ['All Positions', 'QB', 'RB', 'WR', 'TE', 'OL', 'DL', 'LB', 'CB', 'S', 'K/P', 'ATH'];
 const CLASS_YEARS = ['All Classes', '2026', '2027', '2028', '2029'];
@@ -13,6 +13,15 @@ export default function FilterBar() {
   const position = searchParams.get('position') || '';
   const classYear = searchParams.get('classYear') || '2026';
   const school = searchParams.get('school') || '';
+
+  // Set default classYear in URL on mount so PlayerTable always has an explicit param
+  useEffect(() => {
+    if (!searchParams.get('classYear')) {
+      const params = new URLSearchParams(searchParams.toString());
+      params.set('classYear', '2026');
+      router.replace(`?${params.toString()}`, { scroll: false });
+    }
+  }, []);
 
   const updateFilter = useCallback(
     (key: string, value: string) => {
