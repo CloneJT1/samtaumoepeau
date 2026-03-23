@@ -48,6 +48,7 @@ export default function PlayerTable({ players }: PlayerTableProps) {
         <thead>
           <tr style={{ backgroundColor: '#002147' }} className="text-white">
             
+            <th className="px-4 py-3 text-center font-semibold text-xs uppercase tracking-wide w-10">#</th>
             <th className="px-4 py-3 text-left font-semibold text-xs uppercase tracking-wide">Rating</th>
             <th className="px-4 py-3 text-left font-semibold text-xs uppercase tracking-wide">Name</th>
             <th className="px-4 py-3 text-left font-semibold text-xs uppercase tracking-wide">Pos</th>
@@ -67,6 +68,13 @@ export default function PlayerTable({ players }: PlayerTableProps) {
                 idx % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'
               }`}
             >
+              <td className="px-4 py-3 text-center">
+                <Link href={`/players/${player.id}`} className="block">
+                  <span className="font-bold text-sm" style={{ color: '#002147' }}>
+                    {player.rank ? `#${player.rank}` : ''}
+                  </span>
+                </Link>
+              </td>
               <td className="px-4 py-3">
                 <Link href={`/players/${player.id}`} className="block">
                   <StarRating stars={player.stars} size="sm" />
