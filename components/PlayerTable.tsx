@@ -90,7 +90,7 @@ export default function PlayerTable({ players }: PlayerTableProps) {
                       className="ml-2 text-xs font-semibold px-1.5 py-0.5 rounded"
                       style={{ backgroundColor: '#FFD700', color: '#002147' }}
                     >
-                      {player.firstName === 'Quentin' && player.lastName === 'Cesaire' ? '✍️ Committed' : '🖊️ Signed'} — {player.committedTo}
+                      {player.classYear === 2027 || (player.firstName === 'Quentin' && player.lastName === 'Cesaire') ? '✍️ Committed' : '🖊️ Signed'} — {player.committedTo}
                     </span>
                   )}
                 </Link>
