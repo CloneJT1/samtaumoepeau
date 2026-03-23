@@ -1082,12 +1082,15 @@
     "weight": 193,
     "hudlLink": "https://www.hudl.com/video/3/4545176/656eb7adff0c6d080472c809",
     "gpa": null,
-    "committed": false,
+    "committed": true,
     "stats": "#16 nationally (247Sports Composite); #1 CA; committed to USC 3/14/2026; also offered by Alabama, Ohio State, Notre Dame, LSU, Oregon, Miami, Arizona, Arizona State, Arkansas, Ole Miss, Kentucky and more; 2025 MaxPreps Junior All-American; 1532 rush yds/23 TD + 564 rec yds/7 TD as junior; 10.48 100m; originally from St. Augustine",
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@HonorFaalave",
-    "offers": []
+    "offers": [
+      "USC"
+    ],
+    "committedTo": "USC"
   },
   {
     "id": "54",
