@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const players = getPlayers();
-  const top10 = players.filter((p) => p.stars === 5);
+  const top10 = players.filter((p) => p.stars === 5 && p.classYear === 2026);
 
   return (
     <>
