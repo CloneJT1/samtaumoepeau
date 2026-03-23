@@ -49,7 +49,7 @@ export function getPlayers(): Player[] {
   try {
     const data = fs.readFileSync(PLAYERS_FILE, 'utf-8');
     const players: Player[] = JSON.parse(data);
-    return players.filter((p) => p.approved).sort((a, b) => a.firstName.localeCompare(b.firstName));
+    return players.filter((p) => p.approved).sort((a, b) => a.lastName.localeCompare(b.lastName));
   } catch {
     return [];
   }
