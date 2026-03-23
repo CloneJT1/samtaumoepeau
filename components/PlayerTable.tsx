@@ -23,11 +23,9 @@ export default function PlayerTable({ players }: PlayerTableProps) {
       return true;
     })
     .sort((a, b) => {
-      const cy = classYear || '2026';
-      if (cy === '2026') {
-        return a.lastName.localeCompare(b.lastName);
-      }
-      // 2027+: sort by rank asc (rank already reflects score order)
+      // 2026: pre-sorted in data, preserve order
+      if ((classYear || '2026') === '2026') return 0;
+      // 2027+: sort by rank
       if (a.rank && b.rank) return a.rank - b.rank;
       if ((b.stars ?? 0) !== (a.stars ?? 0)) return (b.stars ?? 0) - (a.stars ?? 0);
       return 0;
