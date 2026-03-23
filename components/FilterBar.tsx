@@ -11,7 +11,7 @@ export default function FilterBar() {
   const searchParams = useSearchParams();
 
   const position = searchParams.get('position') || '';
-  const classYear = searchParams.get('classYear') || '';
+  const classYear = searchParams.get('classYear') || '2026';
   const school = searchParams.get('school') || '';
 
   const updateFilter = useCallback(
@@ -19,6 +19,8 @@ export default function FilterBar() {
       const params = new URLSearchParams(searchParams.toString());
       if (value && value !== 'All Positions' && value !== 'All Classes') {
         params.set(key, value);
+      } else if (key === 'classYear') {
+        params.delete(key);
       } else {
         params.delete(key);
       }

@@ -12,7 +12,7 @@ interface PlayerTableProps {
 export default function PlayerTable({ players }: PlayerTableProps) {
   const searchParams = useSearchParams();
   const position = searchParams.get('position') || '';
-  const classYear = searchParams.get('classYear') || '';
+  const classYear = searchParams.get('classYear') || '2026';
   const school = searchParams.get('school') || '';
 
   const filtered = players.filter((p) => {
