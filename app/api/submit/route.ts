@@ -1,58 +1,50 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { addPendingSubmission } from '@/lib/players';
+import { getSupabase } from '@/lib/supabase';
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-
     const {
-      firstName,
-      lastName,
-      school,
-      position,
-      classYear,
-      heightFeet,
-      heightInches,
-      weight,
-      hudlLink,
-      otherFilmLink,
-      gpa,
-      additionalInfo,
-      submitterName,
-      submitterEmail,
+      firstName, lastName, school, position, classYear,
+      heightFeet, heightInches, weight, hudlLink, otherFilmLink,
+      gpa, additionalInfo, submitterName, submitterEmail,
     } = body;
 
-    // Validate required fields
     if (!firstName || !lastName || !school || !position || !classYear || !submitterName || !submitterEmail) {
-      return NextResponse.json(
-        { error: 'Missing required fields.' },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: 'Missing required fields.' }, { status: 400 });
     }
 
-    const submission = addPendingSubmission({
-      firstName: String(firstName).trim(),
-      lastName: String(lastName).trim(),
-      school: String(school).trim(),
-      position: String(position).trim(),
-      classYear: parseInt(String(classYear)),
-      heightFeet: heightFeet ? String(heightFeet).trim() : undefined,
-      heightInches: heightInches ? String(heightInches).trim() : undefined,
-      weight: weight ? String(weight).trim() : undefined,
-      hudlLink: hudlLink ? String(hudlLink).trim() : undefined,
-      otherFilmLink: otherFilmLink ? String(otherFilmLink).trim() : undefined,
-      gpa: gpa ? String(gpa).trim() : undefined,
-      additionalInfo: additionalInfo ? String(additionalInfo).trim() : undefined,
-      submitterName: String(submitterName).trim(),
-      submitterEmail: String(submitterEmail).trim(),
-    });
+    const sb = getSupabase();
+    const { data, error } = await sb
+      .from('submissions')
+      .insert([{
+        first_name: String(firstName).trim(),
+        last_name: String(lastName).trim(),
+        school: String(school).trim(),
+        position: String(position).trim(),
+        class_year: parseInt(String(classYear)),
+        height_feet: heightFeet ? String(heightFeet).trim() : null,
+        height_inches: heightInches ? String(heightInches).trim() : null,
+        weight: weight ? String(weight).trim() : null,
+        hudl_link: hudlLink ? String(hudlLink).trim() : null,
+        other_film_link: otherFilmLink ? String(otherFilmLink).trim() : null,
+        gpa: gpa ? String(gpa).trim() : null,
+        additional_info: additionalInfo ? String(additionalInfo).trim() : null,
+        submitter_name: String(submitterName).trim(),
+        submitter_email: String(submitterEmail).trim(),
+        status: 'pending',
+      }])
+      .select()
+      .single();
 
-    return NextResponse.json({ success: true, id: submission.id }, { status: 201 });
+    if (error) {
+      console.error('Supabase insert error:', error);
+      return NextResponse.json({ error: 'Failed to save submission.' }, { status: 500 });
+    }
+
+    return NextResponse.json({ success: true, id: data.id }, { status: 201 });
   } catch (err) {
     console.error('Submit error:', err);
-    return NextResponse.json(
-      { error: 'Internal server error.' },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: 'Internal server error.' }, { status: 500 });
   }
 }

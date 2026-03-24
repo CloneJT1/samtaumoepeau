@@ -1,18 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { approveSubmission } from '@/lib/players';
+import { getSupabaseAdmin } from '@/lib/supabase';
 
 export async function POST(req: NextRequest) {
   try {
     const { id } = await req.json();
+    if (!id) return NextResponse.json({ error: 'Missing submission ID.' }, { status: 400 });
 
-    if (!id) {
-      return NextResponse.json({ error: 'Missing submission ID.' }, { status: 400 });
-    }
+    const sb = getSupabaseAdmin();
+    const { error } = await sb.from('submissions').update({ status: 'approved' }).eq('id', id);
 
-    const success = approveSubmission(String(id));
-
-    if (!success) {
-      return NextResponse.json({ error: 'Submission not found.' }, { status: 404 });
+    if (error) {
+      console.error('Supabase approve error:', error);
+      return NextResponse.json({ error: 'Failed to approve submission.' }, { status: 500 });
     }
 
     return NextResponse.json({ success: true });
