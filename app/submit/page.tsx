@@ -264,7 +264,7 @@ export default function SubmitPage() {
           <div className="mt-4">
             <label className={labelClass}>Hudl Profile Link</label>
             <input
-              type="url"
+              type="text"
               name="hudlLink"
               value={form.hudlLink}
               onChange={handleChange}
@@ -276,7 +276,7 @@ export default function SubmitPage() {
           <div className="mt-4">
             <label className={labelClass}>Other Film Link</label>
             <input
-              type="url"
+              type="text"
               name="otherFilmLink"
               value={form.otherFilmLink}
               onChange={handleChange}
