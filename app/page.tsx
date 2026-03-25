@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { getPlayers } from '@/lib/players';
-import PlayerCard from '@/components/PlayerCard';
 import PlayerTable from '@/components/PlayerTable';
 import FilterBar from '@/components/FilterBar';
 import { Suspense } from 'react';
@@ -14,7 +13,6 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const players = getPlayers();
-  const top10 = players.filter((p) => p.stars === 5 && p.classYear === 2026);
 
   return (
     <>
@@ -145,34 +143,6 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Top 10 Preview */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="flex items-center justify-between mb-4">
-          <div>
-            <h2 className="text-2xl font-black" style={{ color: '#002147' }}>
-              Class of 2026 Prospects
-            </h2>
-            <p className="text-gray-500 text-sm mt-1">Listed in alphabetical order — star ratings reflect projected ability, not offer totals</p>
-          </div>
-          <Link
-            href="/rankings"
-            className="text-sm font-semibold hover:underline"
-            style={{ color: '#002147' }}
-          >
-            See Full List →
-          </Link>
-        </div>
-        <div className="mb-6 px-4 py-3 rounded-lg border border-yellow-200 bg-yellow-50 text-sm text-yellow-900">
-          <strong>Class of 2026 Final Top 50</strong> — Listed in alphabetical order. These are the top 50 prospects from San Diego County's graduating class of 2026. <span className="font-semibold">Class of 2027 rankings are currently being evaluated and will be released soon.</span>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {top10.map((player) => (
-            <PlayerCard key={player.id} player={player} featured />
-          ))}
         </div>
       </section>
 
