@@ -1274,7 +1274,7 @@
   },
   {
     "id": "60",
-    "rank": 12,
+    "rank": 11,
     "stars": 3,
     "firstName": "Caleb",
     "lastName": "McNickle",
@@ -1374,7 +1374,7 @@
   },
   {
     "id": "68",
-    "rank": 11,
+    "rank": 12,
     "stars": 3,
     "firstName": "Elijah",
     "lastName": "Filo",
@@ -1394,7 +1394,7 @@
     "createdAt": "2026-03-25T00:00:00.000Z",
     "sizeScore": 40,
     "productionScore": 10,
-    "filmScore": 25,
-    "totalScore": 75
+    "filmScore": 23,
+    "totalScore": 73
   }
 ]
