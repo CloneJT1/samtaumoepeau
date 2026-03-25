@@ -363,6 +363,13 @@ export default function AdminPage() {
                   </div>
                 </div>
 
+                {sub.xHandle && (
+                  <div className="mb-3">
+                    <span className="text-xs text-gray-400 uppercase tracking-wide">X: </span>
+                    <a href={`https://x.com/${sub.xHandle.replace('@','')}`} target="_blank" rel="noopener noreferrer"
+                      className="text-sm font-bold text-black hover:underline">{sub.xHandle}</a>
+                  </div>
+                )}
                 {sub.hudlLink && (
                   <div className="mb-3">
                     <a href={sub.hudlLink} target="_blank" rel="noopener noreferrer"

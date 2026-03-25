@@ -31,6 +31,12 @@ export async function GET() {
       additionalInfo: row.additional_info,
       submitterName: row.submitter_name,
       submitterEmail: row.submitter_email,
+      xHandle: row.x_handle,
+      scoreSize: row.score_size,
+      scoreProduction: row.score_production,
+      scoreFilm: row.score_film,
+      scoreTotal: row.score_total,
+      stars: row.stars,
       status: row.status,
       adminNotes: row.admin_notes,
     }));
