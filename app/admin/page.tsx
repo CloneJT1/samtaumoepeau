@@ -234,18 +234,23 @@ export default function AdminPage() {
   const handleAction = async (id: string, action: 'approve' | 'reject') => {
     setActionLoading(id + '-' + action);
     try {
-      const res = await fetch(`/api/admin/${action}`, {
+      // Approve = publish to site via GitHub commit
+      const endpoint = action === 'approve' ? '/api/admin/publish' : '/api/admin/reject';
+      const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id }),
       });
+      const data = await res.json();
       if (res.ok) {
-        setMessage(action === 'approve' ? '✓ Approved!' : '✕ Rejected.');
+        setMessage(action === 'approve' ? '✓ Approved & published! Live in ~2 min.' : '✕ Rejected.');
         fetchSubmissions();
+      } else {
+        setMessage(`Error: ${data.error}`);
       }
     } finally {
       setActionLoading(null);
-      setTimeout(() => setMessage(''), 3000);
+      setTimeout(() => setMessage(''), 5000);
     }
   };
 
