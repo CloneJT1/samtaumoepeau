@@ -66,7 +66,8 @@ export default function HomePage() {
             </Link>
             <Link
               href="/submit"
-              className="px-8 py-3 rounded-lg font-bold text-sm border-2 border-white/30 text-white hover:bg-white/10 transition-all"
+              className="px-8 py-3 rounded-lg font-bold text-sm transition-all hover:scale-105 shadow-lg border-2"
+              style={{ backgroundColor: '#FFD700', color: '#002147', borderColor: '#FFD700' }}
             >
               Submit a Player
             </Link>
