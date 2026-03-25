@@ -1274,7 +1274,7 @@
   },
   {
     "id": "60",
-    "rank": 11,
+    "rank": 12,
     "stars": 3,
     "firstName": "Caleb",
     "lastName": "McNickle",
@@ -1294,7 +1294,7 @@
   },
   {
     "id": "63",
-    "rank": 12,
+    "rank": 13,
     "stars": 3,
     "firstName": "Judah",
     "lastName": "Reed Bogard",
@@ -1314,7 +1314,7 @@
   },
   {
     "id": "64",
-    "rank": 13,
+    "rank": 14,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Loper",
@@ -1334,7 +1334,7 @@
   },
   {
     "id": "66",
-    "rank": 14,
+    "rank": 15,
     "stars": 3,
     "firstName": "Dax",
     "lastName": "Labrum",
@@ -1354,7 +1354,7 @@
   },
   {
     "id": "67",
-    "rank": 15,
+    "rank": 16,
     "stars": 3,
     "firstName": "Kaleb",
     "lastName": "Runkle",
@@ -1374,7 +1374,7 @@
   },
   {
     "id": "68",
-    "rank": null,
+    "rank": 11,
     "stars": 3,
     "firstName": "Elijah",
     "lastName": "Filo",
