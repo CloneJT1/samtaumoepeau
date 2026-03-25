@@ -1371,5 +1371,30 @@
     "createdAt": "2026-03-22",
     "xHandle": "@KalebRunkle",
     "offers": []
+  },
+  {
+    "id": "68",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Elijah",
+    "lastName": "Filo",
+    "school": "Cathedral Catholic",
+    "position": "OL",
+    "classYear": 2027,
+    "height": "6'3\"",
+    "heightInches": 75,
+    "weight": 305,
+    "hudlLink": "http://www.hudl.com/v/2TAgJG",
+    "xHandle": "@Elijahfilo2027",
+    "gpa": 3.0,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-03-25T00:00:00.000Z",
+    "sizeScore": 40,
+    "productionScore": 10,
+    "filmScore": 25,
+    "totalScore": 75
   }
 ]
