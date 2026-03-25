@@ -216,10 +216,14 @@ export default function AdminPage() {
     setLoading(true);
     try {
       const res = await fetch('/api/admin/submissions');
-      if (res.ok) {
-        const data = await res.json();
+      const data = await res.json();
+      if (res.ok && data.submissions) {
         setSubmissions(data.submissions);
+      } else {
+        setMessage(`Error loading submissions: ${data.error || res.status}`);
       }
+    } catch (err) {
+      setMessage(`Fetch error: ${err}`);
     } finally {
       setLoading(false);
     }
