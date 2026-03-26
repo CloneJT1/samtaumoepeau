@@ -16,6 +16,7 @@ interface Submission {
   heightInches?: string;
   weight?: string;
   hudlLink?: string;
+  maxPrepsLink?: string;
   otherFilmLink?: string;
   gpa?: string;
   additionalInfo?: string;
@@ -388,10 +389,16 @@ export default function AdminPage() {
                     </a>
                   </div>
                 )}
+                {sub.maxPrepsLink && (
+                  <div className="mb-3">
+                    <a href={sub.maxPrepsLink} target="_blank" rel="noopener noreferrer"
+                      className="text-sm text-blue-600 hover:underline">📊 MaxPreps Stats</a>
+                  </div>
+                )}
                 {sub.otherFilmLink && (
                   <div className="mb-3">
                     <a href={sub.otherFilmLink} target="_blank" rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:underline">Other Film Link</a>
+                      className="text-sm text-blue-600 hover:underline">🎬 Other Film Link</a>
                   </div>
                 )}
                 {sub.additionalInfo && (

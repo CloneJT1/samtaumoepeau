@@ -26,6 +26,7 @@ export async function GET() {
       heightInches: row.height_inches,
       weight: row.weight,
       hudlLink: row.hudl_link,
+      maxPrepsLink: row.max_preps_link,
       otherFilmLink: row.other_film_link,
       gpa: row.gpa,
       additionalInfo: row.additional_info,

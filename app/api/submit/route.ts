@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const {
       firstName, lastName, school, position, classYear,
-      heightFeet, heightInches, weight, xHandle, hudlLink, otherFilmLink,
+      heightFeet, heightInches, weight, xHandle, hudlLink, maxPrepsLink, otherFilmLink,
       gpa, additionalInfo, submitterName, submitterEmail,
     } = body;
 
@@ -28,6 +28,7 @@ export async function POST(req: NextRequest) {
         weight: weight ? String(weight).trim() : null,
         x_handle: xHandle ? String(xHandle).trim() : null,
         hudl_link: hudlLink ? String(hudlLink).trim() : null,
+        max_preps_link: maxPrepsLink ? String(maxPrepsLink).trim() : null,
         other_film_link: otherFilmLink ? String(otherFilmLink).trim() : null,
         gpa: gpa ? String(gpa).trim() : null,
         additional_info: additionalInfo ? String(additionalInfo).trim() : null,

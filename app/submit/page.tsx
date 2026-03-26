@@ -18,6 +18,7 @@ interface FormState {
   weight: string;
   xHandle: string;
   hudlLink: string;
+  maxPrepsLink: string;
   otherFilmLink: string;
   gpa: string;
   additionalInfo: string;
@@ -36,6 +37,7 @@ const defaultForm: FormState = {
   weight: '',
   xHandle: '',
   hudlLink: '',
+  maxPrepsLink: '',
   otherFilmLink: '',
   gpa: '',
   additionalInfo: '',
@@ -274,13 +276,25 @@ export default function SubmitPage() {
           </div>
 
           <div className="mt-4">
+            <label className={labelClass}>MaxPreps Stats Link</label>
+            <input
+              type="text"
+              name="maxPrepsLink"
+              value={form.maxPrepsLink}
+              onChange={handleChange}
+              placeholder="https://www.maxpreps.com/athlete/..."
+              className={inputClass}
+            />
+          </div>
+
+          <div className="mt-4">
             <label className={labelClass}>Other Film Link</label>
             <input
               type="text"
               name="otherFilmLink"
               value={form.otherFilmLink}
               onChange={handleChange}
-              placeholder="YouTube, MaxPreps, etc."
+              placeholder="YouTube, other highlight link, etc."
               className={inputClass}
             />
           </div>
