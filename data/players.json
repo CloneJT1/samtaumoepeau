@@ -1295,7 +1295,7 @@
   },
   {
     "id": "63",
-    "rank": 15,
+    "rank": 16,
     "stars": 3,
     "firstName": "Judah",
     "lastName": "Reed Bogard",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "64",
-    "rank": 16,
+    "rank": 17,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Loper",
@@ -1335,7 +1335,7 @@
   },
   {
     "id": "66",
-    "rank": 17,
+    "rank": 18,
     "stars": 3,
     "firstName": "Dax",
     "lastName": "Labrum",
@@ -1355,7 +1355,7 @@
   },
   {
     "id": "67",
-    "rank": 18,
+    "rank": 19,
     "stars": 3,
     "firstName": "Kaleb",
     "lastName": "Runkle",
@@ -1375,7 +1375,7 @@
   },
   {
     "id": "68",
-    "rank": 14,
+    "rank": 15,
     "stars": 3,
     "firstName": "Elijah",
     "lastName": "Filo",
@@ -1446,5 +1446,30 @@
     "productionScore": 22,
     "filmScore": 23,
     "totalScore": 85
+  },
+  {
+    "id": "71",
+    "rank": 14,
+    "stars": 3,
+    "firstName": "Sean",
+    "lastName": "Lander",
+    "school": "Mission Bay",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 180,
+    "hudlLink": "http://hudl.com/v/2Sfwce",
+    "xHandle": "@Sean_Lander21",
+    "gpa": 3.88,
+    "committed": false,
+    "committedTo": null,
+    "stats": "1st Team All-City League | 11.2 100m",
+    "approved": true,
+    "createdAt": "2026-03-25T00:00:00.000Z",
+    "sizeScore": 25,
+    "productionScore": 25,
+    "filmScore": 23,
+    "totalScore": 73
   }
 ]
