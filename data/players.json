@@ -1195,7 +1195,7 @@
   },
   {
     "id": "57",
-    "rank": 7,
+    "rank": 8,
     "stars": 4,
     "firstName": "Xavier",
     "lastName": "St. John",
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "59",
-    "rank": 8,
+    "rank": 9,
     "stars": 3,
     "firstName": "Delontay",
     "lastName": "Williams",
@@ -1235,7 +1235,7 @@
   },
   {
     "id": "62",
-    "rank": 9,
+    "rank": 10,
     "stars": 3,
     "firstName": "Lotu",
     "lastName": "Seumalo",
@@ -1255,7 +1255,7 @@
   },
   {
     "id": "61",
-    "rank": 10,
+    "rank": 11,
     "stars": 3,
     "firstName": "Conner",
     "lastName": "Nichols",
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "60",
-    "rank": 11,
+    "rank": 12,
     "stars": 3,
     "firstName": "Caleb",
     "lastName": "McNickle",
@@ -1295,7 +1295,7 @@
   },
   {
     "id": "63",
-    "rank": 13,
+    "rank": 14,
     "stars": 3,
     "firstName": "Judah",
     "lastName": "Reed Bogard",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "64",
-    "rank": 14,
+    "rank": 15,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Loper",
@@ -1335,7 +1335,7 @@
   },
   {
     "id": "66",
-    "rank": 15,
+    "rank": 16,
     "stars": 3,
     "firstName": "Dax",
     "lastName": "Labrum",
@@ -1355,7 +1355,7 @@
   },
   {
     "id": "67",
-    "rank": 16,
+    "rank": 17,
     "stars": 3,
     "firstName": "Kaleb",
     "lastName": "Runkle",
@@ -1375,7 +1375,7 @@
   },
   {
     "id": "68",
-    "rank": 12,
+    "rank": 13,
     "stars": 3,
     "firstName": "Elijah",
     "lastName": "Filo",
@@ -1397,5 +1397,29 @@
     "productionScore": 10,
     "filmScore": 21,
     "totalScore": 71
+  },
+  {
+    "id": "69",
+    "rank": 7,
+    "stars": 4,
+    "firstName": "Jeremy",
+    "lastName": "Davis",
+    "school": "Helix Charter",
+    "position": "LB",
+    "classYear": 2027,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 205,
+    "hudlLink": "https://www.hudl.com/profile/18680771/Jeremy-Davis",
+    "xHandle": "@jeremyd0925",
+    "committed": false,
+    "committedTo": null,
+    "stats": "Dec 2026 grad",
+    "approved": true,
+    "createdAt": "2026-03-25T00:00:00.000Z",
+    "sizeScore": 23,
+    "productionScore": 30,
+    "filmScore": 28,
+    "totalScore": 81
   }
 ]
