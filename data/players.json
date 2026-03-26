@@ -34,11 +34,12 @@
     "weight": 200,
     "hudlLink": "https://hudl.com/profile/17775601",
     "gpa": 3.8,
-    "committed": null,
+    "committed": true,
     "stats": "3,090 pass yds (1st SD) | 45 TDs | 70.9% comp | 10-0 regular season | all-time school record career passing yds",
     "approved": true,
     "createdAt": "2026-03-20",
-    "xHandle": "@_treyarnold_"
+    "xHandle": "@_treyarnold_",
+    "committedTo": "New Mexico State"
   },
   {
     "id": "4",
