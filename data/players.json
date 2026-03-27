@@ -1521,5 +1521,30 @@
     "productionScore": 25,
     "filmScore": 25,
     "totalScore": 71
+  },
+  {
+    "id": 75,
+    "rank": null,
+    "stars": 2,
+    "firstName": "Jaylen",
+    "lastName": "Hill",
+    "school": "Kearny HighSchool",
+    "position": "RB",
+    "classYear": 2027,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 177,
+    "hudlLink": "https://www.hudl.com/v/2T7y5N",
+    "xHandle": "@Jaylen__Hill",
+    "gpa": 3.1,
+    "committed": false,
+    "committedTo": null,
+    "stats": "1st Team All League,Started playing football freshman year,3 year Varsity Starter",
+    "approved": true,
+    "createdAt": "2026-03-27T04:46:08.418Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60
   }
 ]
