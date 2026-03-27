@@ -1523,8 +1523,8 @@
     "totalScore": 71
   },
   {
-    "id": 75,
-    "rank": null,
+    "id": "75",
+    "rank": 22,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1548,8 +1548,8 @@
     "totalScore": 60
   },
   {
-    "id": 76,
-    "rank": null,
+    "id": "76",
+    "rank": 23,
     "stars": 2,
     "firstName": "Logan",
     "lastName": "Bonneau",
