@@ -1546,5 +1546,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 60
+  },
+  {
+    "id": 76,
+    "rank": null,
+    "stars": 2,
+    "firstName": "Logan",
+    "lastName": "Bonneau",
+    "school": "Torrey Pines",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 150,
+    "hudlLink": "https://www.hudl.com/profile/17889660/Logan-Bonneau",
+    "xHandle": "@LoganBonneau",
+    "gpa": 0,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-03-27T04:51:25.806Z",
+    "sizeScore": 20,
+    "productionScore": 19,
+    "filmScore": 18,
+    "totalScore": 57
   }
 ]
