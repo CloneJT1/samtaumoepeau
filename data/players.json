@@ -1496,5 +1496,30 @@
     "productionScore": 25,
     "filmScore": 25,
     "totalScore": 70
+  },
+  {
+    "id": 73,
+    "rank": null,
+    "stars": 3,
+    "firstName": "Sean",
+    "lastName": "Lander",
+    "school": "Mission Bay High",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 185,
+    "hudlLink": "https://www.hudl.com/video/3/20531548/68c625323c67427a7d1535e0",
+    "xHandle": "@Sean_Lander21",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": "1st team All-City League",
+    "approved": true,
+    "createdAt": "2026-03-27T02:58:50.060Z",
+    "sizeScore": 25,
+    "productionScore": 25,
+    "filmScore": 23,
+    "totalScore": 73
   }
 ]
