@@ -1521,5 +1521,30 @@
     "productionScore": 25,
     "filmScore": 23,
     "totalScore": 73
+  },
+  {
+    "id": 74,
+    "rank": null,
+    "stars": 3,
+    "firstName": "Nereo",
+    "lastName": "Kraft",
+    "school": "Mission Bay High",
+    "position": "DL",
+    "classYear": 2027,
+    "height": "6'4\"",
+    "heightInches": 76,
+    "weight": 225,
+    "hudlLink": "http://www.hudl.com/video/3/19487186/6909351a0c02cc788e72c17a",
+    "xHandle": null,
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": "First Team All-City League",
+    "approved": true,
+    "createdAt": "2026-03-27T03:01:19.608Z",
+    "sizeScore": 21,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 71
   }
 ]
