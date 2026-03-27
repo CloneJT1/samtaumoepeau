@@ -25,7 +25,7 @@ export default function RankingsPage() {
           <div className="w-1 h-8 rounded-full" style={{ backgroundColor: '#FFD700' }} />
           <h1 className="text-3xl font-black" style={{ color: '#002147' }}>Player Rankings</h1>
         </div>
-        <p className="text-gray-500 ml-4 pl-3">{players.length} ranked prospects from San Diego County high schools</p>
+        <p className="text-gray-500 ml-4 pl-3">{players.length} ranked prospects from San Diego County</p>
       </div>
 
       <Suspense fallback={<div className="h-16 bg-gray-100 rounded-xl animate-pulse" />}>
