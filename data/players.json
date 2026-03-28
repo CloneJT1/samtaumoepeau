@@ -1295,7 +1295,7 @@
   },
   {
     "id": "63",
-    "rank": 17,
+    "rank": 18,
     "stars": 3,
     "firstName": "Judah",
     "lastName": "Reed Bogard",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "64",
-    "rank": 19,
+    "rank": 20,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Loper",
@@ -1335,7 +1335,7 @@
   },
   {
     "id": "66",
-    "rank": 20,
+    "rank": 15,
     "stars": 3,
     "firstName": "Dax",
     "lastName": "Labrum",
@@ -1352,7 +1352,11 @@
     "createdAt": "2026-03-22",
     "xHandle": "@daxlabrum17",
     "offers": [],
-    "maxPrepsLink": "https://www.maxpreps.com/ca/solana-beach/santa-fe-christian-eagles/athletes/dax-labrum/football/stats/?careerid=o8lmngsii7644"
+    "maxPrepsLink": "https://www.maxpreps.com/ca/solana-beach/santa-fe-christian-eagles/athletes/dax-labrum/football/stats/?careerid=o8lmngsii7644",
+    "sizeScore": 30,
+    "productionScore": 22,
+    "filmScore": 21,
+    "totalScore": 73
   },
   {
     "id": "67",
@@ -1376,7 +1380,7 @@
   },
   {
     "id": "68",
-    "rank": 15,
+    "rank": 16,
     "stars": 3,
     "firstName": "Elijah",
     "lastName": "Filo",
@@ -1475,7 +1479,7 @@
   },
   {
     "id": "72",
-    "rank": 18,
+    "rank": 19,
     "stars": 3,
     "firstName": "Jacob",
     "lastName": "Zierolf",
@@ -1500,7 +1504,7 @@
   },
   {
     "id": "74",
-    "rank": 16,
+    "rank": 17,
     "stars": 3,
     "firstName": "Nereo",
     "lastName": "Kraft",
