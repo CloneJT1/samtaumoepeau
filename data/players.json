@@ -1215,7 +1215,7 @@
   },
   {
     "id": "59",
-    "rank": 10,
+    "rank": 11,
     "stars": 3,
     "firstName": "Delontay",
     "lastName": "Williams",
@@ -1579,8 +1579,8 @@
   },
   {
     "id": "78",
-    "rank": 11,
-    "stars": 3,
+    "rank": 10,
+    "stars": 4,
     "firstName": "Travis",
     "lastName": "Jeffrey",
     "school": "Carlsbad",
@@ -1596,9 +1596,9 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-28T00:00:00.000Z",
-    "sizeScore": 28,
+    "sizeScore": 30,
     "productionScore": 25,
     "filmScore": 25,
-    "totalScore": 78
+    "totalScore": 80
   }
 ]
