@@ -1235,7 +1235,7 @@
   },
   {
     "id": "62",
-    "rank": 11,
+    "rank": 12,
     "stars": 3,
     "firstName": "Lotu",
     "lastName": "Seumalo",
@@ -1255,7 +1255,7 @@
   },
   {
     "id": "61",
-    "rank": 12,
+    "rank": 13,
     "stars": 3,
     "firstName": "Conner",
     "lastName": "Nichols",
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "60",
-    "rank": 13,
+    "rank": 14,
     "stars": 3,
     "firstName": "Caleb",
     "lastName": "McNickle",
@@ -1295,7 +1295,7 @@
   },
   {
     "id": "63",
-    "rank": 18,
+    "rank": 19,
     "stars": 3,
     "firstName": "Judah",
     "lastName": "Reed Bogard",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "64",
-    "rank": 20,
+    "rank": 21,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Loper",
@@ -1335,7 +1335,7 @@
   },
   {
     "id": "66",
-    "rank": 15,
+    "rank": 16,
     "stars": 3,
     "firstName": "Dax",
     "lastName": "Labrum",
@@ -1360,7 +1360,7 @@
   },
   {
     "id": "67",
-    "rank": 21,
+    "rank": 22,
     "stars": 3,
     "firstName": "Kaleb",
     "lastName": "Runkle",
@@ -1380,7 +1380,7 @@
   },
   {
     "id": "68",
-    "rank": 16,
+    "rank": 17,
     "stars": 3,
     "firstName": "Elijah",
     "lastName": "Filo",
@@ -1454,7 +1454,7 @@
   },
   {
     "id": "71",
-    "rank": 14,
+    "rank": 15,
     "stars": 3,
     "firstName": "Sean",
     "lastName": "Lander",
@@ -1479,7 +1479,7 @@
   },
   {
     "id": "72",
-    "rank": 19,
+    "rank": 20,
     "stars": 3,
     "firstName": "Jacob",
     "lastName": "Zierolf",
@@ -1504,7 +1504,7 @@
   },
   {
     "id": "74",
-    "rank": 17,
+    "rank": 18,
     "stars": 3,
     "firstName": "Nereo",
     "lastName": "Kraft",
@@ -1529,7 +1529,7 @@
   },
   {
     "id": "75",
-    "rank": 22,
+    "rank": 23,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1554,7 +1554,7 @@
   },
   {
     "id": "76",
-    "rank": 23,
+    "rank": 24,
     "stars": 2,
     "firstName": "Logan",
     "lastName": "Bonneau",
@@ -1576,5 +1576,29 @@
     "productionScore": 19,
     "filmScore": 18,
     "totalScore": 57
+  },
+  {
+    "id": "78",
+    "rank": 11,
+    "stars": 3,
+    "firstName": "Travis",
+    "lastName": "Jeffrey",
+    "school": "Carlsbad",
+    "position": "DB/ATH",
+    "classYear": 2027,
+    "height": "5'10\"",
+    "heightInches": 70,
+    "weight": 175,
+    "hudlLink": "https://www.hudl.com/video/3/18383119/692f1b0ccd06d6b43c36761d",
+    "xHandle": "@TravisJeffrey_",
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-03-28T00:00:00.000Z",
+    "sizeScore": 28,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 78
   }
 ]
