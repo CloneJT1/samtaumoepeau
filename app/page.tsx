@@ -119,6 +119,74 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Why SD Prospects */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <span
+              className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+              style={{ backgroundColor: '#FFD700', color: '#002147' }}
+            >
+              Why SD Prospects?
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-black mt-4" style={{ color: '#002147' }}>
+              Built for Everyone in the Game
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                icon: '🏈',
+                title: 'For Players',
+                subtitle: 'Get Discovered',
+                body: "Your size, stats, and film — all in one place where college coaches are looking. Don't wait to be found. Get ranked.",
+                cta: 'Submit Your Profile',
+                href: '/submit',
+              },
+              {
+                icon: '🎓',
+                title: 'For College Coaches',
+                subtitle: 'Find SD Talent Fast',
+                body: 'Every top prospect in San Diego County — ranked by size, production, and film. No noise. No politics. Just players who can play.',
+                cta: 'View Rankings',
+                href: '/rankings',
+              },
+              {
+                icon: '📋',
+                title: 'For HS Coaches',
+                subtitle: 'Elevate Your Program',
+                body: "Put your players on the map. Submit them to our database and we'll evaluate and rank them alongside the best in the county.",
+                cta: 'Submit a Player',
+                href: '/submit',
+              },
+            ].map(({ icon, title, subtitle, body, cta, href }) => (
+              <div
+                key={title}
+                className="rounded-2xl p-8 flex flex-col border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                style={{ backgroundColor: '#f8f9fa' }}
+              >
+                <div className="text-4xl mb-4">{icon}</div>
+                <div
+                  className="text-xs font-bold uppercase tracking-widest mb-1"
+                  style={{ color: '#FFD700', WebkitTextStroke: '0.5px #b8960c' }}
+                >
+                  {subtitle}
+                </div>
+                <h3 className="text-xl font-black mb-3" style={{ color: '#002147' }}>{title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed flex-1">{body}</p>
+                <Link
+                  href={href}
+                  className="mt-6 inline-block text-center px-5 py-2.5 rounded-lg font-bold text-sm transition-all hover:scale-105"
+                  style={{ backgroundColor: '#002147', color: '#FFD700' }}
+                >
+                  {cta} →
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Mission Statement */}
       <section style={{ backgroundColor: '#f8f9fa' }} className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
