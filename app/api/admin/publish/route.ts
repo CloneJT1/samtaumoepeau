@@ -72,7 +72,7 @@ export async function POST(req: NextRequest) {
 
     // Build new player object
     const newPlayer = {
-      id: newId,
+      id: String(newId),
       rank: null,
       stars: sub.stars || 0,
       firstName: sub.first_name,
