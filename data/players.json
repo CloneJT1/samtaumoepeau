@@ -1625,5 +1625,30 @@
     "productionScore": 25,
     "filmScore": 29,
     "totalScore": 74
+  },
+  {
+    "id": "80",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Jeremiah",
+    "lastName": "Faucher",
+    "school": "Olympian High School",
+    "position": "LB",
+    "classYear": 2027,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 205,
+    "hudlLink": "https://www.hudl.com/video/3/18642629/69346fbbea0d31db0393294b",
+    "xHandle": "@jeremiahFaucher",
+    "gpa": 3.4,
+    "committed": false,
+    "committedTo": null,
+    "stats": "All First Team Mesa Metro League. 102 tackles in 9 games. Junior Captain. Has put on 15 pounds since season and gotten faster",
+    "approved": true,
+    "createdAt": "2026-03-28T18:05:16.329Z",
+    "sizeScore": 23,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 73
   }
 ]
