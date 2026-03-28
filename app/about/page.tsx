@@ -84,7 +84,7 @@ export default function AboutPage() {
               { stars: '⭐', level: 'NAIA', desc: 'NAIA level — still competes beyond high school.' },
             ].map(({ stars, level, desc }) => (
               <div key={level} className="flex items-start gap-3 pb-3 border-b border-gray-100 last:border-0 last:pb-0">
-                <div className="text-lg leading-tight w-24 shrink-0">{stars}</div>
+                <div className="text-lg leading-tight w-32 shrink-0">{stars}</div>
                 <div>
                   <div className="font-bold text-sm" style={{ color: '#002147' }}>{level}</div>
                   <div className="text-gray-500 text-sm">{desc}</div>
