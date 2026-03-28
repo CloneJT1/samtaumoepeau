@@ -77,7 +77,7 @@ export default function AboutPage() {
           </h3>
           <div className="space-y-3">
             {[
-              { stars: '⭐⭐⭐⭐⭐', level: 'Top 15 Ability', desc: 'Elite prospect with the ability to compete at the highest level of college football.' },
+              { stars: '⭐⭐⭐⭐⭐', level: 'Top 15 School Ability', desc: 'Elite prospect with the ability to compete at the highest level of college football.' },
               { stars: '⭐⭐⭐⭐', level: 'FBS / FCS', desc: 'Has the ability to play at any level, just below the Top 15. FBS and FCS caliber.' },
               { stars: '⭐⭐⭐', level: 'FCS / Top D2', desc: 'Has FCS ability and top D2 ability.' },
               { stars: '⭐⭐', level: 'D2 / D3 / JUCO', desc: 'D2, D3, or JUCO level talent.' },
