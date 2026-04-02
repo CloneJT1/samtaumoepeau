@@ -1529,7 +1529,7 @@
   },
   {
     "id": "75",
-    "rank": 27,
+    "rank": 28,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1554,8 +1554,8 @@
   },
   {
     "id": "76",
-    "rank": 28,
-    "stars": 2,
+    "rank": 27,
+    "stars": 3,
     "firstName": "Logan",
     "lastName": "Bonneau",
     "school": "Torrey Pines",
@@ -1572,10 +1572,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-27T04:51:25.806Z",
-    "sizeScore": 20,
+    "sizeScore": 28,
     "productionScore": 19,
     "filmScore": 18,
-    "totalScore": 57
+    "totalScore": 65
   },
   {
     "id": "78",
