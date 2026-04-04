@@ -104,7 +104,7 @@ export default function HomePage() {
             </span>
             <h2 className="text-xl font-black text-white mt-2">Class of 2027 Rankings</h2>
             <p className="text-gray-300 text-sm mt-1">
-              Top 15 is out — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
+              Top {players.filter((p) => p.classYear === 2027).length} is out — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
             </p>
           </div>
           <a
