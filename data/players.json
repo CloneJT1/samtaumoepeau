@@ -1939,5 +1939,30 @@
     "committed": false,
     "committedTo": "",
     "approved": true
+  },
+  {
+    "id": "93",
+    "rank": null,
+    "stars": 2,
+    "firstName": "Ryan",
+    "lastName": "Rebollar",
+    "school": "Brawley Union High School",
+    "position": "DL",
+    "classYear": 2028,
+    "height": "6'3\"",
+    "heightInches": 75,
+    "weight": 225,
+    "hudlLink": "http://www.hudl.com/v/2SWQbS",
+    "xHandle": "ryan_j_rebollar",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": "2nd team all ivl league defense",
+    "approved": true,
+    "createdAt": "2026-04-04T17:04:28.275Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60
   }
 ]
