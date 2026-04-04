@@ -1754,5 +1754,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 60
+  },
+  {
+    "id": "85",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Jackson",
+    "lastName": "Fader",
+    "school": "Mission Hills High School",
+    "position": "OL",
+    "classYear": 2027,
+    "height": "6'4\"",
+    "heightInches": 76,
+    "weight": 290,
+    "hudlLink": "https://www.hudl.com/profile/20096113/Jackson-Fader/about",
+    "xHandle": "@JacksonFader77",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": "2025 2nd team All CIF, 2025  1st Team All Avocado League,2024 2nd Team All Avocado League, 2 time open division semi finalist. Allowed 1 Sack in 2025.\nWill be playing on both sides of the ball in 2026.",
+    "approved": true,
+    "createdAt": "2026-04-04T04:40:37.113Z",
+    "sizeScore": 28,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 78
   }
 ]
