@@ -1804,5 +1804,30 @@
     "productionScore": 15,
     "filmScore": 20,
     "totalScore": 55
+  },
+  {
+    "id": "87",
+    "rank": null,
+    "stars": 1,
+    "firstName": "Walter",
+    "lastName": "Ignacio",
+    "school": "Olympian High School",
+    "position": "RB",
+    "classYear": 2027,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 185,
+    "hudlLink": "https://www.hudl.com/video/3/20556946/68dee9d46f2932b7d6b89e79",
+    "xHandle": "IgnacioWal17875",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-04T04:49:24.494Z",
+    "sizeScore": 28,
+    "productionScore": 10,
+    "filmScore": 15,
+    "totalScore": 53
   }
 ]
