@@ -1942,7 +1942,7 @@
   },
   {
     "id": "93",
-    "rank": null,
+    "rank": 6,
     "stars": 2,
     "firstName": "Ryan",
     "lastName": "Rebollar",
@@ -1953,7 +1953,7 @@
     "heightInches": 75,
     "weight": 225,
     "hudlLink": "http://www.hudl.com/v/2SWQbS",
-    "xHandle": "ryan_j_rebollar",
+    "xHandle": "@ryan_j_rebollar",
     "gpa": 3.5,
     "committed": false,
     "committedTo": null,
