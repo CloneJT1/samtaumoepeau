@@ -2,15 +2,24 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 export default function Header() {
   const pathname = usePathname();
+  const [rankingsOpen, setRankingsOpen] = useState(false);
 
   const navLinks = [
-    { href: '/rankings', label: 'Rankings' },
     { href: '/submit', label: 'Submit a Player' },
     { href: '/about', label: 'About' },
   ];
+
+  const rankingsLinks = [
+    { href: '/rankings?classYear=2026', label: 'Class of 2026' },
+    { href: '/rankings?classYear=2027', label: 'Class of 2027' },
+    { href: '/rankings?classYear=2028', label: 'Class of 2028' },
+  ];
+
+  const isRankingsActive = pathname === '/rankings' || pathname.startsWith('/rankings/');
 
   return (
     <header style={{ backgroundColor: '#002147' }} className="shadow-lg">
@@ -32,6 +41,44 @@ export default function Header() {
 
           {/* Nav */}
           <nav className="hidden md:flex items-center gap-1">
+            {/* Rankings dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setRankingsOpen(true)}
+              onMouseLeave={() => setRankingsOpen(false)}
+            >
+              <Link
+                href="/rankings"
+                className={`px-4 py-2 rounded text-sm font-medium transition-colors flex items-center gap-1 ${
+                  isRankingsActive ? '' : 'text-gray-300 hover:text-white hover:bg-white/10'
+                }`}
+                style={isRankingsActive ? { color: '#FFD700' } : {}}
+              >
+                Rankings
+                <svg className="w-3 h-3 mt-0.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
+              </Link>
+
+              {rankingsOpen && (
+                <div
+                  style={{ backgroundColor: '#002147' }}
+                  className="absolute top-full left-0 mt-0 w-44 rounded-b shadow-xl border border-white/10 z-50"
+                >
+                  {rankingsLinks.map(({ href, label }) => (
+                    <Link
+                      key={href}
+                      href={href}
+                      className="block px-4 py-2.5 text-sm text-gray-200 hover:text-white hover:bg-white/10 transition-colors"
+                      style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}
+                    >
+                      {label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
             {navLinks.map(({ href, label }) => {
               const isActive = pathname === href || pathname.startsWith(href + '/');
               return (
@@ -51,7 +98,7 @@ export default function Header() {
             })}
           </nav>
 
-          {/* Mobile menu button (simple toggle) */}
+          {/* Mobile menu */}
           <div className="md:hidden">
             <details className="relative">
               <summary className="list-none cursor-pointer text-white p-2">
@@ -63,6 +110,17 @@ export default function Header() {
                 style={{ backgroundColor: '#002147' }}
                 className="absolute right-0 top-full mt-1 w-48 rounded shadow-xl border border-white/10 z-50"
               >
+                <div className="px-4 py-2 text-xs text-gray-400 uppercase tracking-widest font-semibold">Rankings</div>
+                {rankingsLinks.map(({ href, label }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className="block px-6 py-2.5 text-sm text-gray-200 hover:text-white hover:bg-white/10 transition-colors"
+                  >
+                    {label}
+                  </Link>
+                ))}
+                <div className="border-t border-white/10 mt-1" />
                 {navLinks.map(({ href, label }) => (
                   <Link
                     key={href}
