@@ -1704,5 +1704,30 @@
     "productionScore": 25,
     "filmScore": 25,
     "totalScore": 72
+  },
+  {
+    "id": "83",
+    "rank": null,
+    "stars": 2,
+    "firstName": "Hudson",
+    "lastName": "Kallay",
+    "school": "Del Norte High School",
+    "position": "OL",
+    "classYear": 2027,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 325,
+    "hudlLink": "http://www.hudl.com/profile/19472270",
+    "xHandle": "@Hudsonkallay77",
+    "gpa": 2.9,
+    "committed": false,
+    "committedTo": null,
+    "stats": "1st team all offense- Avocado east 2025",
+    "approved": true,
+    "createdAt": "2026-04-04T04:35:39.625Z",
+    "sizeScore": 28,
+    "productionScore": 20,
+    "filmScore": 15,
+    "totalScore": 63
   }
 ]
