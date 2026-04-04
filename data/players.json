@@ -1779,5 +1779,30 @@
     "productionScore": 25,
     "filmScore": 25,
     "totalScore": 78
+  },
+  {
+    "id": "86",
+    "rank": null,
+    "stars": 1,
+    "firstName": "Josiah",
+    "lastName": "Rivera",
+    "school": "Olympian High School",
+    "position": "DL",
+    "classYear": 2027,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 250,
+    "hudlLink": "https://www.hudl.com/video/3/19854124/69375b2b031aecc8860efc75",
+    "xHandle": "JosiahRiveraa",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": "First Team All Metro Mesa League; Daygo Football Defensive player of the week (2025)",
+    "approved": true,
+    "createdAt": "2026-04-04T04:42:04.096Z",
+    "sizeScore": 20,
+    "productionScore": 15,
+    "filmScore": 20,
+    "totalScore": 55
   }
 ]
