@@ -1849,7 +1849,8 @@
     "xHandle": "@GaigeLWeddle",
     "hudlLink": "",
     "committed": false,
-    "committedTo": ""
+    "committedTo": "",
+    "approved": true
   },
   {
     "id": "89",
@@ -1870,7 +1871,8 @@
     "xHandle": "@jayjohnson_28",
     "hudlLink": "https://www.hudl.com/v/2Tk6ek",
     "committed": false,
-    "committedTo": ""
+    "committedTo": "",
+    "approved": true
   },
   {
     "id": "90",
@@ -1891,7 +1893,8 @@
     "xHandle": "@Mario_Anguiano3",
     "hudlLink": "",
     "committed": false,
-    "committedTo": ""
+    "committedTo": "",
+    "approved": true
   },
   {
     "id": "91",
@@ -1912,7 +1915,8 @@
     "xHandle": "@Skuddah7",
     "hudlLink": "",
     "committed": false,
-    "committedTo": ""
+    "committedTo": "",
+    "approved": true
   },
   {
     "id": "92",
@@ -1933,6 +1937,7 @@
     "xHandle": "@JaredBrecht",
     "hudlLink": "https://www.hudl.com/v/2TRrX3",
     "committed": false,
-    "committedTo": ""
+    "committedTo": "",
+    "approved": true
   }
 ]
