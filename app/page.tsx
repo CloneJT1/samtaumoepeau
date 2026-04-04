@@ -106,6 +106,13 @@ export default function HomePage() {
             <p className="text-gray-300 text-sm mt-1">
               Top {players.filter((p) => p.classYear === 2027).length} is out — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
             </p>
+            <a
+              href="/rankings?classYear=2028"
+              className="inline-flex items-center gap-1.5 mt-2 text-sm font-semibold transition-opacity hover:opacity-80"
+              style={{ color: '#FFD700' }}
+            >
+              🆕 Class of 2028 rankings are live — View Rankings →
+            </a>
           </div>
           <a
             href="https://x.com/SDProspectsFB"
