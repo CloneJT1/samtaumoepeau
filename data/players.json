@@ -1729,5 +1729,30 @@
     "productionScore": 20,
     "filmScore": 15,
     "totalScore": 63
+  },
+  {
+    "id": "84",
+    "rank": null,
+    "stars": 2,
+    "firstName": "Grant",
+    "lastName": "Kuykendall",
+    "school": "Mission Hills High School",
+    "position": "DL",
+    "classYear": 2027,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 225,
+    "hudlLink": "https://www.hudl.com/profile/22853235/Grant-Kuykendall/about",
+    "xHandle": "@GrantKuykendall",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": "42 Tackles, 12 Tackles for Loss, 11 Sacks, 1 Fumble Recovery, 1 Pass Break Up.\n2025 2nd Team All CIF, 2x 1st Team All Avocado League Defense.",
+    "approved": true,
+    "createdAt": "2026-04-04T04:38:09.087Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60
   }
 ]
