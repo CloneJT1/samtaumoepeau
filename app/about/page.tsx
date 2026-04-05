@@ -80,7 +80,7 @@ export default function AboutPage() {
               { stars: '⭐⭐⭐⭐⭐', level: 'Top 15 School Ability', desc: 'Elite prospect with the ability to compete at the highest level of college football.' },
               { stars: '⭐⭐⭐⭐', level: 'FBS / Top FCS', desc: 'Has the ability to play at any level, just below the Top 15. FBS and Top FCS caliber.' },
               { stars: '⭐⭐⭐', level: 'FCS / Top D2', desc: 'Has FCS ability and top D2 ability.' },
-              { stars: '⭐⭐', level: 'D2 / D3 / JUCO', desc: 'D2, D3, or JUCO level talent.' },
+              { stars: '⭐⭐', level: 'FCS / Top D2', desc: 'FCS and Top D2 level talent.' },
               { stars: '⭐', level: 'NAIA', desc: 'NAIA level — still competes beyond high school.' },
             ].map(({ stars, level, desc }) => (
               <div key={level} className="flex items-start gap-3 pb-3 border-b border-gray-100 last:border-0 last:pb-0">
