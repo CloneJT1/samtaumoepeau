@@ -1295,7 +1295,7 @@
   },
   {
     "id": "63",
-    "rank": 24,
+    "rank": 25,
     "stars": 3,
     "firstName": "Judah",
     "lastName": "Reed Bogard",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "64",
-    "rank": 27,
+    "rank": 28,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Loper",
@@ -1335,7 +1335,7 @@
   },
   {
     "id": "66",
-    "rank": 19,
+    "rank": 20,
     "stars": 3,
     "firstName": "Dax",
     "lastName": "Labrum",
@@ -1360,7 +1360,7 @@
   },
   {
     "id": "67",
-    "rank": 28,
+    "rank": 29,
     "stars": 3,
     "firstName": "Kaleb",
     "lastName": "Runkle",
@@ -1380,7 +1380,7 @@
   },
   {
     "id": "68",
-    "rank": 21,
+    "rank": 22,
     "stars": 3,
     "firstName": "Elijah",
     "lastName": "Filo",
@@ -1454,7 +1454,7 @@
   },
   {
     "id": "71",
-    "rank": 18,
+    "rank": 19,
     "stars": 3,
     "firstName": "Sean",
     "lastName": "Lander",
@@ -1479,7 +1479,7 @@
   },
   {
     "id": "72",
-    "rank": 25,
+    "rank": 26,
     "stars": 3,
     "firstName": "Jacob",
     "lastName": "Zierolf",
@@ -1504,7 +1504,7 @@
   },
   {
     "id": "74",
-    "rank": 23,
+    "rank": 24,
     "stars": 3,
     "firstName": "Nereo",
     "lastName": "Kraft",
@@ -1529,7 +1529,7 @@
   },
   {
     "id": "75",
-    "rank": 31,
+    "rank": 32,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1554,7 +1554,7 @@
   },
   {
     "id": "76",
-    "rank": 29,
+    "rank": 30,
     "stars": 3,
     "firstName": "Logan",
     "lastName": "Bonneau",
@@ -1603,7 +1603,7 @@
   },
   {
     "id": "79",
-    "rank": 17,
+    "rank": 18,
     "stars": 3,
     "firstName": "Darian",
     "lastName": "Webb",
@@ -1628,7 +1628,7 @@
   },
   {
     "id": "80",
-    "rank": 20,
+    "rank": 21,
     "stars": 3,
     "firstName": "Jeremiah",
     "lastName": "Faucher",
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "82",
-    "rank": 22,
+    "rank": 23,
     "stars": 3,
     "firstName": "Jae'veyion",
     "lastName": "Allen",
@@ -1707,7 +1707,7 @@
   },
   {
     "id": "83",
-    "rank": 30,
+    "rank": 31,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1732,7 +1732,7 @@
   },
   {
     "id": "84",
-    "rank": 32,
+    "rank": 33,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1782,7 +1782,7 @@
   },
   {
     "id": "86",
-    "rank": 33,
+    "rank": 34,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1807,7 +1807,7 @@
   },
   {
     "id": "87",
-    "rank": 34,
+    "rank": 35,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -1977,7 +1977,7 @@
     "weight": 190,
     "gpa": 3.6,
     "stars": 3,
-    "rank": 26,
+    "rank": 27,
     "sizeScore": 28,
     "productionScore": 20,
     "filmScore": 22,
@@ -2050,6 +2050,29 @@
     "totalScore": 69,
     "xHandle": "@taylonsheriff",
     "hudlLink": "https://www.hudl.com/v/2TPSNb",
+    "committed": false,
+    "committedTo": "",
+    "approved": true
+  },
+  {
+    "id": "98",
+    "firstName": "Jake",
+    "lastName": "Hopper",
+    "school": "La Costa Canyon",
+    "position": "TE/OLB",
+    "classYear": 2027,
+    "height": "6'3\"",
+    "heightInches": 75,
+    "weight": 228,
+    "gpa": 3.96,
+    "stars": 3,
+    "rank": 17,
+    "sizeScore": 35,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 75,
+    "xHandle": "@JakeHopper32",
+    "hudlLink": "https://www.hudl.com/video/3/16223386/691cb76d12181f06cdda92fd",
     "committed": false,
     "committedTo": "",
     "approved": true
