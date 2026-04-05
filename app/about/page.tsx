@@ -81,7 +81,7 @@ export default function AboutPage() {
               { stars: '⭐⭐⭐⭐', level: 'FBS / Top FCS', desc: 'Has the ability to play at any level, just below the Top 15. FBS and Top FCS caliber.' },
               { stars: '⭐⭐⭐', level: 'FCS / Top D2', desc: 'Has FCS ability and top D2 ability.' },
               { stars: '⭐⭐', level: 'D2 / Top NAIA', desc: 'D2 and Top NAIA level talent.' },
-              { stars: '⭐', level: 'NAIA', desc: 'NAIA level — still competes beyond high school.' },
+              { stars: '⭐', level: 'NAIA / D3 / JUCO', desc: 'NAIA, D3, or JUCO level talent — still competes beyond high school.' },
             ].map(({ stars, level, desc }) => (
               <div key={level} className="flex items-start gap-3 pb-3 border-b border-gray-100 last:border-0 last:pb-0">
                 <div className="text-lg leading-tight w-32 shrink-0">{stars}</div>
