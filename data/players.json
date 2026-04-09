@@ -1530,7 +1530,7 @@
   },
   {
     "id": "75",
-    "rank": 36,
+    "rank": 37,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1555,7 +1555,7 @@
   },
   {
     "id": "76",
-    "rank": 34,
+    "rank": 35,
     "stars": 3,
     "firstName": "Logan",
     "lastName": "Bonneau",
@@ -1708,7 +1708,7 @@
   },
   {
     "id": "83",
-    "rank": 35,
+    "rank": 36,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1733,7 +1733,7 @@
   },
   {
     "id": "84",
-    "rank": 37,
+    "rank": 38,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1783,7 +1783,7 @@
   },
   {
     "id": "86",
-    "rank": 38,
+    "rank": 39,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1808,7 +1808,7 @@
   },
   {
     "id": "87",
-    "rank": 39,
+    "rank": 40,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2241,6 +2241,29 @@
     "hudlLink": "https://www.hudl.com/v/2TDkyh",
     "committed": false,
     "committedTo": "",
+    "approved": true
+  },
+  {
+    "id": "106",
+    "firstName": "Furian",
+    "lastName": "Inferrera",
+    "school": "Mission Hills",
+    "position": "QB",
+    "classYear": 2027,
+    "height": "6'3\"",
+    "heightInches": 75,
+    "weight": 208,
+    "gpa": 4.4,
+    "stars": 3,
+    "rank": 34,
+    "sizeScore": 33,
+    "productionScore": 12,
+    "filmScore": 20,
+    "totalScore": 65,
+    "xHandle": "@FurianInferrera",
+    "hudlLink": "https://www.hudl.com/v/2QTnTM",
+    "committed": true,
+    "committedTo": "Minnesota",
     "approved": true
   }
 ]
