@@ -1530,7 +1530,7 @@
   },
   {
     "id": "75",
-    "rank": 38,
+    "rank": 39,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1555,7 +1555,7 @@
   },
   {
     "id": "76",
-    "rank": 36,
+    "rank": 37,
     "stars": 3,
     "firstName": "Logan",
     "lastName": "Bonneau",
@@ -1708,7 +1708,7 @@
   },
   {
     "id": "83",
-    "rank": 37,
+    "rank": 38,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1733,7 +1733,7 @@
   },
   {
     "id": "84",
-    "rank": 39,
+    "rank": 40,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1783,7 +1783,7 @@
   },
   {
     "id": "86",
-    "rank": 40,
+    "rank": 41,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1808,7 +1808,7 @@
   },
   {
     "id": "87",
-    "rank": 41,
+    "rank": 42,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2284,6 +2284,29 @@
     "totalScore": 71,
     "xHandle": "@Jamarisherrell",
     "hudlLink": "https://www.hudl.com/v/2Tn9na",
+    "committed": false,
+    "committedTo": "",
+    "approved": true
+  },
+  {
+    "id": "108",
+    "firstName": "Dominic",
+    "lastName": "Lopez",
+    "school": "Mount Miguel",
+    "position": "LB/EDGE",
+    "classYear": 2027,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 210,
+    "gpa": 4.667,
+    "stars": 3,
+    "rank": 36,
+    "sizeScore": 28,
+    "productionScore": 17,
+    "filmScore": 20,
+    "totalScore": 65,
+    "xHandle": "@DominicLopez8_",
+    "hudlLink": "https://www.hudl.com/profile/16646051",
     "committed": false,
     "committedTo": "",
     "approved": true
