@@ -2538,5 +2538,26 @@
     "committed": false,
     "committedTo": "",
     "approved": true
+  },
+  {
+    "id": "119",
+    "firstName": "Jack",
+    "lastName": "O'Sullivan",
+    "school": "Coronado",
+    "position": "QB",
+    "classYear": 2028,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 195,
+    "stars": 2,
+    "rank": 15,
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60,
+    "maxPrepsLink": "https://www.maxpreps.com/ca/coronado/coronado-islanders/athletes/jack-osullivan/football/stats/?careerid=ted7ivqp9u4h1",
+    "committed": false,
+    "committedTo": "",
+    "approved": true
   }
 ]
