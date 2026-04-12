@@ -2588,5 +2588,30 @@
     "productionScore": 15,
     "filmScore": 20,
     "totalScore": 63
+  },
+  {
+    "id": "121",
+    "rank": null,
+    "stars": 2,
+    "firstName": "Everick \"Bam\"",
+    "lastName": "Randall",
+    "school": "Christian High School",
+    "position": "S",
+    "classYear": 2027,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 163,
+    "hudlLink": "http://www.hudl.com/video/3/17687234/68bdf9aa343e17d28aea47cd",
+    "xHandle": "Everick_bam",
+    "gpa": 3.2,
+    "committed": false,
+    "committedTo": null,
+    "stats": "#3 tackler in the class of 2027 out of all defensive backs at 94 Tackles. I went to State and one Southern regional championship and San Diego section division 5 championship with Christian Patriots.",
+    "approved": true,
+    "createdAt": "2026-04-12T21:31:39.268Z",
+    "sizeScore": 15,
+    "productionScore": 25,
+    "filmScore": 20,
+    "totalScore": 60
   }
 ]
