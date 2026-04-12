@@ -1530,7 +1530,7 @@
   },
   {
     "id": "75",
-    "rank": 45,
+    "rank": 46,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1555,7 +1555,7 @@
   },
   {
     "id": "76",
-    "rank": 43,
+    "rank": 44,
     "stars": 3,
     "firstName": "Logan",
     "lastName": "Bonneau",
@@ -1708,7 +1708,7 @@
   },
   {
     "id": "83",
-    "rank": 44,
+    "rank": 45,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1733,7 +1733,7 @@
   },
   {
     "id": "84",
-    "rank": 46,
+    "rank": 47,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1783,7 +1783,7 @@
   },
   {
     "id": "86",
-    "rank": 47,
+    "rank": 48,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1808,7 +1808,7 @@
   },
   {
     "id": "87",
-    "rank": 48,
+    "rank": 49,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2300,7 +2300,7 @@
     "weight": 210,
     "gpa": 4.667,
     "stars": 3,
-    "rank": 42,
+    "rank": 43,
     "sizeScore": 28,
     "productionScore": 17,
     "filmScore": 20,
@@ -2392,7 +2392,7 @@
     "weight": 182,
     "gpa": 3.67,
     "stars": 3,
-    "rank": 41,
+    "rank": 42,
     "sizeScore": 25,
     "productionScore": 20,
     "filmScore": 20,
@@ -2451,8 +2451,8 @@
   },
   {
     "id": "115",
-    "rank": null,
-    "stars": 2,
+    "rank": 41,
+    "stars": 3,
     "firstName": "Omega",
     "lastName": "Cruise",
     "school": "El Camino High",
@@ -2469,10 +2469,10 @@
     "stats": "728 yds\n15yd avg per catch\n65 yds game\n4 tds\n\nRanked (#1)-Avocado League East Yds\n*Ranked (#17)-Division 1-5\n*Ranked (#18)-San Diego \nSection\n*Ranked (#9)- Total Yds -Avocado East [ As A Receiver\n\n\nTop 25 Players of the year-WR( San Diego Football Network)\nOffensive Playmaker of the Year(El Camino)\nRanked #1 Avocado League East in Receiving yds Regular Season (MaxPreps)\nTop Slot/WR- (DAYGO Football)\nPolynesian Combine Showcase Invite\nHawaii Tiki Bowl Selection \nMilitary Appreciation Showcase Invite\nYou Are Athlete Invite",
     "approved": true,
     "createdAt": "2026-04-11T17:47:12.081Z",
-    "sizeScore": 10,
+    "sizeScore": 15,
     "productionScore": 25,
     "filmScore": 25,
-    "totalScore": 60
+    "totalScore": 65
   },
   {
     "id": "116",
