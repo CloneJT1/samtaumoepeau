@@ -2521,5 +2521,30 @@
     "productionScore": 20,
     "filmScore": 21,
     "totalScore": 76
+  },
+  {
+    "id": "118",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Desmond",
+    "lastName": "DeMara",
+    "school": "University City",
+    "position": "ATH",
+    "classYear": 2028,
+    "height": "5'10\"",
+    "heightInches": 70,
+    "weight": 170,
+    "hudlLink": "http://www.hudl.com/v/2T90bR",
+    "xHandle": "@desmonddemara",
+    "gpa": 3.7,
+    "committed": false,
+    "committedTo": null,
+    "stats": "Western league defensive 2nd team, UC 2way POY,",
+    "approved": true,
+    "createdAt": "2026-04-12T06:05:41.911Z",
+    "sizeScore": 28,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 68
   }
 ]
