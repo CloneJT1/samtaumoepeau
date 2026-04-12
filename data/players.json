@@ -2496,5 +2496,30 @@
     "committed": false,
     "committedTo": "",
     "approved": true
+  },
+  {
+    "id": "117",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Noah",
+    "lastName": "Lauifi",
+    "school": "Cathedral Catholic",
+    "position": "S",
+    "classYear": 2027,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 200,
+    "hudlLink": null,
+    "xHandle": "@noah11auifi",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-12T05:59:38.349Z",
+    "sizeScore": 35,
+    "productionScore": 20,
+    "filmScore": 21,
+    "totalScore": 76
   }
 ]
