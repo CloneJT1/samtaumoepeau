@@ -2613,5 +2613,30 @@
     "productionScore": 25,
     "filmScore": 20,
     "totalScore": 60
+  },
+  {
+    "id": "122",
+    "rank": null,
+    "stars": 1,
+    "firstName": "Jayden",
+    "lastName": "Marcelino",
+    "school": "Mission bay high school",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 165,
+    "hudlLink": "http://www.hudl.com/profile/19651983",
+    "xHandle": "@jay_marcelino1",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": "598 rec yards\n11 TDs\n45 rec",
+    "approved": true,
+    "createdAt": "2026-04-12T21:32:34.160Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
