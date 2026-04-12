@@ -1123,8 +1123,8 @@
     "school": "Cathedral Catholic",
     "position": "WR",
     "classYear": 2027,
-    "height": "6'0\"",
-    "weight": 185,
+    "height": "5'10\"",
+    "weight": 180,
     "hudlLink": "https://www.hudl.com/video/3/16512251/674ce892f944d22bcd54e6c8",
     "gpa": null,
     "committed": false,
@@ -1132,7 +1132,8 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@Isaac_Cooki3",
-    "offers": []
+    "offers": [],
+    "heightInches": 70
   },
   {
     "id": "56",
