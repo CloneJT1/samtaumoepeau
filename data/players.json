@@ -2663,5 +2663,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 68
+  },
+  {
+    "id": "124",
+    "rank": null,
+    "stars": 1,
+    "firstName": "Elijah",
+    "lastName": "Jordan",
+    "school": "Otay Ranch High School",
+    "position": "WR",
+    "classYear": 2028,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 150,
+    "hudlLink": "https://www.hudl.com/profile/22694880",
+    "xHandle": null,
+    "gpa": 3.3,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-12T21:36:27.373Z",
+    "sizeScore": 15,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 55
   }
 ]
