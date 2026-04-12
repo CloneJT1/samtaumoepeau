@@ -2538,7 +2538,10 @@
     "maxPrepsLink": "https://www.maxpreps.com/ca/san-diego/canyon-hills-rattlers/athletes/ma%E2%80%99kahi-fields-cook/football/stats/?careerid=h1amo22bu15i2",
     "committed": false,
     "committedTo": "",
-    "approved": true
+    "approved": true,
+    "height": "5'10\"",
+    "heightInches": 70,
+    "weight": 180
   },
   {
     "id": "119",
