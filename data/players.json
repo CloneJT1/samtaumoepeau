@@ -2563,5 +2563,30 @@
     "committed": false,
     "committedTo": "",
     "approved": true
+  },
+  {
+    "id": "120",
+    "rank": null,
+    "stars": 2,
+    "firstName": "Jacob",
+    "lastName": "Kreiss",
+    "school": "Torrey Pines",
+    "position": "RB",
+    "classYear": 2027,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 183,
+    "hudlLink": "hudl.com/v/2T8aF0",
+    "xHandle": "@jacob_kreiss28",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": "Southern University Offer",
+    "approved": true,
+    "createdAt": "2026-04-12T21:22:10.389Z",
+    "sizeScore": 28,
+    "productionScore": 15,
+    "filmScore": 20,
+    "totalScore": 63
   }
 ]
