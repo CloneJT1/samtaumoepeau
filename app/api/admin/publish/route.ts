@@ -85,10 +85,12 @@ export async function POST(req: NextRequest) {
       .filter((p) => p.classYear === classYear && p.rank != null)
       .sort((a, b) => (a.rank as number) - (b.rank as number));
 
-    // Find insertion point: after all players with higher or equal score
+    // Find insertion point: after all unscored players AND all scored players with >= score
     let insertAfterRank = 0;
     for (const p of sameClass) {
-      if ((p.totalScore || 0) >= newScore) {
+      const pScore = p.totalScore;
+      // Unscored players (null/undefined) stay at top — treat as outranking any scored player
+      if (pScore == null || (pScore as number) >= newScore) {
         insertAfterRank = p.rank as number;
       } else {
         break;
