@@ -2923,7 +2923,7 @@
   {
     "id": "135",
     "rank": 3,
-    "stars": 5,
+    "stars": 4,
     "firstName": "Ty",
     "lastName": "Westenberger",
     "school": "San Marcos",
@@ -2937,10 +2937,10 @@
     "gpa": 3.2,
     "committed": false,
     "committedTo": null,
-    "scoreSize": 40,
+    "scoreSize": 35,
     "scoreProduction": 25,
     "scoreFilm": 25,
-    "totalScore": 90,
+    "totalScore": 85,
     "stats": null,
     "approved": true,
     "createdAt": "2026-04-18"
