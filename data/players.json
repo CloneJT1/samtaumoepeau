@@ -2944,5 +2944,31 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-04-18"
+  },
+  {
+    "id": "136",
+    "rank": 25,
+    "stars": 2,
+    "firstName": "Micah",
+    "lastName": "Clark",
+    "school": "El Capitan",
+    "position": "WR/DB",
+    "classYear": 2028,
+    "height": "5'10\"",
+    "heightInches": 70,
+    "weight": 165,
+    "hudlLink": "http://www.hudl.com/v/2TjTGU",
+    "maxPrepsLink": "https://www.maxpreps.com/ca/lakeside/el-capitan-vaqueros/athletes/micah-clark/football/stats/?careerid=kgmvksuksra66",
+    "xHandle": "@clarkmicah_7",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "scoreSize": 20,
+    "scoreProduction": 20,
+    "scoreFilm": 20,
+    "totalScore": 60,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-18"
   }
 ]
