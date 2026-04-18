@@ -2869,5 +2869,30 @@
     "committed": false,
     "committedTo": "",
     "approved": true
+  },
+  {
+    "id": "133",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Everick",
+    "lastName": "Randall",
+    "school": "Christian High School",
+    "position": "CB",
+    "classYear": 2027,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 163,
+    "hudlLink": "http://www.hudl.com/video/3/17687234/68bdf9aa343e17d28aea47cd",
+    "xHandle": "Everick_bam",
+    "gpa": 3,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-18T17:31:26.089Z",
+    "sizeScore": 20,
+    "productionScore": 24,
+    "filmScore": 25,
+    "totalScore": 69
   }
 ]
