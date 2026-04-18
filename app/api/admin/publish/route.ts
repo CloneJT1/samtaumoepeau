@@ -70,21 +70,54 @@ export async function POST(req: NextRequest) {
     const totalInches = htFt * 12 + htIn;
     const heightStr = htFt > 0 ? `${htFt}'${htIn}"` : '';
 
+    // Normalize X handle — ensure it has @ prefix
+    const rawX = (sub.x_handle || '').trim();
+    const xHandle = rawX ? (rawX.startsWith('@') ? rawX : `@${rawX}`) : null;
+
+    // Assign rank: find correct position based on totalScore within classYear
+    const classYear = sub.class_year;
+    const newScore = sub.score_total || 0;
+    type Player = { id: string; rank?: number | null; classYear?: number; totalScore?: number | null; [key: string]: unknown };
+    const typedPlayers = players as Player[];
+
+    // Get ranked players of same class year, sorted by rank
+    const sameClass = typedPlayers
+      .filter((p) => p.classYear === classYear && p.rank != null)
+      .sort((a, b) => (a.rank as number) - (b.rank as number));
+
+    // Find insertion point: after all players with higher or equal score
+    let insertAfterRank = 0;
+    for (const p of sameClass) {
+      if ((p.totalScore || 0) >= newScore) {
+        insertAfterRank = p.rank as number;
+      } else {
+        break;
+      }
+    }
+    const newRank = insertAfterRank + 1;
+
+    // Bump all same-class players at newRank or higher down by 1
+    for (const p of typedPlayers) {
+      if (p.classYear === classYear && p.rank != null && (p.rank as number) >= newRank) {
+        p.rank = (p.rank as number) + 1;
+      }
+    }
+
     // Build new player object
     const newPlayer = {
       id: String(newId),
-      rank: null,
+      rank: newRank,
       stars: sub.stars || 0,
       firstName: sub.first_name,
       lastName: sub.last_name,
       school: sub.school,
       position: sub.position,
-      classYear: sub.class_year,
+      classYear: classYear,
       height: heightStr,
       heightInches: totalInches || null,
       weight: sub.weight ? parseInt(sub.weight) : null,
       hudlLink: sub.hudl_link || null,
-      xHandle: sub.x_handle || null,
+      xHandle,
       gpa: sub.gpa ? parseFloat(sub.gpa) : null,
       committed: false,
       committedTo: null,
@@ -98,10 +131,10 @@ export async function POST(req: NextRequest) {
     };
 
     // Add to players array
-    (players as unknown[]).push(newPlayer);
+    typedPlayers.push(newPlayer);
 
     // Commit to GitHub
-    const committed = await commitPlayersToGitHub(players, sha);
+    const committed = await commitPlayersToGitHub(typedPlayers, sha);
     if (!committed) {
       return NextResponse.json({ error: 'Failed to commit to GitHub.' }, { status: 500 });
     }
