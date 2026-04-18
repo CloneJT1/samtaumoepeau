@@ -205,7 +205,7 @@ export default function AdminPage() {
   const [loading, setLoading] = useState(false);
   const [actionLoading, setActionLoading] = useState<string | null>(null);
   const [message, setMessage] = useState('');
-  const [filter, setFilter] = useState<'pending' | 'approved' | 'rejected' | 'all'>('pending');
+  const [filter, setFilter] = useState<'pending' | 'approved' | 'published' | 'rejected' | 'all'>('pending');
 
   const login = (e: React.FormEvent) => {
     e.preventDefault();
@@ -244,7 +244,10 @@ export default function AdminPage() {
       });
       const data = await res.json();
       if (res.ok) {
-        setMessage(action === 'approve' ? '✓ Approved & published! Live in ~2 min.' : '✕ Rejected.');
+        const msg = action === 'approve'
+          ? `✓ Published! Rank #${data.rank || '?'} — Live in ~2 min.`
+          : '✕ Rejected.';
+        setMessage(msg);
         fetchSubmissions();
       } else {
         setMessage(`Error: ${data.error}`);
@@ -287,6 +290,7 @@ export default function AdminPage() {
 
   const pending = submissions.filter((s) => s.status === 'pending').length;
   const approved = submissions.filter((s) => s.status === 'approved').length;
+  const published = submissions.filter((s) => s.status === 'published').length;
   const rejected = submissions.filter((s) => s.status === 'rejected').length;
 
   return (
@@ -310,6 +314,7 @@ export default function AdminPage() {
       <div className="grid grid-cols-3 gap-4 mb-6">
         {[
           { label: 'Pending', value: pending, key: 'pending' as const },
+          { label: 'Published', value: published, key: 'published' as const },
           { label: 'Approved', value: approved, key: 'approved' as const },
           { label: 'Rejected', value: rejected, key: 'rejected' as const },
         ].map(({ label, value, key }) => (
@@ -323,7 +328,7 @@ export default function AdminPage() {
 
       <div className="flex items-center justify-between mb-4">
         <div className="flex gap-2">
-          {(['pending', 'approved', 'rejected', 'all'] as const).map((f) => (
+          {(['pending', 'published', 'approved', 'rejected', 'all'] as const).map((f) => (
             <button key={f} onClick={() => setFilter(f)}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-all ${filter === f ? 'text-white' : 'bg-white border border-gray-200 text-gray-600'}`}
               style={filter === f ? { backgroundColor: '#002147' } : {}}>

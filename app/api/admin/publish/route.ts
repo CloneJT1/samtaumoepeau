@@ -141,10 +141,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Failed to commit to GitHub.' }, { status: 500 });
     }
 
-    // Mark as published in Supabase
-    await sb.from('submissions').update({ status: 'approved' }).eq('id', id);
+    // Mark as published in Supabase (use 'published' so it won't re-trigger)
+    const { error: updateError } = await sb.from('submissions').update({ status: 'published' }).eq('id', id);
+    if (updateError) {
+      console.error('Status update error:', updateError);
+    }
 
-    return NextResponse.json({ success: true, playerId: newId });
+    return NextResponse.json({ success: true, playerId: newId, rank: newRank });
   } catch (err) {
     console.error('Publish error:', err);
     return NextResponse.json({ error: 'Internal server error.' }, { status: 500 });
