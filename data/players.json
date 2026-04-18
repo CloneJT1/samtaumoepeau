@@ -1333,7 +1333,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@JeremiahELoper",
-    "offers": []
+    "offers": [],
+    "sizeScore": 20,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 70
   },
   {
     "id": "66",
@@ -1378,7 +1382,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@KalebRunkle",
-    "offers": []
+    "offers": [],
+    "sizeScore": 20,
+    "productionScore": 25.5,
+    "filmScore": 24,
+    "totalScore": 69.5
   },
   {
     "id": "68",
