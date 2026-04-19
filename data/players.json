@@ -1792,7 +1792,7 @@
   },
   {
     "id": "86",
-    "rank": 61,
+    "rank": 62,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "87",
-    "rank": 63,
+    "rank": 64,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2897,7 +2897,7 @@
   },
   {
     "id": "134",
-    "rank": 62,
+    "rank": 63,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3147,5 +3147,30 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-04-19"
+  },
+  {
+    "id": "143",
+    "rank": 61,
+    "stars": 2,
+    "firstName": "gianluca",
+    "lastName": "busalacchi",
+    "school": "cathedral catholic high school",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 180,
+    "hudlLink": "http://www.hudl.com/v/2T8Rda",
+    "xHandle": "@GL_busa",
+    "gpa": 3.4,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-19T18:30:31.331Z",
+    "sizeScore": 26,
+    "productionScore": 15,
+    "filmScore": 19,
+    "totalScore": 60
   }
 ]
