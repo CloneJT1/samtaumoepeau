@@ -1792,7 +1792,7 @@
   },
   {
     "id": "86",
-    "rank": 63,
+    "rank": 64,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "87",
-    "rank": 65,
+    "rank": 66,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2897,7 +2897,7 @@
   },
   {
     "id": "134",
-    "rank": 64,
+    "rank": 65,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3220,5 +3220,30 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-04-19"
+  },
+  {
+    "id": "145",
+    "rank": 63,
+    "stars": 2,
+    "firstName": "Ethan",
+    "lastName": "Miller",
+    "school": "Santana High School",
+    "position": "QB",
+    "classYear": 2027,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 190,
+    "hudlLink": "http://www.hudl.com/profile/19765383",
+    "xHandle": "@ethanmillerqb",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": "Junior Season:\n6 Games\n11Tds\n1073yds\n103/158 (65%)\n90 QB rating\n\nPro-Style, Much D2 interest, 3rd year varsity starter.",
+    "approved": true,
+    "createdAt": "2026-04-21T04:51:54.338Z",
+    "sizeScore": 20,
+    "productionScore": 17,
+    "filmScore": 20,
+    "totalScore": 57
   }
 ]
