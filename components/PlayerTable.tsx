@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
+import { useState, useEffect } from 'react';
 import StarRating from './StarRating';
 import type { Player } from '@/lib/players';
 
@@ -11,9 +12,18 @@ interface PlayerTableProps {
 
 export default function PlayerTable({ players }: PlayerTableProps) {
   const searchParams = useSearchParams();
+  const [ready, setReady] = useState(false);
+
   const position = searchParams.get('position') || '';
   const classYear = searchParams.get('classYear') || '2027';
   const school = searchParams.get('school') || '';
+
+  // Block render until URL params are resolved — prevents flash of wrong class year
+  useEffect(() => {
+    setReady(true);
+  }, [searchParams]);
+
+  if (!ready) return <div className="h-64 bg-gray-100 rounded-xl animate-pulse" />;
 
   const filtered = players
     .filter((p) => {
