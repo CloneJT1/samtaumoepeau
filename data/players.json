@@ -1539,7 +1539,7 @@
   },
   {
     "id": "75",
-    "rank": 64,
+    "rank": 65,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "83",
-    "rank": 62,
+    "rank": 63,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1742,7 +1742,7 @@
   },
   {
     "id": "84",
-    "rank": 65,
+    "rank": 66,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1792,7 +1792,7 @@
   },
   {
     "id": "86",
-    "rank": 68,
+    "rank": 69,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "87",
-    "rank": 70,
+    "rank": 71,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2653,7 +2653,7 @@
     "weight": 180,
     "gpa": 3.6,
     "stars": 2,
-    "rank": 63,
+    "rank": 64,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
@@ -2897,7 +2897,7 @@
   },
   {
     "id": "134",
-    "rank": 69,
+    "rank": 70,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3150,7 +3150,7 @@
   },
   {
     "id": "143",
-    "rank": 66,
+    "rank": 67,
     "stars": 2,
     "firstName": "gianluca",
     "lastName": "busalacchi",
@@ -3223,7 +3223,7 @@
   },
   {
     "id": "145",
-    "rank": 67,
+    "rank": 68,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -3419,5 +3419,30 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-04-23"
+  },
+  {
+    "id": "153",
+    "rank": 62,
+    "stars": 3,
+    "firstName": "Aaron",
+    "lastName": "Jones",
+    "school": "Mira Mesa High School",
+    "position": "S",
+    "classYear": 2027,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 200,
+    "hudlLink": "https://www.hudl.com/video/3/19674475/69141342cc4483b5a6c1b3e5",
+    "xHandle": "@aaronjones1215",
+    "gpa": 4,
+    "committed": false,
+    "committedTo": null,
+    "stats": "1st Team All League - Defense 2025 - SD City Conference\nStarted bother ways at Strong Safety and Tight End and played on Special Teams.",
+    "approved": true,
+    "createdAt": "2026-04-24T04:37:01.643Z",
+    "sizeScore": 21,
+    "productionScore": 22,
+    "filmScore": 22,
+    "totalScore": 65
   }
 ]
