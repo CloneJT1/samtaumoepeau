@@ -3693,5 +3693,29 @@
     "productionScore": 26,
     "filmScore": 26,
     "totalScore": 80
+  },
+  {
+    "id": "164",
+    "firstName": "Prince",
+    "lastName": "Rodriguez",
+    "school": "Madison",
+    "position": "LB/RB",
+    "classYear": 2029,
+    "height": "",
+    "heightInches": null,
+    "weight": 196,
+    "stars": 4,
+    "rank": 2,
+    "sizeScore": 29,
+    "productionScore": 30,
+    "filmScore": 26,
+    "totalScore": 85,
+    "xHandle": "@PrinceRodz_",
+    "hudlLink": "https://www.hudl.com/video/3/27116471/692397856700aae655b9194b",
+    "stats": "102 tackles | 8.0 TFL | 1.0 sacks | 9.3 TCK/G | MaxPreps #1 tackler Class of 2029 SD County",
+    "committed": false,
+    "committedTo": "",
+    "approved": true,
+    "createdAt": "2026-04-25"
   }
 ]
