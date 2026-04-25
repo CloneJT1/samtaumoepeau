@@ -1284,7 +1284,7 @@
     "school": "Mt. Carmel",
     "position": "LB",
     "classYear": 2027,
-    "height": "6'1\"",
+    "height": "6'0\"",
     "weight": 210,
     "hudlLink": "https://www.hudl.com/video/3/26798465/68d0e4228a61b935346be074",
     "gpa": null,
@@ -1293,7 +1293,8 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@Caleb_McNickle",
-    "offers": []
+    "offers": [],
+    "heightInches": 72
   },
   {
     "id": "63",
