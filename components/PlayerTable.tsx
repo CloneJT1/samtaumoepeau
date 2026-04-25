@@ -12,18 +12,23 @@ interface PlayerTableProps {
 
 export default function PlayerTable({ players }: PlayerTableProps) {
   const searchParams = useSearchParams();
-  const [ready, setReady] = useState(false);
-
   const position = searchParams.get('position') || '';
   const classYear = searchParams.get('classYear') || '2027';
   const school = searchParams.get('school') || '';
 
-  // Block render until URL params are resolved — prevents flash of wrong class year
+  // Track confirmed params to prevent flash during filter switches
+  const [confirmedParams, setConfirmedParams] = useState<{classYear: string; position: string; school: string} | null>(null);
+
   useEffect(() => {
-    setReady(true);
+    setConfirmedParams({ classYear, position, school });
   }, [searchParams]);
 
-  if (!ready) return <div className="h-64 bg-gray-100 rounded-xl animate-pulse" />;
+  const paramsReady = confirmedParams !== null &&
+    confirmedParams.classYear === classYear &&
+    confirmedParams.position === position &&
+    confirmedParams.school === school;
+
+  if (!paramsReady) return <div className="h-64 bg-gray-100 rounded-xl animate-pulse" />;
 
   const filtered = players
     .filter((p) => {
