@@ -3572,7 +3572,7 @@
   },
   {
     "id": "159",
-    "rank": 36,
+    "rank": 37,
     "stars": 1,
     "firstName": "Jordan",
     "lastName": "Salanoa",
@@ -3594,5 +3594,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 55
+  },
+  {
+    "id": "160",
+    "rank": 36,
+    "stars": 2,
+    "firstName": "Logan",
+    "lastName": "Glover",
+    "school": "Poway High School",
+    "position": "RB",
+    "classYear": 2028,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 190,
+    "hudlLink": "https://www.hudl.com/profile/18345107/Logan-Glover",
+    "xHandle": "@loganglover30",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": "I also play LB",
+    "approved": true,
+    "createdAt": "2026-04-25T18:51:51.709Z",
+    "sizeScore": 28,
+    "productionScore": 15,
+    "filmScore": 15,
+    "totalScore": 58
   }
 ]
