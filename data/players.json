@@ -3569,5 +3569,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 65
+  },
+  {
+    "id": "159",
+    "rank": 36,
+    "stars": 1,
+    "firstName": "Jordan",
+    "lastName": "Salanoa",
+    "school": "Oceanside High School",
+    "position": "LB",
+    "classYear": 2028,
+    "height": "5'8\"",
+    "heightInches": 68,
+    "weight": 175,
+    "hudlLink": "https://www.hudl.com/profile/22635338/Jordan-Salanoa",
+    "xHandle": "@jSalanoa_",
+    "gpa": 3,
+    "committed": false,
+    "committedTo": null,
+    "stats": "9 touchdowns \n700 yards \n1 Forced Fumble 1 Fumble Recovery \nOffensive player of the year (played on Jv)class of 2028.play both Running Back /Outside Linebacker",
+    "approved": true,
+    "createdAt": "2026-04-25T18:51:16.656Z",
+    "sizeScore": 15,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 55
   }
 ]
