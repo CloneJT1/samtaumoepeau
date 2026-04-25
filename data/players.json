@@ -3643,5 +3643,30 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-04-25"
+  },
+  {
+    "id": "162",
+    "rank": 2,
+    "stars": 4,
+    "firstName": "Julian",
+    "lastName": "Morones",
+    "school": "Christian",
+    "position": "RB",
+    "classYear": 2029,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 195,
+    "hudlLink": "https://www.hudl.com/v/2T8tHD",
+    "xHandle": "@Julianmorones9",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-25T19:30:22.642Z",
+    "sizeScore": 29,
+    "productionScore": 26,
+    "filmScore": 25,
+    "totalScore": 80
   }
 ]
