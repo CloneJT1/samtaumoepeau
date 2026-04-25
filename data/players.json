@@ -3768,5 +3768,30 @@
     "productionScore": 25,
     "filmScore": 25,
     "totalScore": 80
+  },
+  {
+    "id": "167",
+    "rank": 7,
+    "stars": 3,
+    "firstName": "Nemo",
+    "lastName": "Hassan",
+    "school": "Mira Mesa",
+    "position": "DL",
+    "classYear": 2029,
+    "height": "6'4\"",
+    "heightInches": 76,
+    "weight": 260,
+    "hudlLink": "http://www.hudl.com/v/2T90Yx",
+    "xHandle": "@Nemo665452",
+    "gpa": 4,
+    "committed": false,
+    "committedTo": null,
+    "stats": "First team all CIF city conference academic award 4.0 GPA",
+    "approved": true,
+    "createdAt": "2026-04-25T22:48:22.848Z",
+    "sizeScore": 28,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 68
   }
 ]
