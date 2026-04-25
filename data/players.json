@@ -3619,5 +3619,29 @@
     "productionScore": 15,
     "filmScore": 15,
     "totalScore": 58
+  },
+  {
+    "id": "161",
+    "firstName": "DJ",
+    "lastName": "Ferguson",
+    "school": "University City",
+    "position": "WR/DB",
+    "classYear": 2029,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 180,
+    "stars": 5,
+    "rank": 1,
+    "sizeScore": 34,
+    "productionScore": 28,
+    "filmScore": 28,
+    "totalScore": 90,
+    "xHandle": "@DJFerguson",
+    "hudlLink": "http://www.hudl.com/v/2TGgmF",
+    "stats": "731 rec yds | 66.5 YPG | 7 TDs | MaxPreps #1 receiver Class of 2029 SD County",
+    "committed": false,
+    "committedTo": "",
+    "approved": true,
+    "createdAt": "2026-04-25"
   }
 ]
