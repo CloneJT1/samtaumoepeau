@@ -3646,7 +3646,7 @@
   },
   {
     "id": "162",
-    "rank": 2,
+    "rank": 4,
     "stars": 4,
     "firstName": "Julian",
     "lastName": "Morones",
@@ -3664,10 +3664,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-04-25T19:30:22.642Z",
-    "sizeScore": 29,
-    "productionScore": 26,
-    "filmScore": 25,
-    "totalScore": 80
+    "sizeScore": 30,
+    "productionScore": 30,
+    "filmScore": 21,
+    "totalScore": 81
   },
   {
     "id": "163",
@@ -3675,7 +3675,7 @@
     "stars": 4,
     "firstName": "Major",
     "lastName": "Scott",
-    "school": "Mission Bay High",
+    "school": "Mission Bay",
     "position": "CB",
     "classYear": 2029,
     "height": "6'0\"",
@@ -3692,7 +3692,7 @@
     "sizeScore": 28,
     "productionScore": 26,
     "filmScore": 26,
-    "totalScore": 80
+    "totalScore": 82
   },
   {
     "id": "164",
@@ -3730,7 +3730,7 @@
     "weight": 145,
     "gpa": 3.5,
     "stars": 4,
-    "rank": 3,
+    "rank": 5,
     "sizeScore": 26,
     "productionScore": 27,
     "filmScore": 27,
