@@ -3743,5 +3743,30 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-04-25"
+  },
+  {
+    "id": "166",
+    "rank": 6,
+    "stars": 4,
+    "firstName": "Nathen",
+    "lastName": "Misilao",
+    "school": "Helix high school",
+    "position": "OL",
+    "classYear": 2029,
+    "height": "6'3\"",
+    "heightInches": 75,
+    "weight": 270,
+    "hudlLink": "https://www.hudl.com/v/2TDZRk",
+    "xHandle": "@misilao73",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-25T22:46:29.423Z",
+    "sizeScore": 30,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 80
   }
 ]
