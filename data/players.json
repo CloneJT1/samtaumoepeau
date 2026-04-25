@@ -3668,5 +3668,30 @@
     "productionScore": 26,
     "filmScore": 25,
     "totalScore": 80
+  },
+  {
+    "id": "163",
+    "rank": 3,
+    "stars": 4,
+    "firstName": "Major",
+    "lastName": "Scott",
+    "school": "Mission Bay High",
+    "position": "CB",
+    "classYear": 2029,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 160,
+    "hudlLink": "https://www.hudl.com/video/3/25379533/68e379a79c4dae332bc47c8c",
+    "xHandle": "@Majorscott",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": "2nd Team All-City League",
+    "approved": true,
+    "createdAt": "2026-04-25T19:37:27.759Z",
+    "sizeScore": 28,
+    "productionScore": 26,
+    "filmScore": 26,
+    "totalScore": 80
   }
 ]
