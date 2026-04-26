@@ -136,6 +136,57 @@ export default async function PlayerProfilePage({ params }: Props) {
                 </a>
               </div>
             )}
+
+            {/* School X Handle */}
+            {(() => {
+              const schoolHandles: Record<string, string> = {
+                'Cathedral Catholic': 'CCHSFootball',
+                'Helix': 'HelixFootball',
+                'Carlsbad': 'Cbad_Football',
+                'Rancho Bernardo': 'RBHSFootball',
+                'University City': 'CenturionFB',
+                'Granite Hills': 'granitehillsfb',
+                'Mission Hills': 'MissionHillsHS',
+                'San Marcos': 'SanMarcosFBall',
+                'Ramona': 'RamonaFBDawgs',
+                'Hoover': 'HooRydeFootball',
+                'Mater Dei Catholic': 'mdcrusadersfb',
+                'Point Loma': 'PointLomaFB',
+                'Santa Fe Christian': 'SFCfootball',
+                'Valhalla': 'ValhallaFB',
+                'Westview': 'WestviewFB',
+                'Army Navy': 'ArmyNavyFB',
+                'Mt. Carmel': 'MCSunDevilFoot1',
+                'Lincoln': 'THEHIVEFB',
+                'Torrey Pines': 'TPHS_FOOTBALL',
+                'La Jolla Country Day': 'TORREYFOOTBALL',
+                'San Diego': 'SDHSCaversFB',
+                'San Diego High': 'SDHSCaversFB',
+                'Mission Bay': 'MissionBayFball',
+                'El Capitan': 'ElCapFtball',
+                "Bishop's": 'BishopsFootball',
+                'Christian': 'CHSpatsfootball',
+                'Madison': 'MadhouseFB',
+                'La Costa Canyon': 'SSovacool55',
+                'Oceanside': 'CoachFale',
+              };
+              const schoolHandle = schoolHandles[player.school];
+              if (!schoolHandle) return null;
+              return (
+                <div className="border-t border-gray-100 px-6 py-4">
+                  <a
+                    href={`https://x.com/${schoolHandle}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg font-bold text-sm text-white transition-all hover:opacity-90"
+                    style={{ backgroundColor: '#002147' }}
+                  >
+                    <span>𝕏</span>
+                    {player.school} Football
+                  </a>
+                </div>
+              );
+            })()}
           </div>
         </div>
 
