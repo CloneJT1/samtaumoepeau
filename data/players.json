@@ -3746,7 +3746,7 @@
   },
   {
     "id": "166",
-    "rank": 6,
+    "rank": 7,
     "stars": 4,
     "firstName": "Nathen",
     "lastName": "Misilao",
@@ -3771,7 +3771,7 @@
   },
   {
     "id": "167",
-    "rank": 7,
+    "rank": 8,
     "stars": 3,
     "firstName": "Nemo",
     "lastName": "Hassan",
@@ -3796,7 +3796,7 @@
   },
   {
     "id": "168",
-    "rank": 8,
+    "rank": 9,
     "stars": 3,
     "firstName": "Robinson",
     "lastName": "Silva",
@@ -3890,5 +3890,29 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-04-25"
+  },
+  {
+    "id": "172",
+    "firstName": "Reily",
+    "lastName": "Moore",
+    "school": "Valhalla",
+    "position": "OT",
+    "classYear": 2029,
+    "height": "6'3\"",
+    "heightInches": 75,
+    "weight": 230,
+    "gpa": 3.5,
+    "stars": 3,
+    "rank": 6,
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 25,
+    "totalScore": 65,
+    "xHandle": "@reily_official1",
+    "hudlLink": "http://www.hudl.com/v/2TEynF",
+    "committed": false,
+    "committedTo": "",
+    "approved": true,
+    "createdAt": "2026-04-26"
   }
 ]
