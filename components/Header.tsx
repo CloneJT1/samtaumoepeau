@@ -35,7 +35,7 @@ export default function Header() {
               <span style={{ color: '#002147' }}>SD</span>
             </div>
             <span className="text-white font-bold text-xl tracking-tight">
-              SD <span style={{ color: '#FFD700' }}>Prospects</span>
+              San Diego <span style={{ color: '#FFD700' }}>Prospects</span>
             </span>
           </Link>
 
