@@ -118,6 +118,18 @@ export default function HomePage() {
                 Top {players.filter((p) => p.classYear === 2028).length} is out — <a href="/rankings?classYear=2028" style={{ color: '#FFD700' }}>View 2028 Rankings →</a>
               </p>
             </div>
+            <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(255,255,255,0.1)' }}>
+              <span
+                className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+                style={{ backgroundColor: '#FFD700', color: '#002147' }}
+              >
+                🔭 EARLY LOOK
+              </span>
+              <h2 className="text-xl font-black text-white mt-2">Class of 2029 Rankings</h2>
+              <p className="text-gray-300 text-sm mt-1">
+                {players.filter((p) => p.classYear === 2029).length} prospects ranked — <a href="/rankings?classYear=2029" style={{ color: '#FFD700' }}>View 2029 Rankings →</a>
+              </p>
+            </div>
           </div>
           <a
             href="https://x.com/SDProspectsFB"
