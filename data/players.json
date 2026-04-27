@@ -4059,5 +4059,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 50
+  },
+  {
+    "id": "179",
+    "rank": 12,
+    "stars": 1,
+    "firstName": "Brody",
+    "lastName": "Berman",
+    "school": "Mission hills high school",
+    "position": "TE",
+    "classYear": 2029,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 180,
+    "hudlLink": "http://www.hudl.com/profile/26660865",
+    "xHandle": "@brodyberman",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-04-27T04:07:10.915Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
