@@ -17,6 +17,7 @@ export default function Header() {
     { href: '/rankings?classYear=2026', label: 'Class of 2026' },
     { href: '/rankings?classYear=2027', label: 'Class of 2027' },
     { href: '/rankings?classYear=2028', label: 'Class of 2028' },
+    { href: '/rankings?classYear=2029', label: 'Class of 2029' },
   ];
 
   const isRankingsActive = pathname === '/rankings' || pathname.startsWith('/rankings/');
