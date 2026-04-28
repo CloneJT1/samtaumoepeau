@@ -1540,7 +1540,7 @@
   },
   {
     "id": "75",
-    "rank": 71,
+    "rank": 72,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1718,7 +1718,7 @@
   },
   {
     "id": "83",
-    "rank": 69,
+    "rank": 70,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1743,7 +1743,7 @@
   },
   {
     "id": "84",
-    "rank": 72,
+    "rank": 73,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": "86",
-    "rank": 76,
+    "rank": 77,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "87",
-    "rank": 77,
+    "rank": 78,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2654,7 +2654,7 @@
     "weight": 180,
     "gpa": 3.6,
     "stars": 2,
-    "rank": 70,
+    "rank": 71,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
@@ -2898,7 +2898,7 @@
   },
   {
     "id": "134",
-    "rank": 75,
+    "rank": 76,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3151,7 +3151,7 @@
   },
   {
     "id": "143",
-    "rank": 73,
+    "rank": 74,
     "stars": 2,
     "firstName": "Gianluca",
     "lastName": "Busalacchi",
@@ -3224,7 +3224,7 @@
   },
   {
     "id": "145",
-    "rank": 74,
+    "rank": 75,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -3533,7 +3533,7 @@
     "weight": 155,
     "gpa": 3.8,
     "stars": 2,
-    "rank": 68,
+    "rank": 69,
     "sizeScore": 18,
     "productionScore": 25,
     "filmScore": 21,
@@ -4133,6 +4133,31 @@
     "sizeScore": 30,
     "productionScore": 20,
     "filmScore": 15,
+    "totalScore": 65
+  },
+  {
+    "id": "182",
+    "rank": 68,
+    "stars": 3,
+    "firstName": "Riley",
+    "lastName": "Farrokhi",
+    "school": "Del Norte",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "6'3\"",
+    "heightInches": 75,
+    "weight": 180,
+    "hudlLink": "http://www.hudl.com/v/2Ta7pJ",
+    "xHandle": "@rileyf_6",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": "671 yards\n6 touchdowns \n53 receptions\nFirst team all league (Avocado)",
+    "approved": true,
+    "createdAt": "2026-04-28T04:29:57.010Z",
+    "sizeScore": 25,
+    "productionScore": 20,
+    "filmScore": 20,
     "totalScore": 65
   }
 ]
