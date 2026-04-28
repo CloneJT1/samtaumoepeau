@@ -1793,7 +1793,7 @@
   },
   {
     "id": "86",
-    "rank": 77,
+    "rank": 78,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "87",
-    "rank": 78,
+    "rank": 79,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2898,7 +2898,7 @@
   },
   {
     "id": "134",
-    "rank": 76,
+    "rank": 77,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3224,7 +3224,7 @@
   },
   {
     "id": "145",
-    "rank": 75,
+    "rank": 76,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -4127,7 +4127,7 @@
     "gpa": 3.5,
     "committed": false,
     "committedTo": null,
-    "stats": "6\u20193\u201d DB/WR (Class of 2027) 4.52 40, 11.53 100m. Long, athletic defender with the ability to impact the game on both sides of the ball. Strong football IQ, physical at the line, and comfortable in both man and zone concepts. Competitive, coachable, and brings consistent leadership and energy. High-upside athlete whose best football is still ahead.",
+    "stats": "6’3” DB/WR (Class of 2027) 4.52 40, 11.53 100m. Long, athletic defender with the ability to impact the game on both sides of the ball. Strong football IQ, physical at the line, and comfortable in both man and zone concepts. Competitive, coachable, and brings consistent leadership and energy. High-upside athlete whose best football is still ahead.",
     "approved": true,
     "createdAt": "2026-04-28T04:26:52.693Z",
     "sizeScore": 30,
@@ -4183,5 +4183,30 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-04-27"
+  },
+  {
+    "id": "184",
+    "rank": 75,
+    "stars": 2,
+    "firstName": "Gabriel",
+    "lastName": "wolf",
+    "school": "el capitan high school",
+    "position": "OL",
+    "classYear": 2027,
+    "height": "6'4\"",
+    "heightInches": 76,
+    "weight": 280,
+    "hudlLink": "https://www.hudl.com/video/3/18201944/693b2990ee66c2efe32ee70d",
+    "xHandle": "@gabrieljwolf",
+    "gpa": 3.7,
+    "committed": false,
+    "committedTo": null,
+    "stats": "2x linemen of the week",
+    "approved": true,
+    "createdAt": "2026-04-28T04:54:00.158Z",
+    "sizeScore": 28,
+    "productionScore": 15,
+    "filmScore": 15,
+    "totalScore": 58
   }
 ]
