@@ -1540,7 +1540,7 @@
   },
   {
     "id": "75",
-    "rank": 72,
+    "rank": 73,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1718,7 +1718,7 @@
   },
   {
     "id": "83",
-    "rank": 70,
+    "rank": 71,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1743,7 +1743,7 @@
   },
   {
     "id": "84",
-    "rank": 73,
+    "rank": 74,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": "86",
-    "rank": 78,
+    "rank": 79,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "87",
-    "rank": 79,
+    "rank": 80,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2654,7 +2654,7 @@
     "weight": 180,
     "gpa": 3.6,
     "stars": 2,
-    "rank": 71,
+    "rank": 72,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
@@ -2898,7 +2898,7 @@
   },
   {
     "id": "134",
-    "rank": 77,
+    "rank": 78,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3151,7 +3151,7 @@
   },
   {
     "id": "143",
-    "rank": 74,
+    "rank": 75,
     "stars": 2,
     "firstName": "Gianluca",
     "lastName": "Busalacchi",
@@ -3224,7 +3224,7 @@
   },
   {
     "id": "145",
-    "rank": 76,
+    "rank": 77,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -3533,7 +3533,7 @@
     "weight": 155,
     "gpa": 3.8,
     "stars": 2,
-    "rank": 69,
+    "rank": 70,
     "sizeScore": 18,
     "productionScore": 25,
     "filmScore": 21,
@@ -4127,7 +4127,7 @@
     "gpa": 3.5,
     "committed": false,
     "committedTo": null,
-    "stats": "6’3” DB/WR (Class of 2027) 4.52 40, 11.53 100m. Long, athletic defender with the ability to impact the game on both sides of the ball. Strong football IQ, physical at the line, and comfortable in both man and zone concepts. Competitive, coachable, and brings consistent leadership and energy. High-upside athlete whose best football is still ahead.",
+    "stats": "6\u20193\u201d DB/WR (Class of 2027) 4.52 40, 11.53 100m. Long, athletic defender with the ability to impact the game on both sides of the ball. Strong football IQ, physical at the line, and comfortable in both man and zone concepts. Competitive, coachable, and brings consistent leadership and energy. High-upside athlete whose best football is still ahead.",
     "approved": true,
     "createdAt": "2026-04-28T04:26:52.693Z",
     "sizeScore": 30,
@@ -4186,7 +4186,7 @@
   },
   {
     "id": "184",
-    "rank": 75,
+    "rank": 76,
     "stars": 2,
     "firstName": "Gabriel",
     "lastName": "wolf",
@@ -4208,5 +4208,29 @@
     "productionScore": 15,
     "filmScore": 15,
     "totalScore": 58
+  },
+  {
+    "id": "185",
+    "firstName": "Jayden",
+    "lastName": "Hunter",
+    "school": "Mission Hills",
+    "position": "ATH",
+    "classYear": 2027,
+    "height": "5'10\"",
+    "heightInches": 70,
+    "weight": 185,
+    "gpa": 3.5,
+    "stars": 3,
+    "rank": 69,
+    "sizeScore": 20,
+    "productionScore": 22,
+    "filmScore": 23,
+    "totalScore": 65,
+    "xHandle": "@jayden4hunter",
+    "hudlLink": "http://www.hudl.com/v/2QfyUY",
+    "committed": false,
+    "committedTo": "",
+    "approved": true,
+    "createdAt": "2026-04-27"
   }
 ]
