@@ -1793,7 +1793,7 @@
   },
   {
     "id": "86",
-    "rank": 81,
+    "rank": 82,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "87",
-    "rank": 83,
+    "rank": 84,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2898,7 +2898,7 @@
   },
   {
     "id": "134",
-    "rank": 80,
+    "rank": 81,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3224,7 +3224,7 @@
   },
   {
     "id": "145",
-    "rank": 79,
+    "rank": 80,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -4186,7 +4186,7 @@
   },
   {
     "id": "184",
-    "rank": 78,
+    "rank": 79,
     "stars": 2,
     "firstName": "Gabriel",
     "lastName": "wolf",
@@ -4309,7 +4309,7 @@
   },
   {
     "id": "189",
-    "rank": 82,
+    "rank": 83,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Rodriguez",
@@ -4331,5 +4331,30 @@
     "productionScore": 20,
     "filmScore": 15,
     "totalScore": 55
+  },
+  {
+    "id": "190",
+    "rank": 78,
+    "stars": 2,
+    "firstName": "Denton",
+    "lastName": "Goar",
+    "school": "Santana High school",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 162,
+    "hudlLink": "http://www.hudl.com/v/2TGuEp",
+    "xHandle": "@GoarDenton",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": "384 rec yard, 38 rec, 784 all purpose yards, 4tds, 2x all league player, underclassmen of the year, two way player of the year (high school awards).",
+    "approved": true,
+    "createdAt": "2026-04-29T05:07:43.935Z",
+    "sizeScore": 10,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 60
   }
 ]
