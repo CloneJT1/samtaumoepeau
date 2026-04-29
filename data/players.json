@@ -1793,7 +1793,7 @@
   },
   {
     "id": "86",
-    "rank": 79,
+    "rank": 80,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "87",
-    "rank": 80,
+    "rank": 81,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2898,7 +2898,7 @@
   },
   {
     "id": "134",
-    "rank": 78,
+    "rank": 79,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3224,7 +3224,7 @@
   },
   {
     "id": "145",
-    "rank": 77,
+    "rank": 78,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -4186,7 +4186,7 @@
   },
   {
     "id": "184",
-    "rank": 76,
+    "rank": 77,
     "stars": 2,
     "firstName": "Gabriel",
     "lastName": "wolf",
@@ -4257,5 +4257,30 @@
     "productionScore": 20,
     "filmScore": 17,
     "totalScore": 67
+  },
+  {
+    "id": "187",
+    "rank": 76,
+    "stars": 2,
+    "firstName": "Rahni",
+    "lastName": "Grant Jr.",
+    "school": "Hoover High School",
+    "position": "WR",
+    "classYear": 2027,
+    "height": "5'8\"",
+    "heightInches": 68,
+    "weight": 146,
+    "hudlLink": "http://www.hudl.com/profile/21880923",
+    "xHandle": "@RahniGrant20059",
+    "gpa": 3,
+    "committed": false,
+    "committedTo": null,
+    "stats": "1st team all-league WR\nTop-10 receiving yards (San Diego)\n2025 2⭐️ (via. On3)",
+    "approved": true,
+    "createdAt": "2026-04-29T04:55:03.783Z",
+    "sizeScore": 10,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 60
   }
 ]
