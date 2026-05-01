@@ -1097,7 +1097,7 @@
   {
     "id": "55",
     "rank": 2,
-    "stars": 4,
+    "stars": 5,
     "firstName": "Zachary",
     "lastName": "Benitez",
     "school": "Granite Hills",
@@ -1112,7 +1112,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@ZacharyBenitez3",
-    "offers": []
+    "offers": [],
+    "sizeScore": 30,
+    "productionScore": 30,
+    "filmScore": 30,
+    "totalScore": 90
   },
   {
     "id": "54",
@@ -1133,7 +1137,11 @@
     "createdAt": "2026-03-22",
     "xHandle": "@Isaac_Cooki3",
     "offers": [],
-    "heightInches": 70
+    "heightInches": 70,
+    "sizeScore": 30,
+    "productionScore": 30,
+    "filmScore": 24,
+    "totalScore": 84
   },
   {
     "id": "56",
@@ -1153,7 +1161,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@Asofa_lauifi52",
-    "offers": []
+    "offers": [],
+    "sizeScore": 35,
+    "productionScore": 25,
+    "filmScore": 23,
+    "totalScore": 83
   },
   {
     "id": "58",
@@ -1173,7 +1185,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@lincoln_mageo",
-    "offers": []
+    "offers": [],
+    "sizeScore": 35,
+    "productionScore": 25,
+    "filmScore": 24,
+    "totalScore": 84
   },
   {
     "id": "65",
@@ -1193,7 +1209,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@KyeKingCooper4",
-    "offers": []
+    "offers": [],
+    "sizeScore": 30,
+    "productionScore": 30,
+    "filmScore": 22.5,
+    "totalScore": 82.5
   },
   {
     "id": "57",
@@ -1213,7 +1233,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@XavierStJohn7",
-    "offers": []
+    "offers": [],
+    "sizeScore": 25,
+    "productionScore": 30,
+    "filmScore": 26,
+    "totalScore": 81
   },
   {
     "id": "59",
@@ -1233,7 +1257,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@DelontayW1",
-    "offers": []
+    "offers": [],
+    "sizeScore": 28,
+    "productionScore": 25,
+    "filmScore": 24,
+    "totalScore": 77
   },
   {
     "id": "62",
@@ -1253,7 +1281,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@Lotuseumalo",
-    "offers": []
+    "offers": [],
+    "sizeScore": 28,
+    "productionScore": 25,
+    "filmScore": 23,
+    "totalScore": 76
   },
   {
     "id": "61",
@@ -1273,7 +1305,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@ConnerNichols09",
-    "offers": []
+    "offers": [],
+    "sizeScore": 28,
+    "productionScore": 25,
+    "filmScore": 23,
+    "totalScore": 76
   },
   {
     "id": "60",
@@ -1294,7 +1330,11 @@
     "createdAt": "2026-03-22",
     "xHandle": "@Caleb_McNickle",
     "offers": [],
-    "heightInches": 72
+    "heightInches": 72,
+    "sizeScore": 28,
+    "productionScore": 25,
+    "filmScore": 23,
+    "totalScore": 76
   },
   {
     "id": "63",
@@ -1314,7 +1354,11 @@
     "approved": true,
     "createdAt": "2026-03-22",
     "xHandle": "@JudahBogardQb1",
-    "offers": []
+    "offers": [],
+    "sizeScore": 25,
+    "productionScore": 25,
+    "filmScore": 20,
+    "totalScore": 70
   },
   {
     "id": "64",
@@ -1435,8 +1479,8 @@
     "createdAt": "2026-03-25T00:00:00.000Z",
     "sizeScore": 23,
     "productionScore": 30,
-    "filmScore": 28,
-    "totalScore": 81
+    "filmScore": 29,
+    "totalScore": 82
   },
   {
     "id": "70",
