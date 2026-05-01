@@ -1101,7 +1101,7 @@
   {
     "id": "55",
     "rank": 3,
-    "stars": 5,
+    "stars": 3,
     "firstName": "Zachary",
     "lastName": "Benitez",
     "school": "Granite Hills",
@@ -1117,10 +1117,10 @@
     "createdAt": "2026-03-22",
     "xHandle": "@ZacharyBenitez3",
     "offers": [],
-    "sizeScore": 30,
+    "sizeScore": 20,
     "productionScore": 30,
-    "filmScore": 30,
-    "totalScore": 90
+    "filmScore": 29,
+    "totalScore": 79
   },
   {
     "id": "54",
