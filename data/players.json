@@ -1100,7 +1100,7 @@
   },
   {
     "id": "55",
-    "rank": 2,
+    "rank": 3,
     "stars": 5,
     "firstName": "Zachary",
     "lastName": "Benitez",
@@ -1124,7 +1124,7 @@
   },
   {
     "id": "54",
-    "rank": 5,
+    "rank": 6,
     "stars": 4,
     "firstName": "Isaac",
     "lastName": "Cook",
@@ -1149,7 +1149,7 @@
   },
   {
     "id": "56",
-    "rank": 6,
+    "rank": 7,
     "stars": 4,
     "firstName": "Asofa",
     "lastName": "Lauifi",
@@ -1173,7 +1173,7 @@
   },
   {
     "id": "58",
-    "rank": 7,
+    "rank": 2,
     "stars": 5,
     "firstName": "Lincoln",
     "lastName": "Mageo",
@@ -1488,7 +1488,7 @@
   },
   {
     "id": "70",
-    "rank": 4,
+    "rank": 5,
     "stars": 4,
     "firstName": "Diego",
     "lastName": "Botron",
@@ -1712,7 +1712,7 @@
   },
   {
     "id": "81",
-    "rank": 3,
+    "rank": 4,
     "stars": 4,
     "firstName": "Courtney",
     "lastName": "Thompson",
