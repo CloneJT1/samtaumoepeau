@@ -1092,7 +1092,11 @@
     "offers": [
       "USC"
     ],
-    "committedTo": "USC"
+    "committedTo": "USC",
+    "sizeScore": 40,
+    "productionScore": 30,
+    "filmScore": 30,
+    "totalScore": 100
   },
   {
     "id": "55",
@@ -1170,7 +1174,7 @@
   {
     "id": "58",
     "rank": 7,
-    "stars": 4,
+    "stars": 5,
     "firstName": "Lincoln",
     "lastName": "Mageo",
     "school": "Oceanside",
@@ -1186,10 +1190,10 @@
     "createdAt": "2026-03-22",
     "xHandle": "@lincoln_mageo",
     "offers": [],
-    "sizeScore": 35,
-    "productionScore": 25,
-    "filmScore": 24,
-    "totalScore": 84
+    "sizeScore": 39,
+    "productionScore": 26,
+    "filmScore": 25,
+    "totalScore": 90
   },
   {
     "id": "65",
