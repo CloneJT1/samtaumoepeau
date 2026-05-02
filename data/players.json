@@ -4704,15 +4704,15 @@
   {
     "id": "203",
     "rank": 43,
-    "stars": 2,
+    "stars": 3,
     "firstName": "Michael",
     "lastName": "Castillo",
-    "school": "El capitan",
+    "school": "El Capitan",
     "position": "RB",
     "classYear": 2028,
-    "height": "5'5\"",
-    "heightInches": 65,
-    "weight": 168,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 175,
     "hudlLink": "http://www.hudl.com/profile/23023578",
     "xHandle": "@Michaelcas91764",
     "gpa": 3.5,
@@ -4723,7 +4723,7 @@
     "createdAt": "2026-05-02T17:26:43.194Z",
     "sizeScore": 20,
     "productionScore": 20,
-    "filmScore": 20,
-    "totalScore": 60
+    "filmScore": 25,
+    "totalScore": 65
   }
 ]
