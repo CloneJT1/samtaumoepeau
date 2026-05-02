@@ -3819,7 +3819,7 @@
   },
   {
     "id": "167",
-    "rank": 9,
+    "rank": 10,
     "stars": 3,
     "firstName": "Nemo",
     "lastName": "Hassan",
@@ -3844,7 +3844,7 @@
   },
   {
     "id": "168",
-    "rank": 10,
+    "rank": 11,
     "stars": 3,
     "firstName": "Robinson",
     "lastName": "Silva",
@@ -3951,7 +3951,7 @@
     "weight": 230,
     "gpa": 3.5,
     "stars": 3,
-    "rank": 12,
+    "rank": 13,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 25,
@@ -4060,7 +4060,7 @@
   },
   {
     "id": "177",
-    "rank": 11,
+    "rank": 12,
     "stars": 3,
     "firstName": "Yousif",
     "lastName": "Adnan-Bondugjie",
@@ -4085,7 +4085,7 @@
   },
   {
     "id": "178",
-    "rank": 14,
+    "rank": 15,
     "stars": 1,
     "firstName": "Caden",
     "lastName": "Bessler",
@@ -4110,7 +4110,7 @@
   },
   {
     "id": "179",
-    "rank": 15,
+    "rank": 16,
     "stars": 1,
     "firstName": "Brody",
     "lastName": "Berman",
@@ -4578,7 +4578,7 @@
   },
   {
     "id": "198",
-    "rank": 13,
+    "rank": 14,
     "stars": 2,
     "firstName": "Elijah",
     "lastName": "Brown",
@@ -4650,5 +4650,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 50
+  },
+  {
+    "id": "201",
+    "rank": 9,
+    "stars": 3,
+    "firstName": "Quentin",
+    "lastName": "Arnold",
+    "school": "Oceanside Highschool",
+    "position": "WR",
+    "classYear": 2029,
+    "height": "5'7\"",
+    "heightInches": 67,
+    "weight": 160,
+    "hudlLink": null,
+    "xHandle": "@QuentinArnold_",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-02T16:36:20.938Z",
+    "sizeScore": 20,
+    "productionScore": 25,
+    "filmScore": 25,
+    "totalScore": 70
   }
 ]
