@@ -131,15 +131,7 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <a
-            href="https://x.com/SDProspectsFB"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-2.5 rounded-lg font-bold text-sm shrink-0 transition-all hover:scale-105"
-            style={{ backgroundColor: '#FFD700', color: '#002147' }}
-          >
-            Follow Us
-          </a>
+
         </div>
       </section>
 

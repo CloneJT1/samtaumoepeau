@@ -13,6 +13,8 @@ export default function Header() {
     { href: '/about', label: 'About' },
   ];
 
+  const followUrl = 'https://x.com/SDProspectsFB';
+
   const rankingsLinks = [
     { href: '/rankings?classYear=2026', label: 'Class of 2026' },
     { href: '/rankings?classYear=2027', label: 'Class of 2027' },
@@ -97,6 +99,16 @@ export default function Header() {
                 </Link>
               );
             })}
+            {/* Follow Us button */}
+            <a
+              href={followUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2 px-4 py-1.5 rounded-lg font-bold text-sm transition-all hover:scale-105"
+              style={{ backgroundColor: '#FFD700', color: '#002147' }}
+            >
+              Follow Us
+            </a>
           </nav>
 
           {/* Mobile menu */}
