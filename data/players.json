@@ -4085,7 +4085,7 @@
   },
   {
     "id": "178",
-    "rank": 13,
+    "rank": 14,
     "stars": 1,
     "firstName": "Caden",
     "lastName": "Bessler",
@@ -4110,7 +4110,7 @@
   },
   {
     "id": "179",
-    "rank": 14,
+    "rank": 15,
     "stars": 1,
     "firstName": "Brody",
     "lastName": "Berman",
@@ -4575,5 +4575,30 @@
     "productionScore": 26,
     "filmScore": 25,
     "totalScore": 83
+  },
+  {
+    "id": "198",
+    "rank": 13,
+    "stars": 2,
+    "firstName": "Elijah",
+    "lastName": "Brown",
+    "school": "El capitan highschool",
+    "position": "WR",
+    "classYear": 2029,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 143,
+    "hudlLink": null,
+    "xHandle": "@ElijahBrowons",
+    "gpa": 3.4,
+    "committed": false,
+    "committedTo": null,
+    "stats": "9 receptions, 6 touchdowns\njoined the team late.",
+    "approved": true,
+    "createdAt": "2026-05-02T16:27:47.782Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60
   }
 ]
