@@ -6,6 +6,50 @@ import { useCallback, useEffect } from 'react';
 const POSITIONS = ['All Positions', 'QB', 'RB', 'WR', 'TE', 'OL', 'DL', 'LB', 'CB', 'S', 'K/P', 'ATH'];
 const CLASS_YEARS = ['All Classes', '2026', '2027', '2028', '2029'];
 
+const SCHOOLS = [
+  'All Schools',
+  "Army Navy Academy",
+  "Bishop's",
+  'Carlsbad',
+  'Cathedral Catholic',
+  'Christian',
+  'Del Norte',
+  'El Capitan',
+  'El Camino',
+  'Granite Hills',
+  'Helix',
+  'Hoover',
+  'Kearney',
+  'La Costa Canyon',
+  'La Jolla Country Day',
+  'La Jolla High',
+  'Lincoln',
+  'Madison',
+  'Mira Mesa',
+  'Mission Bay',
+  'Mission Hills',
+  'Mt. Carmel',
+  'Mount Miguel',
+  'Oceanside',
+  'Olympian',
+  'Point Loma',
+  'Poway',
+  'Ramona',
+  'Rancho Bernardo',
+  'Rancho Buena Vista',
+  'San Diego',
+  'San Marcos',
+  'San Pasqual',
+  'Santa Fe Christian',
+  'Santana',
+  'St. Augustine',
+  'Steele Canyon',
+  'Torrey Pines',
+  'University City',
+  'Valhalla',
+  'Westview',
+];
+
 export default function FilterBar() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -78,18 +122,22 @@ export default function FilterBar() {
           </select>
         </div>
 
-        {/* School Search */}
+        {/* School Dropdown */}
         <div className="flex-1">
           <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">
             School
           </label>
-          <input
-            type="text"
-            placeholder="Search school..."
-            value={school}
-            onChange={(e) => updateFilter('school', e.target.value)}
+          <select
+            value={school || 'All Schools'}
+            onChange={(e) => updateFilter('school', e.target.value === 'All Schools' ? '' : e.target.value)}
             className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 bg-white"
-          />
+          >
+            {SCHOOLS.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
         </div>
 
         {/* Clear */}
