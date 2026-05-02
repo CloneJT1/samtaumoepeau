@@ -4625,5 +4625,30 @@
     "productionScore": 15,
     "filmScore": 10,
     "totalScore": 53
+  },
+  {
+    "id": "200",
+    "rank": 46,
+    "stars": 1,
+    "firstName": "Ford",
+    "lastName": "Seymour",
+    "school": "El Capitan High School",
+    "position": "LB",
+    "classYear": 2028,
+    "height": "5'10\"",
+    "heightInches": 70,
+    "weight": 175,
+    "hudlLink": "www.hudl.com/profile/18287150",
+    "xHandle": "@FordSeymour44",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": "8.5 Sacks, 64 Tackles, 1 INT, DPOY",
+    "approved": true,
+    "createdAt": "2026-05-02T16:34:10.421Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
