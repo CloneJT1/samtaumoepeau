@@ -3272,7 +3272,7 @@
   },
   {
     "id": "145",
-    "rank": 87,
+    "rank": 86,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -4234,7 +4234,7 @@
   },
   {
     "id": "184",
-    "rank": 86,
+    "rank": 85,
     "stars": 2,
     "firstName": "Gabriel",
     "lastName": "Wolf",
@@ -4811,7 +4811,7 @@
     "weight": 160,
     "gpa": 4.0,
     "stars": 2,
-    "rank": 85,
+    "rank": 87,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
