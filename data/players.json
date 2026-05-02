@@ -4600,5 +4600,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 60
+  },
+  {
+    "id": "199",
+    "rank": 45,
+    "stars": 1,
+    "firstName": "Steven",
+    "lastName": "Wright",
+    "school": "Mira Mesa High School",
+    "position": "OL",
+    "classYear": 2028,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 280,
+    "hudlLink": "http://www.hudl.com/profile/20812735",
+    "xHandle": "@That_L1neman",
+    "gpa": 2.7,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-02T16:31:12.939Z",
+    "sizeScore": 28,
+    "productionScore": 15,
+    "filmScore": 10,
+    "totalScore": 53
   }
 ]
