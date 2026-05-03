@@ -4871,5 +4871,30 @@
     "productionScore": 20,
     "filmScore": 15,
     "totalScore": 55
+  },
+  {
+    "id": "210",
+    "rank": 49,
+    "stars": 1,
+    "firstName": "Sam",
+    "lastName": "Williford",
+    "school": "Granite Hills",
+    "position": "OL",
+    "classYear": 2028,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 265,
+    "hudlLink": "https://www.hudl.com/v/2T7W2K",
+    "xHandle": "@Sam_Williford72",
+    "gpa": 3.1,
+    "committed": false,
+    "committedTo": null,
+    "stats": "Allowed 0 sacks my first 2 years",
+    "approved": true,
+    "createdAt": "2026-05-03T04:53:24.774Z",
+    "sizeScore": 10,
+    "productionScore": 10,
+    "filmScore": 30,
+    "totalScore": 50
   }
 ]
