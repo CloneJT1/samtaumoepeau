@@ -1588,7 +1588,7 @@
   },
   {
     "id": "75",
-    "rank": 80,
+    "rank": 81,
     "stars": 2,
     "firstName": "Jaylen",
     "lastName": "Hill",
@@ -1766,7 +1766,7 @@
   },
   {
     "id": "83",
-    "rank": 78,
+    "rank": 79,
     "stars": 2,
     "firstName": "Hudson",
     "lastName": "Kallay",
@@ -1791,7 +1791,7 @@
   },
   {
     "id": "84",
-    "rank": 81,
+    "rank": 82,
     "stars": 2,
     "firstName": "Grant",
     "lastName": "Kuykendall",
@@ -1841,7 +1841,7 @@
   },
   {
     "id": "86",
-    "rank": 90,
+    "rank": 91,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1866,7 +1866,7 @@
   },
   {
     "id": "87",
-    "rank": 93,
+    "rank": 94,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2702,7 +2702,7 @@
     "weight": 180,
     "gpa": 3.6,
     "stars": 2,
-    "rank": 79,
+    "rank": 80,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
@@ -2946,7 +2946,7 @@
   },
   {
     "id": "134",
-    "rank": 89,
+    "rank": 90,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3199,7 +3199,7 @@
   },
   {
     "id": "143",
-    "rank": 82,
+    "rank": 83,
     "stars": 2,
     "firstName": "Gianluca",
     "lastName": "Busalacchi",
@@ -3272,7 +3272,7 @@
   },
   {
     "id": "145",
-    "rank": 87,
+    "rank": 88,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -4234,7 +4234,7 @@
   },
   {
     "id": "184",
-    "rank": 86,
+    "rank": 87,
     "stars": 2,
     "firstName": "Gabriel",
     "lastName": "Wolf",
@@ -4308,7 +4308,7 @@
   },
   {
     "id": "187",
-    "rank": 83,
+    "rank": 84,
     "stars": 2,
     "firstName": "Rahni",
     "lastName": "Grant Jr.",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "189",
-    "rank": 91,
+    "rank": 92,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Rodriguez",
@@ -4382,7 +4382,7 @@
   },
   {
     "id": "190",
-    "rank": 84,
+    "rank": 85,
     "stars": 2,
     "firstName": "Denton",
     "lastName": "Goar",
@@ -4528,7 +4528,7 @@
   },
   {
     "id": "196",
-    "rank": 85,
+    "rank": 86,
     "stars": 2,
     "firstName": "Maddox",
     "lastName": "Faiivae",
@@ -4811,7 +4811,7 @@
     "weight": 160,
     "gpa": 4,
     "stars": 2,
-    "rank": 88,
+    "rank": 89,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
@@ -4849,7 +4849,7 @@
   },
   {
     "id": "209",
-    "rank": 92,
+    "rank": 93,
     "stars": 1,
     "firstName": "Sayed Mehran",
     "lastName": "Nazimi",
@@ -4896,5 +4896,30 @@
     "productionScore": 10,
     "filmScore": 30,
     "totalScore": 50
+  },
+  {
+    "id": "211",
+    "rank": 78,
+    "stars": 2,
+    "firstName": "Romeo",
+    "lastName": "Pepi",
+    "school": "Madison",
+    "position": "ATH",
+    "classYear": 2027,
+    "height": "6'1\"",
+    "heightInches": 73,
+    "weight": 170,
+    "hudlLink": "https://www.hudl.com/v/2TQZ5V",
+    "xHandle": "@romeopepi_8",
+    "gpa": 3,
+    "committed": false,
+    "committedTo": null,
+    "stats": "Explosive athlete — track numbers show an 11.79 in the 100m and a 19-1 long jump, which matches the speed and burst you’d want from a WR/DB.",
+    "approved": true,
+    "createdAt": "2026-05-07T04:28:49.031Z",
+    "sizeScore": 28,
+    "productionScore": 20,
+    "filmScore": 16,
+    "totalScore": 64
   }
 ]
