@@ -4175,7 +4175,7 @@
     "gpa": 3.5,
     "committed": false,
     "committedTo": null,
-    "stats": "6’3” DB/WR (Class of 2027) 4.52 40, 11.53 100m. Long, athletic defender with the ability to impact the game on both sides of the ball. Strong football IQ, physical at the line, and comfortable in both man and zone concepts. Competitive, coachable, and brings consistent leadership and energy. High-upside athlete whose best football is still ahead.",
+    "stats": "6\u20193\u201d DB/WR (Class of 2027) 4.52 40, 11.53 100m. Long, athletic defender with the ability to impact the game on both sides of the ball. Strong football IQ, physical at the line, and comfortable in both man and zone concepts. Competitive, coachable, and brings consistent leadership and energy. High-upside athlete whose best football is still ahead.",
     "approved": true,
     "createdAt": "2026-04-28T04:26:52.693Z",
     "sizeScore": 30,
@@ -4323,7 +4323,7 @@
     "gpa": 3,
     "committed": false,
     "committedTo": null,
-    "stats": "1st team all-league WR\nTop-10 receiving yards (San Diego)\n2025 2⭐️ (via. On3)",
+    "stats": "1st team all-league WR\nTop-10 receiving yards (San Diego)\n2025 2\u2b50\ufe0f (via. On3)",
     "approved": true,
     "createdAt": "2026-04-29T04:55:03.783Z",
     "sizeScore": 10,
@@ -4900,7 +4900,7 @@
   {
     "id": "211",
     "rank": 78,
-    "stars": 2,
+    "stars": 3,
     "firstName": "Romeo",
     "lastName": "Pepi",
     "school": "Madison",
@@ -4914,12 +4914,12 @@
     "gpa": 3,
     "committed": false,
     "committedTo": null,
-    "stats": "Explosive athlete — track numbers show an 11.79 in the 100m and a 19-1 long jump, which matches the speed and burst you’d want from a WR/DB.",
+    "stats": "Explosive athlete \u2014 track numbers show an 11.79 in the 100m and a 19-1 long jump, which matches the speed and burst you\u2019d want from a WR/DB.",
     "approved": true,
     "createdAt": "2026-05-07T04:28:49.031Z",
-    "sizeScore": 28,
+    "sizeScore": 25,
     "productionScore": 20,
-    "filmScore": 16,
-    "totalScore": 64
+    "filmScore": 22,
+    "totalScore": 67
   }
 ]
