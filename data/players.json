@@ -5047,5 +5047,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 60
+  },
+  {
+    "id": "217",
+    "rank": 19,
+    "stars": 1,
+    "firstName": "khyree",
+    "lastName": "shannon",
+    "school": "Clairemont Highschool",
+    "position": "ATH",
+    "classYear": 2029,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 155,
+    "hudlLink": "http://www.hudl.com/profile/27148572",
+    "xHandle": "@khyreeshannon",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-08T03:41:05.582Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
