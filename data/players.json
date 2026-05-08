@@ -2775,7 +2775,7 @@
     "stars": 1,
     "xHandle": "@Nehem1ahaust1n",
     "id": "126",
-    "rank": 46,
+    "rank": 47,
     "height": "5'11\"",
     "committed": false,
     "committedTo": "",
@@ -3622,7 +3622,7 @@
   },
   {
     "id": "159",
-    "rank": 48,
+    "rank": 49,
     "stars": 1,
     "firstName": "Jordan",
     "lastName": "Salanoa",
@@ -3647,7 +3647,7 @@
   },
   {
     "id": "160",
-    "rank": 47,
+    "rank": 48,
     "stars": 1,
     "firstName": "Logan",
     "lastName": "Glover",
@@ -4604,7 +4604,7 @@
   },
   {
     "id": "199",
-    "rank": 49,
+    "rank": 50,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Wright",
@@ -4629,7 +4629,7 @@
   },
   {
     "id": "200",
-    "rank": 50,
+    "rank": 51,
     "stars": 1,
     "firstName": "Ford",
     "lastName": "Seymour",
@@ -4875,7 +4875,7 @@
   },
   {
     "id": "210",
-    "rank": 51,
+    "rank": 52,
     "stars": 1,
     "firstName": "Sam",
     "lastName": "Williford",
@@ -5022,5 +5022,30 @@
     "productionScore": 20,
     "filmScore": 25,
     "totalScore": 65
+  },
+  {
+    "id": "216",
+    "rank": 46,
+    "stars": 2,
+    "firstName": "Khalonie",
+    "lastName": "Jordan",
+    "school": "Mount Miguel High School",
+    "position": "ATH",
+    "classYear": 2028,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 155,
+    "hudlLink": "https://www.hudl.com/profile/27128224",
+    "xHandle": "@KhalonieJordan",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-08T03:37:45.692Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60
   }
 ]
