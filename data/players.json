@@ -19,7 +19,8 @@
     "committedTo": "Arizona",
     "offers": [
       "Arizona"
-    ]
+    ],
+    "xHandle": "@NathanAllen74"
   },
   {
     "id": "40",
@@ -230,7 +231,8 @@
     "committedTo": "USC",
     "offers": [
       "USC"
-    ]
+    ],
+    "xHandle": "@ChaseDeniz2026"
   },
   {
     "id": "7",
@@ -296,7 +298,8 @@
     "committedTo": "Boise State",
     "offers": [
       "Boise State"
-    ]
+    ],
+    "xHandle": "@Valley_sua"
   },
   {
     "id": "15",
@@ -363,7 +366,8 @@
     "committedTo": "UNLV",
     "offers": [
       "UNLV"
-    ]
+    ],
+    "xHandle": "@JMGII2026"
   },
   {
     "id": "38",
@@ -779,7 +783,8 @@
     "ncaaId": "",
     "notes": "Twin brother of Zamar Reese",
     "featured": false,
-    "approved": true
+    "approved": true,
+    "xHandle": "@JudahReeseTwin1"
   },
   {
     "id": "48",
@@ -1078,7 +1083,8 @@
     "committedTo": "UC Davis",
     "offers": [
       "UC Davis"
-    ]
+    ],
+    "xHandle": "@Lucas_Winkler57"
   },
   {
     "id": "53",
