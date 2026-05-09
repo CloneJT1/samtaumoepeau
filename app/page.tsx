@@ -89,54 +89,36 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 2027 Coming Soon Banner */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-2">
-        <div
-          className="rounded-2xl px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4"
-          style={{ backgroundColor: '#002147' }}
-        >
-          <div className="text-center sm:text-left">
-            <span
-              className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
-              style={{ backgroundColor: '#FFD700', color: '#002147' }}
+      {/* Class Rankings Grid */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-2">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            { badge: '🔴 LIVE NOW', badgeBg: '#CC0000', year: 2027, label: 'Class of 2027', sub: `${players.filter((p) => p.classYear === 2027).length} ranked prospects`, href: '/rankings?classYear=2027' },
+            { badge: '🆕 NEW', badgeBg: '#002147', year: 2028, label: 'Class of 2028', sub: `${players.filter((p) => p.classYear === 2028).length} ranked prospects`, href: '/rankings?classYear=2028' },
+            { badge: '🔭 EARLY LOOK', badgeBg: '#002147', year: 2029, label: 'Class of 2029', sub: `${players.filter((p) => p.classYear === 2029).length} prospects ranked`, href: '/rankings?classYear=2029' },
+          ].map(({ badge, year, label, sub, href }) => (
+            <a
+              key={year}
+              href={href}
+              className="rounded-2xl px-6 py-5 flex flex-col gap-2 hover:opacity-90 transition-opacity"
+              style={{ backgroundColor: '#002147' }}
             >
-              🔴 LIVE NOW
-            </span>
-            <h2 className="text-xl font-black text-white mt-2">Class of 2027 Rankings</h2>
-            <p className="text-gray-300 text-sm mt-1">
-              Top {players.filter((p) => p.classYear === 2027).length} is out — follow <a href="https://x.com/SDProspectsFB" target="_blank" rel="noopener noreferrer" style={{ color: '#FFD700' }}>@SDProspectsFB</a> for updates.
-            </p>
-            <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(255,255,255,0.1)' }}>
               <span
-                className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+                className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest self-start"
                 style={{ backgroundColor: '#FFD700', color: '#002147' }}
               >
-                🆕 NEW
+                {badge}
               </span>
-              <h2 className="text-xl font-black text-white mt-2">Class of 2028 Rankings</h2>
-              <p className="text-gray-300 text-sm mt-1">
-                Top {players.filter((p) => p.classYear === 2028).length} is out — <a href="/rankings?classYear=2028" style={{ color: '#FFD700' }}>View 2028 Rankings →</a>
-              </p>
-            </div>
-            <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(255,255,255,0.1)' }}>
-              <span
-                className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
-                style={{ backgroundColor: '#FFD700', color: '#002147' }}
-              >
-                🔭 EARLY LOOK
-              </span>
-              <h2 className="text-xl font-black text-white mt-2">Class of 2029 Rankings</h2>
-              <p className="text-gray-300 text-sm mt-1">
-                {players.filter((p) => p.classYear === 2029).length} prospects ranked — <a href="/rankings?classYear=2029" style={{ color: '#FFD700' }}>View 2029 Rankings →</a>
-              </p>
-            </div>
-          </div>
-
+              <h2 className="text-lg font-black text-white">{label}</h2>
+              <p className="text-gray-300 text-sm">{sub}</p>
+              <span className="text-sm font-bold mt-1" style={{ color: '#FFD700' }}>View Rankings →</span>
+            </a>
+          ))}
         </div>
       </section>
 
       {/* Why SD Prospects */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span
@@ -204,7 +186,7 @@ export default function HomePage() {
       </section>
 
       {/* Mission Statement */}
-      <section style={{ backgroundColor: '#f8f9fa' }} className="py-16">
+      <section style={{ backgroundColor: '#f8f9fa' }} className="py-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-black mb-6" style={{ color: '#002147' }}>
             San Diego Football Is <span style={{ color: '#FFD700', WebkitTextStroke: '1px #b8960c' }}>Loaded.</span>
