@@ -61,7 +61,8 @@
     "committedTo": "Texas A&M",
     "offers": [
       "Texas A&M"
-    ]
+    ],
+    "xHandle": "@brandonjubie2"
   },
   {
     "id": "44",
@@ -730,7 +731,8 @@
     "committedTo": "San Diego State",
     "offers": [
       "San Diego State"
-    ]
+    ],
+    "xHandle": "@CammPurnell3"
   },
   {
     "id": "43",
@@ -3007,7 +3009,7 @@
     "firstName": "Micah",
     "lastName": "Clark",
     "school": "El Capitan",
-    "position": "WR/DB",
+    "position": "WR/CB",
     "classYear": 2028,
     "height": "5'10\"",
     "heightInches": 70,
