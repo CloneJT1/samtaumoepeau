@@ -32,8 +32,8 @@ export default function PlayerTable({ players }: PlayerTableProps) {
 
   const filtered = players
     .filter((p) => {
-      if (!classYear) return false; // show nothing until classYear is set
-      if (String(p.classYear) !== classYear) return false;
+      if (!classYear && p.classYear === 2026) return false; // All Classes excludes 2026
+      if (classYear && String(p.classYear) !== classYear) return false;
       if (position && position !== 'All Positions' && !p.position?.split('/').some((pos: string) => pos.trim() === position)) return false;
       if (school && !p.school.toLowerCase().includes(school.toLowerCase())) return false;
       return true;

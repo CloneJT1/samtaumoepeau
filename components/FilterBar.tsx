@@ -4,7 +4,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useEffect } from 'react';
 
 const POSITIONS = ['All Positions', 'QB', 'RB', 'WR', 'TE', 'OL', 'DL', 'LB', 'CB', 'S', 'K/P', 'ATH'];
-const CLASS_YEARS = ['All Classes', '2026', '2027', '2028', '2029'];
+const CLASS_YEARS = ["All Classes (No '26)", '2026', '2027', '2028', '2029'];
 
 const SCHOOLS = [
   'All Schools',
@@ -61,7 +61,7 @@ export default function FilterBar() {
   const updateFilter = useCallback(
     (key: string, value: string) => {
       const params = new URLSearchParams(searchParams.toString());
-      if (value && value !== 'All Positions' && value !== 'All Classes') {
+      if (value && value !== 'All Positions' && value !== "All Classes (No '26)") {
         params.set(key, value);
       } else if (key === 'classYear') {
         params.delete(key);
