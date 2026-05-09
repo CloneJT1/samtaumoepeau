@@ -55,17 +55,8 @@ export default function FilterBar() {
   const searchParams = useSearchParams();
 
   const position = searchParams.get('position') || '';
-  const classYear = searchParams.get('classYear') || '2027';
+  const classYear = searchParams.get('classYear') || '';
   const school = searchParams.get('school') || '';
-
-  // Set default classYear in URL on mount so PlayerTable always has an explicit param
-  useEffect(() => {
-    if (!searchParams.get('classYear')) {
-      const params = new URLSearchParams(searchParams.toString());
-      params.set('classYear', '2027');
-      router.replace(`?${params.toString()}`, { scroll: false });
-    }
-  }, []);
 
   const updateFilter = useCallback(
     (key: string, value: string) => {

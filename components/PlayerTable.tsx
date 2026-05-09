@@ -13,7 +13,7 @@ interface PlayerTableProps {
 export default function PlayerTable({ players }: PlayerTableProps) {
   const searchParams = useSearchParams();
   const position = searchParams.get('position') || '';
-  const classYear = searchParams.get('classYear') || '2027';
+  const classYear = searchParams.get('classYear') || '';
   const school = searchParams.get('school') || '';
 
   // Track confirmed params to prevent flash during filter switches
