@@ -117,6 +117,45 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Top 5 by Class */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 className="text-xl font-black mb-4" style={{ color: '#002147' }}>Top Prospects by Class</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {[2027, 2028, 2029].map((yr) => {
+            const top5 = players
+              .filter((p) => p.classYear === yr && p.rank && p.totalScore)
+              .sort((a, b) => (a.rank || 999) - (b.rank || 999))
+              .slice(0, 5);
+            return (
+              <div key={yr}>
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-sm font-black uppercase tracking-widest" style={{ color: '#002147' }}>Class of {yr}</h3>
+                  <a href={`/rankings?classYear=${yr}`} className="text-xs font-bold" style={{ color: '#FFD700', WebkitTextStroke: '0.3px #b8960c' }}>View all →</a>
+                </div>
+                <div className="space-y-2">
+                  {top5.map((p) => (
+                    <a
+                      key={p.id}
+                      href={`/players/${p.id}`}
+                      className="flex items-center gap-3 px-3 py-2.5 rounded-xl border border-gray-100 hover:border-yellow-300 hover:shadow-sm transition-all bg-white"
+                    >
+                      <span className="text-xs font-black w-5 text-center" style={{ color: '#002147' }}>#{p.rank}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="font-bold text-sm truncate" style={{ color: '#002147' }}>{p.firstName} {p.lastName}</div>
+                        <div className="text-xs text-gray-500">{p.school} · {p.position}</div>
+                      </div>
+                      <span className="text-xs font-bold shrink-0" style={{ color: '#FFD700', WebkitTextStroke: '0.3px #b8960c' }}>
+                        {'★'.repeat(p.stars || 0)}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
       {/* Why SD Prospects */}
       <section className="py-10 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
