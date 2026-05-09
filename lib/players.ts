@@ -20,6 +20,10 @@ export interface Player {
   stats?: string;
   approved: boolean;
   createdAt: string;
+  totalScore?: number;
+  sizeScore?: number;
+  productionScore?: number;
+  filmScore?: number;
 }
 
 export interface PendingSubmission {

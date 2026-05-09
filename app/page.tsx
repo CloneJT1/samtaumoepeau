@@ -123,7 +123,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {[2027, 2028, 2029].map((yr) => {
             const top5 = players
-              .filter((p) => p.classYear === yr && p.rank && (p as any).totalScore)
+              .filter((p) => p.classYear === yr && p.rank && p.totalScore)
               .sort((a, b) => (a.rank || 999) - (b.rank || 999))
               .slice(0, 5);
             return (
