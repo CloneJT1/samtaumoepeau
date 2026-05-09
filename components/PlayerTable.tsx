@@ -42,6 +42,13 @@ export default function PlayerTable({ players }: PlayerTableProps) {
       if (classYear === '2026') {
         return a.lastName.localeCompare(b.lastName);
       }
+      if (!classYear) {
+        // All Classes: sort by totalScore desc, then stars desc
+        const aScore = (a as any).totalScore ?? 0;
+        const bScore = (b as any).totalScore ?? 0;
+        if (bScore !== aScore) return bScore - aScore;
+        return (b.stars ?? 0) - (a.stars ?? 0);
+      }
       if (a.rank && b.rank) return a.rank - b.rank;
       if ((b.stars ?? 0) !== (a.stars ?? 0)) return (b.stars ?? 0) - (a.stars ?? 0);
       return 0;
@@ -83,7 +90,7 @@ export default function PlayerTable({ players }: PlayerTableProps) {
               <td className="px-4 py-3 text-center">
                 <Link href={`/players/${player.id}`} className="block">
                   <span className="font-bold text-sm" style={{ color: '#002147' }}>
-                    {player.rank ? `#${player.rank}` : ''}
+                    {!classYear ? `#${idx + 1}` : player.rank ? `#${player.rank}` : ''}
                   </span>
                 </Link>
               </td>
