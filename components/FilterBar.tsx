@@ -3,7 +3,7 @@
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useEffect } from 'react';
 
-const POSITIONS = ['All Positions', 'QB', 'RB', 'WR', 'TE', 'OL', 'DL', 'EDGE', 'LB', 'CB', 'S', 'K/P', 'ATH'];
+const POSITIONS = ['All Positions', 'QB', 'RB', 'WR', 'TE', 'OL', 'DL', 'EDGE', 'LB', 'CB', 'S', 'K/P', 'KR', 'ATH'];
 const CLASS_YEARS = ["All Classes (No '26)", '2026', '2027', '2028', '2029'];
 
 const SCHOOLS = [
