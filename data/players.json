@@ -1857,7 +1857,7 @@
   },
   {
     "id": "86",
-    "rank": 103,
+    "rank": 104,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1882,7 +1882,7 @@
   },
   {
     "id": "87",
-    "rank": 106,
+    "rank": 107,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2962,7 +2962,7 @@
   },
   {
     "id": "134",
-    "rank": 102,
+    "rank": 103,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3288,7 +3288,7 @@
   },
   {
     "id": "145",
-    "rank": 100,
+    "rank": 101,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -4250,7 +4250,7 @@
   },
   {
     "id": "184",
-    "rank": 99,
+    "rank": 100,
     "stars": 2,
     "firstName": "Gabriel",
     "lastName": "Wolf",
@@ -4373,7 +4373,7 @@
   },
   {
     "id": "189",
-    "rank": 104,
+    "rank": 105,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Rodriguez",
@@ -4827,7 +4827,7 @@
     "weight": 160,
     "gpa": 4,
     "stars": 2,
-    "rank": 101,
+    "rank": 102,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
@@ -4865,7 +4865,7 @@
   },
   {
     "id": "209",
-    "rank": 105,
+    "rank": 106,
     "stars": 1,
     "firstName": "Sayed Mehran",
     "lastName": "Nazimi",
@@ -5472,5 +5472,29 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-05-09"
+  },
+  {
+    "id": "234",
+    "firstName": "Judens",
+    "lastName": "Leger",
+    "school": "Hoover",
+    "position": "LB",
+    "classYear": 2027,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 190,
+    "gpa": 3.4,
+    "stars": 2,
+    "rank": 99,
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60,
+    "xHandle": "@JL10021",
+    "hudlLink": "https://www.hudl.com/profile/23958215",
+    "committed": false,
+    "committedTo": "",
+    "approved": true,
+    "createdAt": "2026-05-10"
   }
 ]
