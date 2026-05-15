@@ -22,7 +22,7 @@ const SCHOOLS = [
   'Kearney',
   'La Costa Canyon',
   'La Jolla Country Day',
-  'La Jolla High',
+  'La Jolla',
   'Lincoln',
   'Madison',
   'Mira Mesa',
