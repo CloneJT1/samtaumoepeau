@@ -1175,7 +1175,7 @@
     "weight": 310,
     "hudlLink": "https://www.hudl.com/video/3/21792560/690e9abf90223eab69d33767",
     "gpa": null,
-    "committed": false,
+    "committed": true,
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-22",
@@ -1184,7 +1184,8 @@
     "sizeScore": 35,
     "productionScore": 25,
     "filmScore": 23,
-    "totalScore": 83
+    "totalScore": 83,
+    "committedTo": "Hawaii"
   },
   {
     "id": "58",
