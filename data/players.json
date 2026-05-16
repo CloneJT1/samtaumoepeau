@@ -5798,5 +5798,30 @@
     "productionScore": 17,
     "filmScore": 19,
     "totalScore": 56
+  },
+  {
+    "id": "249",
+    "rank": 62,
+    "stars": 1,
+    "firstName": "Chris",
+    "lastName": "Sturm",
+    "school": "Coronado High School",
+    "position": "OL",
+    "classYear": 2028,
+    "height": "6'5\"",
+    "heightInches": 77,
+    "weight": 235,
+    "hudlLink": "https://www.hudl.com/v/2TNkef",
+    "xHandle": "@chris_sturm_75",
+    "gpa": 3.6,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-16T16:17:32.539Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
