@@ -5698,5 +5698,30 @@
     "productionScore": 25,
     "filmScore": 23,
     "totalScore": 58
+  },
+  {
+    "id": "245",
+    "rank": 112,
+    "stars": 1,
+    "firstName": "Jayden",
+    "lastName": "Cunningham",
+    "school": "Hoover Highschool",
+    "position": "RB",
+    "classYear": 2027,
+    "height": "5'7\"",
+    "heightInches": 67,
+    "weight": 145,
+    "hudlLink": "http://www.hudl.com/v/2T9yNB",
+    "xHandle": "@JaydenC7_",
+    "gpa": 3.3,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-16T16:04:44.961Z",
+    "sizeScore": 20,
+    "productionScore": 15,
+    "filmScore": 15,
+    "totalScore": 50
   }
 ]
