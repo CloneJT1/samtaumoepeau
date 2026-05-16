@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSupabase } from '@/lib/supabase';
+import { readFileSync } from 'fs';
+import path from 'path';
 
 export async function POST(req: NextRequest) {
   try {
@@ -13,6 +15,23 @@ export async function POST(req: NextRequest) {
     if (!firstName || !lastName || !school || !position || !classYear || !submitterName || !submitterEmail) {
       return NextResponse.json({ error: 'Missing required fields.' }, { status: 400 });
     }
+
+    // Detect if player already exists
+    let isUpdate = false;
+    let existingInfo = '';
+    try {
+      const playersPath = path.join(process.cwd(), 'data', 'players.json');
+      const players = JSON.parse(readFileSync(playersPath, 'utf-8'));
+      const match = players.find((p: { firstName: string; lastName: string; classYear: number }) =>
+        p.firstName?.toLowerCase() === String(firstName).toLowerCase().trim() &&
+        p.lastName?.toLowerCase() === String(lastName).toLowerCase().trim() &&
+        p.classYear === parseInt(String(classYear))
+      );
+      if (match) {
+        isUpdate = true;
+        existingInfo = `[EXISTING: ${match.school}, ${match.position}, Rank #${match.rank || '?'}, ${match.totalScore || 0}pts]`;
+      }
+    } catch { /* non-blocking */ }
 
     const sb = getSupabase();
     const { data, error } = await sb
@@ -31,7 +50,9 @@ export async function POST(req: NextRequest) {
         max_preps_link: maxPrepsLink ? String(maxPrepsLink).trim() : null,
         other_film_link: otherFilmLink ? String(otherFilmLink).trim() : null,
         gpa: gpa ? String(gpa).trim() : null,
-        additional_info: additionalInfo ? String(additionalInfo).trim() : null,
+        additional_info: isUpdate
+          ? `⚠️ UPDATE SUBMISSION ${existingInfo}${additionalInfo ? '\n' + String(additionalInfo).trim() : ''}`
+          : (additionalInfo ? String(additionalInfo).trim() : null),
         submitter_name: String(submitterName).trim(),
         submitter_email: String(submitterEmail).trim(),
         status: 'pending',

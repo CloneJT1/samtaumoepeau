@@ -22,6 +22,7 @@ interface Submission {
   additionalInfo?: string;
   submitterName: string;
   submitterEmail: string;
+  additionalInfo?: string;
   status: string;
   scoreSize?: number;
   scoreProduction?: number;
@@ -358,6 +359,11 @@ export default function AdminPage() {
                     style={{ backgroundColor: sub.status === 'approved' ? '#22c55e' : sub.status === 'rejected' ? '#ef4444' : '#FFD700', color: sub.status === 'pending' ? '#002147' : 'white' }}>
                     {sub.status}
                   </span>
+                  {sub.additionalInfo?.startsWith('⚠️ UPDATE') && (
+                    <span className="text-xs px-2 py-0.5 rounded-full font-black bg-orange-500 text-white">
+                      ⚠️ UPDATE
+                    </span>
+                  )}
                   {sub.scoreTotal ? (
                     <span className="text-yellow-300 text-xs font-bold">{sub.scoreTotal}pts — {starsLabel(sub.stars || 0)}</span>
                   ) : null}
