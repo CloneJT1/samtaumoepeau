@@ -5723,5 +5723,30 @@
     "productionScore": 15,
     "filmScore": 15,
     "totalScore": 50
+  },
+  {
+    "id": "246",
+    "rank": 113,
+    "stars": 1,
+    "firstName": "Reynan",
+    "lastName": "Siababa",
+    "school": "Mater Dei Catholic",
+    "position": "LB",
+    "classYear": 2027,
+    "height": "5'8\"",
+    "heightInches": 68,
+    "weight": 175,
+    "hudlLink": "https://www.hudl.com/v/2TZ3tR",
+    "xHandle": "@ReynanSiababa13",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-16T16:06:30.828Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
