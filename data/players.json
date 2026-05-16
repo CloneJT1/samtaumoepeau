@@ -5648,5 +5648,30 @@
     "productionScore": 15,
     "filmScore": 20,
     "totalScore": 63
+  },
+  {
+    "id": "243",
+    "rank": 110,
+    "stars": 1,
+    "firstName": "Chris",
+    "lastName": "Wilson",
+    "school": "Eastlake High School",
+    "position": "S",
+    "classYear": 2027,
+    "height": "5'6\"",
+    "heightInches": 66,
+    "weight": 165,
+    "hudlLink": "http://www.hudl.com/v/2TbqPK",
+    "xHandle": "@chriswilsonn_",
+    "gpa": 4.3,
+    "committed": false,
+    "committedTo": null,
+    "stats": "5 INTS\n40+ Tackles\n\nOffered to Ottawa University Arizona and Graceland University (Both NAIA)",
+    "approved": true,
+    "createdAt": "2026-05-16T05:43:24.789Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
