@@ -1858,7 +1858,7 @@
   },
   {
     "id": "86",
-    "rank": 107,
+    "rank": 108,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1883,7 +1883,7 @@
   },
   {
     "id": "87",
-    "rank": 110,
+    "rank": 111,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -4374,7 +4374,7 @@
   },
   {
     "id": "189",
-    "rank": 108,
+    "rank": 109,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Rodriguez",
@@ -4867,7 +4867,7 @@
   },
   {
     "id": "209",
-    "rank": 109,
+    "rank": 110,
     "stars": 1,
     "firstName": "Sayed Mehran",
     "lastName": "Nazimi",
@@ -5651,7 +5651,7 @@
   },
   {
     "id": "243",
-    "rank": 111,
+    "rank": 112,
     "stars": 1,
     "firstName": "Chris",
     "lastName": "Wilson",
@@ -5701,7 +5701,7 @@
   },
   {
     "id": "245",
-    "rank": 112,
+    "rank": 113,
     "stars": 1,
     "firstName": "Jayden",
     "lastName": "Cunningham",
@@ -5726,7 +5726,7 @@
   },
   {
     "id": "246",
-    "rank": 113,
+    "rank": 114,
     "stars": 1,
     "firstName": "Reynan",
     "lastName": "Siababa",
@@ -5773,5 +5773,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 60
+  },
+  {
+    "id": "248",
+    "rank": 107,
+    "stars": 1,
+    "firstName": "Jordan",
+    "lastName": "Fuga",
+    "school": "Mount Miguel",
+    "position": "DL",
+    "classYear": 2027,
+    "height": "5'10\"",
+    "heightInches": 70,
+    "weight": 220,
+    "hudlLink": "https://www.hudl.com/v/2Sjimz",
+    "xHandle": "@JFuga619",
+    "gpa": 3.2,
+    "committed": false,
+    "committedTo": null,
+    "stats": "All League Honorable Mention",
+    "approved": true,
+    "createdAt": "2026-05-16T16:14:27.605Z",
+    "sizeScore": 20,
+    "productionScore": 17,
+    "filmScore": 19,
+    "totalScore": 56
   }
 ]
