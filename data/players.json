@@ -1858,7 +1858,7 @@
   },
   {
     "id": "86",
-    "rank": 106,
+    "rank": 107,
     "stars": 1,
     "firstName": "Josiah",
     "lastName": "Rivera",
@@ -1883,7 +1883,7 @@
   },
   {
     "id": "87",
-    "rank": 109,
+    "rank": 110,
     "stars": 1,
     "firstName": "Walter",
     "lastName": "Ignacio",
@@ -2963,7 +2963,7 @@
   },
   {
     "id": "134",
-    "rank": 105,
+    "rank": 106,
     "stars": 2,
     "firstName": "AJ",
     "lastName": "Trudell",
@@ -3289,7 +3289,7 @@
   },
   {
     "id": "145",
-    "rank": 103,
+    "rank": 104,
     "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
@@ -4374,7 +4374,7 @@
   },
   {
     "id": "189",
-    "rank": 107,
+    "rank": 108,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Rodriguez",
@@ -4828,7 +4828,7 @@
     "weight": 160,
     "gpa": 4,
     "stars": 2,
-    "rank": 104,
+    "rank": 105,
     "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
@@ -4867,7 +4867,7 @@
   },
   {
     "id": "209",
-    "rank": 108,
+    "rank": 109,
     "stars": 1,
     "firstName": "Sayed Mehran",
     "lastName": "Nazimi",
@@ -5651,7 +5651,7 @@
   },
   {
     "id": "243",
-    "rank": 110,
+    "rank": 111,
     "stars": 1,
     "firstName": "Chris",
     "lastName": "Wilson",
@@ -5673,5 +5673,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 50
+  },
+  {
+    "id": "244",
+    "rank": 103,
+    "stars": 2,
+    "firstName": "Abdulhakam",
+    "lastName": "Abdallah",
+    "school": "Hoover Highschool",
+    "position": "ATH",
+    "classYear": 2027,
+    "height": "5'8\"",
+    "heightInches": 68,
+    "weight": 155,
+    "hudlLink": "https://www.hudl.com/v/2TNGTY",
+    "xHandle": "@4bDully",
+    "gpa": 3.2,
+    "committed": false,
+    "committedTo": null,
+    "stats": "66 REC/ 1018 YDS/ 7 TDs\n80 total tackles (56 solo 24 assist)",
+    "approved": true,
+    "createdAt": "2026-05-16T15:56:35.099Z",
+    "sizeScore": 10,
+    "productionScore": 25,
+    "filmScore": 23,
+    "totalScore": 58
   }
 ]
