@@ -41,6 +41,7 @@ const SCHOOLS = [
   'San Marcos',
   'San Pasqual',
   'Santa Fe Christian',
+  'Scripps Ranch',
   'Santana',
   'St. Augustine',
   'Steele Canyon',
