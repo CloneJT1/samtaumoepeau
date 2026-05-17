@@ -22,7 +22,6 @@ interface Submission {
   additionalInfo?: string;
   submitterName: string;
   submitterEmail: string;
-  additionalInfo?: string;
   status: string;
   scoreSize?: number;
   scoreProduction?: number;
