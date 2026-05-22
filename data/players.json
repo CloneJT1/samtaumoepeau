@@ -6215,5 +6215,30 @@
     "productionScore": 25,
     "filmScore": 22,
     "totalScore": 69
+  },
+  {
+    "id": "266",
+    "rank": 117,
+    "stars": 1,
+    "firstName": "David",
+    "lastName": "Munoz",
+    "school": "Mater Dei Catholic High school",
+    "position": "OL",
+    "classYear": 2027,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 245,
+    "hudlLink": "http://www.hudl.com/profile/19956446",
+    "xHandle": "@DavidMunoz2027",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-22T03:18:04.680Z",
+    "sizeScore": 10,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 50
   }
 ]
