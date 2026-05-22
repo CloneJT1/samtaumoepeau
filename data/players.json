@@ -3638,7 +3638,7 @@
   },
   {
     "id": "159",
-    "rank": 61,
+    "rank": 62,
     "stars": 1,
     "firstName": "Jordan",
     "lastName": "Salanoa",
@@ -3663,7 +3663,7 @@
   },
   {
     "id": "160",
-    "rank": 60,
+    "rank": 61,
     "stars": 1,
     "firstName": "Logan",
     "lastName": "Glover",
@@ -4620,7 +4620,7 @@
   },
   {
     "id": "199",
-    "rank": 62,
+    "rank": 63,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Wright",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "200",
-    "rank": 64,
+    "rank": 65,
     "stars": 1,
     "firstName": "Ford",
     "lastName": "Seymour",
@@ -4892,7 +4892,7 @@
   },
   {
     "id": "210",
-    "rank": 65,
+    "rank": 66,
     "stars": 1,
     "firstName": "Sam",
     "lastName": "Williford",
@@ -5140,7 +5140,7 @@
   },
   {
     "id": "220",
-    "rank": 63,
+    "rank": 64,
     "stars": 1,
     "firstName": "Andres",
     "lastName": "Suarez",
@@ -5801,7 +5801,7 @@
   },
   {
     "id": "249",
-    "rank": 66,
+    "rank": 67,
     "stars": 1,
     "firstName": "Chris",
     "lastName": "Sturm",
@@ -6165,5 +6165,30 @@
     "productionScore": 20,
     "filmScore": 27,
     "totalScore": 67
+  },
+  {
+    "id": "264",
+    "rank": 60,
+    "stars": 2,
+    "firstName": "Brody",
+    "lastName": "Bukich",
+    "school": "La Jolla High School",
+    "position": "QB",
+    "classYear": 2028,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 160,
+    "hudlLink": "http://www.hudl.com/profile/22488962",
+    "xHandle": "@brody_bukich10",
+    "gpa": 3.8,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-22T03:16:13.863Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 19,
+    "totalScore": 59
   }
 ]
