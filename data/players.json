@@ -3638,7 +3638,7 @@
   },
   {
     "id": "159",
-    "rank": 63,
+    "rank": 64,
     "stars": 1,
     "firstName": "Jordan",
     "lastName": "Salanoa",
@@ -4620,7 +4620,7 @@
   },
   {
     "id": "199",
-    "rank": 64,
+    "rank": 65,
     "stars": 1,
     "firstName": "Steven",
     "lastName": "Wright",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "200",
-    "rank": 66,
+    "rank": 67,
     "stars": 1,
     "firstName": "Ford",
     "lastName": "Seymour",
@@ -4892,7 +4892,7 @@
   },
   {
     "id": "210",
-    "rank": 67,
+    "rank": 68,
     "stars": 1,
     "firstName": "Sam",
     "lastName": "Williford",
@@ -5140,7 +5140,7 @@
   },
   {
     "id": "220",
-    "rank": 65,
+    "rank": 66,
     "stars": 1,
     "firstName": "Andres",
     "lastName": "Suarez",
@@ -5801,7 +5801,7 @@
   },
   {
     "id": "249",
-    "rank": 68,
+    "rank": 69,
     "stars": 1,
     "firstName": "Chris",
     "lastName": "Sturm",
@@ -6240,5 +6240,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 50
+  },
+  {
+    "id": "267",
+    "rank": 63,
+    "stars": 2,
+    "firstName": "Kamari",
+    "lastName": "Alfred",
+    "school": "Mater Dei Catholic",
+    "position": "ATH",
+    "classYear": 2028,
+    "height": "",
+    "heightInches": null,
+    "weight": null,
+    "hudlLink": "http://www.hudl.com/profile/23034635",
+    "xHandle": "@KamariAlfred",
+    "gpa": 3.4,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-22T03:25:28.702Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 17,
+    "totalScore": 57
   }
 ]
