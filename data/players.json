@@ -1263,7 +1263,7 @@
   },
   {
     "id": "65",
-    "rank": 9,
+    "rank": 10,
     "stars": 4,
     "firstName": "Kye",
     "lastName": "Cooper",
@@ -1311,7 +1311,7 @@
   },
   {
     "id": "59",
-    "rank": 11,
+    "rank": 12,
     "stars": 4,
     "firstName": "Delontay",
     "lastName": "Williams",
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "69",
-    "rank": 10,
+    "rank": 11,
     "stars": 4,
     "firstName": "Jeremy",
     "lastName": "Davis",
@@ -1705,12 +1705,12 @@
   },
   {
     "id": "78",
-    "rank": 12,
+    "rank": 9,
     "stars": 4,
     "firstName": "Travis",
     "lastName": "Jeffrey",
     "school": "Carlsbad",
-    "position": "WR/CB",
+    "position": "CB/ATH",
     "classYear": 2027,
     "height": "5'10\"",
     "heightInches": 70,
@@ -1724,8 +1724,8 @@
     "createdAt": "2026-03-28T00:00:00.000Z",
     "sizeScore": 30,
     "productionScore": 25,
-    "filmScore": 25,
-    "totalScore": 80
+    "filmScore": 27.5,
+    "totalScore": 82.5
   },
   {
     "id": "79",
