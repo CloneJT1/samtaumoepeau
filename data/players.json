@@ -6360,5 +6360,24 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-05-22"
+  },
+  {
+    "id": "273",
+    "firstName": "Henry",
+    "lastName": "Hauser",
+    "school": "Point Loma",
+    "position": "QB",
+    "classYear": 2026,
+    "height": "",
+    "weight": 0,
+    "gpa": 0,
+    "stars": 3,
+    "rank": null,
+    "xHandle": "@Henryheuserr",
+    "hudlLink": "https://www.hudl.com/profile/17943800",
+    "committed": true,
+    "committedTo": "Cal Lutheran",
+    "approved": true,
+    "createdAt": "2026-05-22"
   }
 ]
