@@ -6475,5 +6475,30 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-05-22"
+  },
+  {
+    "id": "275",
+    "firstName": "Sahir",
+    "lastName": "Castellon",
+    "school": "Steele Canyon",
+    "position": "DT",
+    "classYear": 2027,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 270,
+    "gpa": 3.2,
+    "stars": 2,
+    "rank": 122,
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60,
+    "xHandle": "@DtackleSahir",
+    "hudlLink": "http://www.hudl.com/v/2TJNWr",
+    "stats": "290 bench | 415 squat | 240 power clean",
+    "committed": false,
+    "committedTo": "",
+    "approved": true,
+    "createdAt": "2026-05-23"
   }
 ]
