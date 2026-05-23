@@ -3635,7 +3635,7 @@
   {
     "id": "156",
     "rank": 55,
-    "stars": 2,
+    "stars": 3,
     "firstName": "Niko",
     "lastName": "Williams Jr",
     "school": "Granite Hills",
@@ -3654,8 +3654,8 @@
     "createdAt": "2026-04-25T17:23:27.498Z",
     "sizeScore": 28,
     "productionScore": 20,
-    "filmScore": 12,
-    "totalScore": 60
+    "filmScore": 18,
+    "totalScore": 66
   },
   {
     "id": "157",
