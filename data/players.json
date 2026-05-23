@@ -6521,10 +6521,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-23T16:15:26.539Z",
-    "sizeScore": 30,
+    "sizeScore": 21,
     "productionScore": 20,
     "filmScore": 10,
-    "totalScore": 60
+    "totalScore": 61
   },
   {
     "id": "277",
