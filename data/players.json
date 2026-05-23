@@ -20,7 +20,8 @@
     "offers": [
       "Arizona"
     ],
-    "xHandle": "@NathanAllen74"
+    "xHandle": "@NathanAllen74",
+    "totalScore": 0
   },
   {
     "id": "40",
@@ -40,7 +41,8 @@
     "approved": true,
     "createdAt": "2026-03-20",
     "xHandle": "@_treyarnold_",
-    "committedTo": "New Mexico State"
+    "committedTo": "New Mexico State",
+    "totalScore": 0
   },
   {
     "id": "4",
@@ -63,7 +65,8 @@
     "offers": [
       "Texas A&M"
     ],
-    "xHandle": "@brandonjubie2"
+    "xHandle": "@brandonjubie2",
+    "totalScore": 0
   },
   {
     "id": "44",
@@ -86,7 +89,8 @@
     "ncaaId": "",
     "notes": "",
     "featured": false,
-    "approved": true
+    "approved": true,
+    "totalScore": 0
   },
   {
     "id": "37",
@@ -108,7 +112,8 @@
     "committedTo": "Boise State",
     "offers": [
       "Boise State"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "32",
@@ -127,7 +132,8 @@
     "stats": "91 rec | 928 yds | 7 TDs (Sr.) | 1,632 career rec yds | 17 career TDs",
     "approved": true,
     "createdAt": "2026-03-20",
-    "committedTo": "Southern Connecticut State"
+    "committedTo": "Southern Connecticut State",
+    "totalScore": 0
   },
   {
     "id": "36",
@@ -149,7 +155,8 @@
     "committedTo": "Texas",
     "offers": [
       "Texas"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "22",
@@ -171,7 +178,8 @@
     "committedTo": "Utah Tech",
     "offers": [
       "Utah Tech"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "33",
@@ -190,7 +198,8 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-19",
-    "xHandle": "@DemaraQuentyn"
+    "xHandle": "@DemaraQuentyn",
+    "totalScore": 0
   },
   {
     "id": "35",
@@ -209,7 +218,8 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-19",
-    "xHandle": "@RocketDemery"
+    "xHandle": "@RocketDemery",
+    "totalScore": 0
   },
   {
     "id": "9",
@@ -232,7 +242,8 @@
     "offers": [
       "USC"
     ],
-    "xHandle": "@ChaseDeniz2026"
+    "xHandle": "@ChaseDeniz2026",
+    "totalScore": 0
   },
   {
     "id": "7",
@@ -254,7 +265,8 @@
     "committedTo": "San Diego State",
     "offers": [
       "San Diego State"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "2",
@@ -276,7 +288,8 @@
     "committedTo": "Air Force",
     "offers": [
       "Air Force"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "17",
@@ -299,7 +312,8 @@
     "offers": [
       "Boise State"
     ],
-    "xHandle": "@Valley_sua"
+    "xHandle": "@Valley_sua",
+    "totalScore": 0
   },
   {
     "id": "15",
@@ -322,7 +336,8 @@
     "offers": [
       "California"
     ],
-    "xHandle": "@FatzoFanua"
+    "xHandle": "@FatzoFanua",
+    "totalScore": 0
   },
   {
     "id": "21",
@@ -344,7 +359,8 @@
     "committedTo": "Colgate",
     "offers": [
       "Colgate"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "20",
@@ -367,7 +383,8 @@
     "offers": [
       "UNLV"
     ],
-    "xHandle": "@JMGII2026"
+    "xHandle": "@JMGII2026",
+    "totalScore": 0
   },
   {
     "id": "38",
@@ -386,7 +403,8 @@
     "stats": "2,303 rush yds | 30 TDs | 3,434 AP yds (Sr.) | 3,963 career rush yds | 41 career TDs",
     "approved": true,
     "createdAt": "2026-03-20",
-    "xHandle": "@SuperiorGarror"
+    "xHandle": "@SuperiorGarror",
+    "totalScore": 0
   },
   {
     "id": "51",
@@ -409,7 +427,8 @@
     "ncaaId": "",
     "notes": "",
     "featured": false,
-    "approved": true
+    "approved": true,
+    "totalScore": 0
   },
   {
     "id": "10",
@@ -431,7 +450,8 @@
     "committedTo": "UC Davis",
     "offers": [
       "UC Davis"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "8",
@@ -454,7 +474,8 @@
     "offers": [
       "Boise State"
     ],
-    "xHandle": "@CashHerrera_1"
+    "xHandle": "@CashHerrera_1",
+    "totalScore": 0
   },
   {
     "id": "41",
@@ -477,7 +498,8 @@
     "offers": [
       "Virginia Tech"
     ],
-    "xHandle": "@Troyhuhn"
+    "xHandle": "@Troyhuhn",
+    "totalScore": 0
   },
   {
     "id": "29",
@@ -496,7 +518,8 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-19",
-    "xHandle": "@parker6johnson"
+    "xHandle": "@parker6johnson",
+    "totalScore": 0
   },
   {
     "id": "5",
@@ -519,7 +542,8 @@
     "offers": [
       "San Jose State"
     ],
-    "xHandle": "@boogied0wn"
+    "xHandle": "@boogied0wn",
+    "totalScore": 0
   },
   {
     "id": "49",
@@ -542,7 +566,8 @@
     "ncaaId": "",
     "notes": "",
     "featured": false,
-    "approved": true
+    "approved": true,
+    "totalScore": 0
   },
   {
     "id": "1",
@@ -564,7 +589,8 @@
     "committedTo": "Boise State",
     "offers": [
       "Boise State"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "13",
@@ -587,7 +613,8 @@
     "offers": [
       "Cornell"
     ],
-    "xHandle": "@EliMacNeal"
+    "xHandle": "@EliMacNeal",
+    "totalScore": 0
   },
   {
     "id": "18",
@@ -606,7 +633,8 @@
     "stats": "42 rec | 903 yds | 10 TDs (Sr.) | 1,691 career rec yds | 18 career TDs | 4.58 40-yd",
     "approved": true,
     "createdAt": "2026-03-20",
-    "xHandle": "@JacksonMaggiore"
+    "xHandle": "@JacksonMaggiore",
+    "totalScore": 0
   },
   {
     "id": "23",
@@ -625,7 +653,8 @@
     "stats": "9,883 career yards | 3,452 pass yds (Jr.) | 2,112 pass yds (Sr.)",
     "approved": true,
     "createdAt": "2026-03-20",
-    "xHandle": "@kreet_makihele"
+    "xHandle": "@kreet_makihele",
+    "totalScore": 0
   },
   {
     "id": "19",
@@ -647,7 +676,8 @@
     "committedTo": "CSU Pueblo",
     "offers": [
       "CSU Pueblo"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "24",
@@ -669,7 +699,8 @@
     "committedTo": "Army",
     "offers": [
       "Army"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "3",
@@ -692,7 +723,8 @@
     "offers": [
       "Minnesota"
     ],
-    "xHandle": "@bradypalmerqb"
+    "xHandle": "@bradypalmerqb",
+    "totalScore": 0
   },
   {
     "id": "52",
@@ -715,7 +747,8 @@
     "ncaaId": "",
     "notes": "",
     "featured": false,
-    "approved": true
+    "approved": true,
+    "totalScore": 0
   },
   {
     "id": "6",
@@ -738,7 +771,8 @@
     "offers": [
       "San Diego State"
     ],
-    "xHandle": "@CammPurnell3"
+    "xHandle": "@CammPurnell3",
+    "totalScore": 0
   },
   {
     "id": "43",
@@ -760,7 +794,8 @@
     "committedTo": "University of San Diego",
     "offers": [
       "University of San Diego"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "47",
@@ -784,7 +819,8 @@
     "notes": "Twin brother of Zamar Reese",
     "featured": false,
     "approved": true,
-    "xHandle": "@JudahReeseTwin1"
+    "xHandle": "@JudahReeseTwin1",
+    "totalScore": 0
   },
   {
     "id": "48",
@@ -807,7 +843,8 @@
     "ncaaId": "",
     "notes": "",
     "featured": false,
-    "approved": true
+    "approved": true,
+    "totalScore": 0
   },
   {
     "id": "34",
@@ -829,7 +866,8 @@
     "committedTo": "College of San Mateo",
     "offers": [
       "College of San Mateo"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "25",
@@ -851,7 +889,8 @@
     "committedTo": "Idaho",
     "offers": [
       "Idaho"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "39",
@@ -874,7 +913,8 @@
     "offers": [
       "UC Davis"
     ],
-    "xHandle": "@TrevTaumoepeau"
+    "xHandle": "@TrevTaumoepeau",
+    "totalScore": 0
   },
   {
     "id": "31",
@@ -896,7 +936,8 @@
     "committedTo": "Oregon",
     "offers": [
       "Oregon"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "14",
@@ -918,7 +959,8 @@
     "committedTo": "Washington",
     "offers": [
       "Washington"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "42",
@@ -937,7 +979,8 @@
     "stats": "101 tackles | 11 TFLs | 6 sacks | 2 INTs",
     "approved": true,
     "createdAt": "2026-03-20",
-    "xHandle": "@TrollingerVili"
+    "xHandle": "@TrollingerVili",
+    "totalScore": 0
   },
   {
     "id": "50",
@@ -960,7 +1003,8 @@
     "ncaaId": "2502512656",
     "notes": "",
     "featured": false,
-    "approved": true
+    "approved": true,
+    "totalScore": 0
   },
   {
     "id": "16",
@@ -979,7 +1023,8 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-20",
-    "xHandle": "@gavinvalencia_3"
+    "xHandle": "@gavinvalencia_3",
+    "totalScore": 0
   },
   {
     "id": "30",
@@ -1001,7 +1046,8 @@
     "committedTo": "San Jose State",
     "offers": [
       "San Jose State"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "11",
@@ -1023,7 +1069,8 @@
     "committedTo": "Nevada",
     "offers": [
       "Nevada"
-    ]
+    ],
+    "totalScore": 0
   },
   {
     "id": "28",
@@ -1042,7 +1089,8 @@
     "stats": "69 rec | 1,314 yds | 16 TDs | 93.9 Y/G | CA All-State 1st Team",
     "approved": true,
     "createdAt": "2026-03-20",
-    "xHandle": "@noahwalker619"
+    "xHandle": "@noahwalker619",
+    "totalScore": 0
   },
   {
     "id": "12",
@@ -1061,7 +1109,8 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-19",
-    "xHandle": "@Djwilkins11"
+    "xHandle": "@Djwilkins11",
+    "totalScore": 0
   },
   {
     "id": "26",
@@ -1084,7 +1133,8 @@
     "offers": [
       "UC Davis"
     ],
-    "xHandle": "@Lucas_Winkler57"
+    "xHandle": "@Lucas_Winkler57",
+    "totalScore": 0
   },
   {
     "id": "53",
@@ -1232,8 +1282,8 @@
     "offers": [],
     "sizeScore": 30,
     "productionScore": 30,
-    "filmScore": 22.5,
-    "totalScore": 82.5
+    "filmScore": 22,
+    "totalScore": 82
   },
   {
     "id": "57",
@@ -1262,7 +1312,7 @@
   {
     "id": "59",
     "rank": 17,
-    "stars": 3,
+    "stars": 4,
     "firstName": "Delontay",
     "lastName": "Williams",
     "school": "San Diego",
@@ -1278,10 +1328,10 @@
     "createdAt": "2026-03-22",
     "xHandle": "@DelontayW1",
     "offers": [],
-    "sizeScore": 28,
+    "sizeScore": 32,
     "productionScore": 25,
     "filmScore": 24,
-    "totalScore": 77
+    "totalScore": 81
   },
   {
     "id": "62",
@@ -1377,8 +1427,8 @@
     "offers": [],
     "sizeScore": 25,
     "productionScore": 25,
-    "filmScore": 20,
-    "totalScore": 70
+    "filmScore": 21,
+    "totalScore": 71
   },
   {
     "id": "64",
@@ -1426,8 +1476,8 @@
     "maxPrepsLink": "https://www.maxpreps.com/ca/solana-beach/santa-fe-christian-eagles/athletes/dax-labrum/football/stats/?careerid=o8lmngsii7644",
     "sizeScore": 30,
     "productionScore": 22,
-    "filmScore": 21,
-    "totalScore": 73,
+    "filmScore": 24,
+    "totalScore": 76,
     "committedTo": "Cornell"
   },
   {
@@ -1450,9 +1500,9 @@
     "xHandle": "@KalebRunkle",
     "offers": [],
     "sizeScore": 20,
-    "productionScore": 25.5,
+    "productionScore": 25,
     "filmScore": 24,
-    "totalScore": 69.5
+    "totalScore": 69
   },
   {
     "id": "68",
@@ -1550,8 +1600,8 @@
     "createdAt": "2026-03-25T00:00:00.000Z",
     "sizeScore": 25,
     "productionScore": 25,
-    "filmScore": 23,
-    "totalScore": 73
+    "filmScore": 25,
+    "totalScore": 75
   },
   {
     "id": "72",
@@ -1650,8 +1700,8 @@
     "createdAt": "2026-03-27T04:51:25.806Z",
     "sizeScore": 28,
     "productionScore": 22,
-    "filmScore": 18,
-    "totalScore": 68
+    "filmScore": 22,
+    "totalScore": 72
   },
   {
     "id": "78",
@@ -1834,7 +1884,7 @@
   {
     "id": "85",
     "rank": 15,
-    "stars": 3,
+    "stars": 4,
     "firstName": "Jackson",
     "lastName": "Fader",
     "school": "Mission Hills",
@@ -1851,10 +1901,10 @@
     "stats": "2025 2nd team All CIF, 2025  1st Team All Avocado League,2024 2nd Team All Avocado League, 2 time open division semi finalist. Allowed 1 Sack in 2025.\nWill be playing on both sides of the ball in 2026.",
     "approved": true,
     "createdAt": "2026-04-04T04:40:37.113Z",
-    "sizeScore": 28,
+    "sizeScore": 29,
     "productionScore": 25,
-    "filmScore": 25,
-    "totalScore": 78
+    "filmScore": 26,
+    "totalScore": 80
   },
   {
     "id": "86",
@@ -1942,8 +1992,8 @@
     "rank": 5,
     "sizeScore": 40,
     "productionScore": 20,
-    "filmScore": 20,
-    "totalScore": 80,
+    "filmScore": 22,
+    "totalScore": 82,
     "xHandle": "@jayjohnson_28",
     "hudlLink": "https://www.hudl.com/v/2Tk6ek",
     "committed": false,
@@ -2192,8 +2242,8 @@
     "rank": 29,
     "sizeScore": 27,
     "productionScore": 22,
-    "filmScore": 24.5,
-    "totalScore": 73.5,
+    "filmScore": 24,
+    "totalScore": 73,
     "xHandle": "@dane_larson27",
     "hudlLink": "https://www.hudl.com/v/2TMaFL",
     "maxPrepsLink": "https://www.maxpreps.com/ca/la-jolla/bishops-knights/athletes/dane-larson/football/stats/?careerid=7iha34m2ldsff",
@@ -2263,8 +2313,8 @@
     "rank": 20,
     "sizeScore": 25,
     "productionScore": 23,
-    "filmScore": 20.5,
-    "totalScore": 68.5,
+    "filmScore": 20,
+    "totalScore": 68,
     "xHandle": "@SjPoumele",
     "hudlLink": "https://www.hudl.com/v/2R8aUU",
     "maxPrepsLink": "https://www.maxpreps.com/ca/oceanside/oceanside-pirates/athletes/sj-poumele/football/stats/?careerid=pdgkjka3rpq55",
@@ -2283,7 +2333,7 @@
     "heightInches": 78,
     "weight": 230,
     "gpa": 4.2,
-    "stars": 3,
+    "stars": 4,
     "rank": 12,
     "sizeScore": 35,
     "productionScore": 25,
@@ -2400,9 +2450,9 @@
     "stars": 3,
     "rank": 17,
     "sizeScore": 30,
-    "productionScore": 19.5,
+    "productionScore": 19,
     "filmScore": 20,
-    "totalScore": 69.5,
+    "totalScore": 69,
     "xHandle": "@BEilerts2028",
     "hudlLink": "https://www.hudl.com/v/2TEdk0",
     "committed": false,
@@ -2926,10 +2976,10 @@
     "gpa": 3.8,
     "stars": 3,
     "rank": 37,
-    "sizeScore": 22,
+    "sizeScore": 25,
     "productionScore": 25,
     "filmScore": 25,
-    "totalScore": 72,
+    "totalScore": 75,
     "xHandle": "@noah11auifi",
     "hudlLink": "http://www.hudl.com/v/2T5LiV",
     "committed": false,
@@ -3009,7 +3059,10 @@
     "totalScore": 85,
     "stats": null,
     "approved": true,
-    "createdAt": "2026-04-18"
+    "createdAt": "2026-04-18",
+    "sizeScore": 35,
+    "productionScore": 25,
+    "filmScore": 25
   },
   {
     "id": "136",
@@ -3035,7 +3088,10 @@
     "totalScore": 60,
     "stats": null,
     "approved": true,
-    "createdAt": "2026-04-18"
+    "createdAt": "2026-04-18",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20
   },
   {
     "id": "137",
@@ -3061,7 +3117,10 @@
     "totalScore": 61,
     "stats": null,
     "approved": true,
-    "createdAt": "2026-04-18"
+    "createdAt": "2026-04-18",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 21
   },
   {
     "id": "138",
@@ -3086,7 +3145,10 @@
     "totalScore": 67,
     "stats": null,
     "approved": true,
-    "createdAt": "2026-04-18"
+    "createdAt": "2026-04-18",
+    "sizeScore": 25,
+    "productionScore": 21,
+    "filmScore": 21
   },
   {
     "id": "139",
@@ -3112,7 +3174,10 @@
     "totalScore": 67,
     "stats": null,
     "approved": true,
-    "createdAt": "2026-04-18"
+    "createdAt": "2026-04-18",
+    "sizeScore": 25,
+    "productionScore": 21,
+    "filmScore": 21
   },
   {
     "id": "140",
@@ -3137,7 +3202,10 @@
     "totalScore": 67,
     "stats": null,
     "approved": true,
-    "createdAt": "2026-04-18"
+    "createdAt": "2026-04-18",
+    "sizeScore": 20,
+    "productionScore": 25,
+    "filmScore": 22
   },
   {
     "id": "141",
@@ -3212,7 +3280,10 @@
     "totalScore": 70,
     "stats": null,
     "approved": true,
-    "createdAt": "2026-04-19"
+    "createdAt": "2026-04-19",
+    "sizeScore": 30,
+    "productionScore": 20,
+    "filmScore": 20
   },
   {
     "id": "143",
@@ -3290,7 +3361,7 @@
   {
     "id": "145",
     "rank": 112,
-    "stars": 2,
+    "stars": 1,
     "firstName": "Ethan",
     "lastName": "Miller",
     "school": "Santana",
@@ -3539,7 +3610,7 @@
   {
     "id": "155",
     "rank": 4,
-    "stars": 4,
+    "stars": 5,
     "firstName": "Kiti",
     "lastName": "Fuga",
     "school": "Mount Miguel",
@@ -3556,10 +3627,10 @@
     "stats": "D1 Offer from Oregon State. \n\nTop 50 in CA State for OLine on CalPreps.",
     "approved": true,
     "createdAt": "2026-04-25T17:12:25.766Z",
-    "sizeScore": 30,
-    "productionScore": 25,
-    "filmScore": 26,
-    "totalScore": 81
+    "sizeScore": 35,
+    "productionScore": 28,
+    "filmScore": 28,
+    "totalScore": 91
   },
   {
     "id": "156",
@@ -3797,10 +3868,10 @@
     "gpa": 3.5,
     "stars": 4,
     "rank": 9,
-    "sizeScore": 26,
+    "sizeScore": 29,
     "productionScore": 27,
     "filmScore": 27,
-    "totalScore": 80,
+    "totalScore": 83,
     "xHandle": "@Tmarrionwill5",
     "hudlLink": "https://www.hudl.com/video/3/27113703/69bdc80abf7dc0be47758cea",
     "stats": "424 rec yds | 8 TDs | 18.44 YPR | 1 INT | MaxPreps freshman season",
@@ -3992,8 +4063,8 @@
     "rank": 31,
     "sizeScore": 30,
     "productionScore": 20,
-    "filmScore": 15.5,
-    "totalScore": 65.5,
+    "filmScore": 15,
+    "totalScore": 65,
     "xHandle": "@VanPiercy4",
     "committed": false,
     "committedTo": "",
@@ -4227,7 +4298,7 @@
   {
     "id": "184",
     "rank": 109,
-    "stars": 2,
+    "stars": 1,
     "firstName": "Gabriel",
     "lastName": "Wolf",
     "school": "El Capitan",
@@ -4350,7 +4421,7 @@
   {
     "id": "189",
     "rank": 114,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Steven",
     "lastName": "Rodriguez",
     "school": "Madison",
@@ -4367,10 +4438,10 @@
     "stats": "first team defense, DL of the year, 3 year varsity player\n11.92 100m track\n24.74 200m",
     "approved": true,
     "createdAt": "2026-04-29T05:05:03.681Z",
-    "sizeScore": 20,
-    "productionScore": 20,
-    "filmScore": 15,
-    "totalScore": 55
+    "sizeScore": 21,
+    "productionScore": 21,
+    "filmScore": 20,
+    "totalScore": 62
   },
   {
     "id": "190",
@@ -4485,8 +4556,8 @@
     "rank": 23,
     "sizeScore": 25,
     "productionScore": 25,
-    "filmScore": 25.5,
-    "totalScore": 75.5,
+    "filmScore": 25,
+    "totalScore": 75,
     "xHandle": "@Nico_Bardaro",
     "hudlLink": "http://www.hudl.com/v/2THqr5",
     "committed": false,
@@ -5104,8 +5175,8 @@
     "rank": 26,
     "sizeScore": 30,
     "productionScore": 25,
-    "filmScore": 19.5,
-    "totalScore": 74.5,
+    "filmScore": 19,
+    "totalScore": 74,
     "xHandle": "@jordan_J13_",
     "hudlLink": "https://www.hudl.com/video/3/26107578/692e69c7cd06d6b43c36452d",
     "committed": false,
@@ -5249,8 +5320,8 @@
     "rank": 42,
     "sizeScore": 30,
     "productionScore": 20,
-    "filmScore": 21.5,
-    "totalScore": 71.5,
+    "filmScore": 21,
+    "totalScore": 71,
     "xHandle": "@Jordan_Lilo09",
     "hudlLink": "http://www.hudl.com/v/2TsHKg",
     "committed": false,
@@ -5652,7 +5723,7 @@
   {
     "id": "244",
     "rank": 110,
-    "stars": 2,
+    "stars": 1,
     "firstName": "Abdulhakam",
     "lastName": "Abdallah",
     "school": "Hoover",
@@ -6144,7 +6215,7 @@
   {
     "id": "264",
     "rank": 61,
-    "stars": 2,
+    "stars": 1,
     "firstName": "Brody",
     "lastName": "Bukich",
     "school": "La Jolla",
@@ -6219,7 +6290,7 @@
   {
     "id": "267",
     "rank": 63,
-    "stars": 2,
+    "stars": 1,
     "firstName": "Kamari",
     "lastName": "Alfred",
     "school": "Mater Dei Catholic",
@@ -6326,10 +6397,10 @@
     "gpa": 3.7,
     "stars": 4,
     "rank": 8,
-    "sizeScore": 30,
-    "productionScore": 25,
-    "filmScore": 26,
-    "totalScore": 81,
+    "sizeScore": 32,
+    "productionScore": 27,
+    "filmScore": 27,
+    "totalScore": 86,
     "xHandle": "@CalebW2029",
     "hudlLink": "https://x.com/ChrisWilli76653/status/1992426553263943988",
     "committed": false,
