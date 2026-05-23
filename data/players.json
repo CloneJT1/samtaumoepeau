@@ -6336,5 +6336,29 @@
     "committedTo": "",
     "approved": true,
     "createdAt": "2026-05-21"
+  },
+  {
+    "id": "272",
+    "firstName": "Kingston",
+    "lastName": "Filo",
+    "school": "El Camino",
+    "position": "LB",
+    "classYear": 2026,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 220,
+    "gpa": 3.8,
+    "stars": 4,
+    "rank": null,
+    "sizeScore": 28,
+    "productionScore": 28,
+    "filmScore": 26,
+    "totalScore": 82,
+    "xHandle": "@KingstonFilo",
+    "hudlLink": "",
+    "committed": false,
+    "committedTo": "",
+    "approved": true,
+    "createdAt": "2026-05-22"
   }
 ]
