@@ -6550,5 +6550,30 @@
     "productionScore": 15,
     "filmScore": 15,
     "totalScore": 50
+  },
+  {
+    "id": "278",
+    "rank": 70,
+    "stars": 1,
+    "firstName": "Xavier",
+    "lastName": "Vitela",
+    "school": "Mater Dei Catholic High School",
+    "position": "ATH",
+    "classYear": 2028,
+    "height": "6'0\"",
+    "heightInches": 72,
+    "weight": 180,
+    "hudlLink": "http://www.hudl.com/profile/20941561",
+    "xHandle": "@Xavier_Vitela",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-23T17:49:40.094Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 16,
+    "totalScore": 56
   }
 ]
