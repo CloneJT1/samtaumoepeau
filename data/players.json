@@ -1909,7 +1909,7 @@
   {
     "id": "86",
     "rank": 113,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Josiah",
     "lastName": "Rivera",
     "school": "Olympian",
@@ -1926,15 +1926,15 @@
     "stats": "First Team All Metro Mesa League; Daygo Football Defensive player of the week (2025)",
     "approved": true,
     "createdAt": "2026-04-04T04:42:04.096Z",
-    "sizeScore": 20,
+    "sizeScore": 25,
     "productionScore": 15,
     "filmScore": 20,
-    "totalScore": 55
+    "totalScore": 60
   },
   {
     "id": "87",
     "rank": 116,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Walter",
     "lastName": "Ignacio",
     "school": "Olympian",
@@ -1951,10 +1951,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-04-04T04:49:24.494Z",
-    "sizeScore": 28,
+    "sizeScore": 35,
     "productionScore": 10,
     "filmScore": 15,
-    "totalScore": 53
+    "totalScore": 60
   },
   {
     "id": "88",
@@ -2834,11 +2834,11 @@
     "heightInches": 71,
     "weight": 220,
     "gpa": 4.6,
-    "sizeScore": 20,
+    "sizeScore": 21,
     "productionScore": 20,
     "filmScore": 19,
-    "totalScore": 59,
-    "stars": 1,
+    "totalScore": 60,
+    "stars": 2,
     "xHandle": "@Nehem1ahaust1n",
     "id": "126",
     "rank": 60,
@@ -3361,7 +3361,7 @@
   {
     "id": "145",
     "rank": 112,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Ethan",
     "lastName": "Miller",
     "school": "Santana",
@@ -3378,10 +3378,10 @@
     "stats": "Junior Season:\n6 Games\n11Tds\n1073yds\n103/158 (65%)\n90 QB rating\n\nPro-Style, Much D2 interest, 3rd year varsity starter.",
     "approved": true,
     "createdAt": "2026-04-21T04:51:54.338Z",
-    "sizeScore": 20,
+    "sizeScore": 23,
     "productionScore": 17,
     "filmScore": 20,
-    "totalScore": 57
+    "totalScore": 60
   },
   {
     "id": "146",
@@ -3710,7 +3710,7 @@
   {
     "id": "159",
     "rank": 64,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Jordan",
     "lastName": "Salanoa",
     "school": "Oceanside",
@@ -3727,15 +3727,15 @@
     "stats": "9 touchdowns \n700 yards \n1 Forced Fumble 1 Fumble Recovery \nOffensive player of the year (played on Jv)class of 2028.play both Running Back /Outside Linebacker",
     "approved": true,
     "createdAt": "2026-04-25T18:51:16.656Z",
-    "sizeScore": 15,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 55
+    "totalScore": 60
   },
   {
     "id": "160",
     "rank": 62,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Logan",
     "lastName": "Glover",
     "school": "Poway",
@@ -3752,10 +3752,10 @@
     "stats": "I also play LB",
     "approved": true,
     "createdAt": "2026-04-25T18:51:51.709Z",
-    "sizeScore": 28,
+    "sizeScore": 30,
     "productionScore": 15,
     "filmScore": 15,
-    "totalScore": 58
+    "totalScore": 60
   },
   {
     "id": "161",
@@ -4149,7 +4149,7 @@
   {
     "id": "178",
     "rank": 26,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Caden",
     "lastName": "Bessler",
     "school": "La Jolla Country Day",
@@ -4166,15 +4166,15 @@
     "stats": "Daygo football top freshman defensive players on varsity \n\n(Got hurt after first 5 games)",
     "approved": true,
     "createdAt": "2026-04-27T04:04:53.102Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "179",
     "rank": 27,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Brody",
     "lastName": "Berman",
     "school": "Mission Hills",
@@ -4191,10 +4191,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-04-27T04:07:10.915Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "180",
@@ -4298,7 +4298,7 @@
   {
     "id": "184",
     "rank": 109,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Gabriel",
     "lastName": "Wolf",
     "school": "El Capitan",
@@ -4315,10 +4315,10 @@
     "stats": "2x linemen of the week",
     "approved": true,
     "createdAt": "2026-04-28T04:54:00.158Z",
-    "sizeScore": 28,
+    "sizeScore": 30,
     "productionScore": 15,
     "filmScore": 15,
-    "totalScore": 58
+    "totalScore": 60
   },
   {
     "id": "185",
@@ -4667,7 +4667,7 @@
   {
     "id": "199",
     "rank": 65,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Steven",
     "lastName": "Wright",
     "school": "Mira Mesa",
@@ -4684,15 +4684,15 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-02T16:31:12.939Z",
-    "sizeScore": 28,
+    "sizeScore": 35,
     "productionScore": 15,
     "filmScore": 10,
-    "totalScore": 53
+    "totalScore": 60
   },
   {
     "id": "200",
     "rank": 67,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Ford",
     "lastName": "Seymour",
     "school": "El Capitan",
@@ -4709,10 +4709,10 @@
     "stats": "8.5 Sacks, 64 Tackles, 1 INT, DPOY",
     "approved": true,
     "createdAt": "2026-05-02T16:34:10.421Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "201",
@@ -4914,7 +4914,7 @@
   {
     "id": "209",
     "rank": 115,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Sayed Mehran",
     "lastName": "Nazimi",
     "school": "Mission Hills",
@@ -4931,15 +4931,15 @@
     "stats": "Bench:345, Squat: 480, Power Clean: 280, 40yard dash 4.68",
     "approved": true,
     "createdAt": "2026-05-03T04:48:50.973Z",
-    "sizeScore": 20,
+    "sizeScore": 25,
     "productionScore": 20,
     "filmScore": 15,
-    "totalScore": 55
+    "totalScore": 60
   },
   {
     "id": "210",
     "rank": 68,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Sam",
     "lastName": "Williford",
     "school": "Granite Hills",
@@ -4956,10 +4956,10 @@
     "stats": "Allowed 0 sacks my first 2 years",
     "approved": true,
     "createdAt": "2026-05-03T04:53:24.774Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 10,
     "filmScore": 30,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "211",
@@ -5114,7 +5114,7 @@
   {
     "id": "217",
     "rank": 28,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Khyree",
     "lastName": "Shannon",
     "school": "Clairemont",
@@ -5131,10 +5131,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-08T03:41:05.582Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "218",
@@ -5187,7 +5187,7 @@
   {
     "id": "220",
     "rank": 66,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Andres",
     "lastName": "Suarez",
     "school": "Mater Dei Catholic",
@@ -5204,10 +5204,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-09T15:43:12.592Z",
-    "sizeScore": 28,
+    "sizeScore": 35,
     "productionScore": 15,
     "filmScore": 10,
-    "totalScore": 53
+    "totalScore": 60
   },
   {
     "id": "221",
@@ -5698,7 +5698,7 @@
   {
     "id": "243",
     "rank": 117,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Chris",
     "lastName": "Wilson",
     "school": "Eastlake",
@@ -5715,15 +5715,15 @@
     "stats": "5 INTS\n40+ Tackles\n\nOffered to Ottawa University Arizona and Graceland University (Both NAIA)",
     "approved": true,
     "createdAt": "2026-05-16T05:43:24.789Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "244",
     "rank": 110,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Abdulhakam",
     "lastName": "Abdallah",
     "school": "Hoover",
@@ -5740,15 +5740,15 @@
     "stats": "66 REC/ 1018 YDS/ 7 TDs\n80 total tackles (56 solo 24 assist)",
     "approved": true,
     "createdAt": "2026-05-16T15:56:35.099Z",
-    "sizeScore": 10,
+    "sizeScore": 12,
     "productionScore": 25,
     "filmScore": 23,
-    "totalScore": 58
+    "totalScore": 60
   },
   {
     "id": "245",
     "rank": 118,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Jayden",
     "lastName": "Cunningham",
     "school": "Hoover",
@@ -5765,15 +5765,15 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-16T16:04:44.961Z",
-    "sizeScore": 20,
+    "sizeScore": 30,
     "productionScore": 15,
     "filmScore": 15,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "246",
     "rank": 119,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Reynan",
     "lastName": "Siababa",
     "school": "Mater Dei Catholic",
@@ -5790,10 +5790,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-16T16:06:30.828Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "247",
@@ -5848,7 +5848,7 @@
   {
     "id": "249",
     "rank": 69,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Chris",
     "lastName": "Sturm",
     "school": "Coronado High School",
@@ -5865,10 +5865,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-16T16:17:32.539Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "250",
@@ -6215,7 +6215,7 @@
   {
     "id": "264",
     "rank": 61,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Brody",
     "lastName": "Bukich",
     "school": "La Jolla",
@@ -6232,10 +6232,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-22T03:16:13.863Z",
-    "sizeScore": 20,
+    "sizeScore": 21,
     "productionScore": 20,
     "filmScore": 19,
-    "totalScore": 59
+    "totalScore": 60
   },
   {
     "id": "265",
@@ -6265,7 +6265,7 @@
   {
     "id": "266",
     "rank": 120,
-    "stars": 1,
+    "stars": 2,
     "firstName": "David",
     "lastName": "Munoz",
     "school": "Mater Dei Catholic",
@@ -6282,15 +6282,15 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-22T03:18:04.680Z",
-    "sizeScore": 10,
+    "sizeScore": 20,
     "productionScore": 20,
     "filmScore": 20,
-    "totalScore": 50
+    "totalScore": 60
   },
   {
     "id": "267",
     "rank": 63,
-    "stars": 1,
+    "stars": 2,
     "firstName": "Kamari",
     "lastName": "Alfred",
     "school": "Mater Dei Catholic",
@@ -6307,10 +6307,10 @@
     "stats": null,
     "approved": true,
     "createdAt": "2026-05-22T03:25:28.702Z",
-    "sizeScore": 20,
+    "sizeScore": 23,
     "productionScore": 20,
     "filmScore": 17,
-    "totalScore": 57
+    "totalScore": 60
   },
   {
     "id": "268",
@@ -6323,12 +6323,12 @@
     "heightInches": 70,
     "weight": 170,
     "gpa": 0,
-    "stars": 1,
+    "stars": 2,
     "rank": 111,
-    "sizeScore": 20,
+    "sizeScore": 22,
     "productionScore": 20,
     "filmScore": 18,
-    "totalScore": 58,
+    "totalScore": 60,
     "xHandle": "@FlorenceWa44912",
     "hudlLink": "http://www.hudl.com/v/2TA0LG",
     "committed": false,
