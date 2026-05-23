@@ -1263,7 +1263,7 @@
   },
   {
     "id": "65",
-    "rank": 8,
+    "rank": 9,
     "stars": 4,
     "firstName": "Kye",
     "lastName": "Cooper",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "57",
-    "rank": 10,
+    "rank": 8,
     "stars": 4,
     "firstName": "Xavier",
     "lastName": "St. John",
@@ -1306,8 +1306,8 @@
     "offers": [],
     "sizeScore": 25,
     "productionScore": 30,
-    "filmScore": 26,
-    "totalScore": 81
+    "filmScore": 28,
+    "totalScore": 83
   },
   {
     "id": "59",
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "69",
-    "rank": 9,
+    "rank": 10,
     "stars": 4,
     "firstName": "Jeremy",
     "lastName": "Davis",
@@ -2841,7 +2841,7 @@
     "stars": 2,
     "xHandle": "@Nehem1ahaust1n",
     "id": "126",
-    "rank": 60,
+    "rank": 59,
     "height": "5'11\"",
     "committed": false,
     "committedTo": "",
@@ -2952,7 +2952,7 @@
     "weight": 275,
     "gpa": 3.5,
     "stars": 5,
-    "rank": 2,
+    "rank": 3,
     "sizeScore": 35,
     "productionScore": 28,
     "filmScore": 27,
@@ -3038,7 +3038,7 @@
   },
   {
     "id": "135",
-    "rank": 3,
+    "rank": 4,
     "stars": 4,
     "firstName": "Ty",
     "lastName": "Westenberger",
@@ -3609,7 +3609,7 @@
   },
   {
     "id": "155",
-    "rank": 4,
+    "rank": 2,
     "stars": 5,
     "firstName": "Kiti",
     "lastName": "Fuga",
@@ -3634,7 +3634,7 @@
   },
   {
     "id": "156",
-    "rank": 55,
+    "rank": 30,
     "stars": 3,
     "firstName": "Niko",
     "lastName": "Williams Jr",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "159",
-    "rank": 64,
+    "rank": 63,
     "stars": 2,
     "firstName": "Jordan",
     "lastName": "Salanoa",
@@ -3734,7 +3734,7 @@
   },
   {
     "id": "160",
-    "rank": 62,
+    "rank": 61,
     "stars": 2,
     "firstName": "Logan",
     "lastName": "Glover",
@@ -3783,7 +3783,7 @@
   },
   {
     "id": "162",
-    "rank": 6,
+    "rank": 8,
     "stars": 4,
     "firstName": "Julian",
     "lastName": "Morones",
@@ -3808,7 +3808,7 @@
   },
   {
     "id": "163",
-    "rank": 5,
+    "rank": 7,
     "stars": 4,
     "firstName": "Major",
     "lastName": "Scott",
@@ -3842,7 +3842,7 @@
     "heightInches": 71,
     "weight": 196,
     "stars": 4,
-    "rank": 3,
+    "rank": 4,
     "sizeScore": 29,
     "productionScore": 30,
     "filmScore": 26,
@@ -3867,7 +3867,7 @@
     "weight": 145,
     "gpa": 3.5,
     "stars": 4,
-    "rank": 9,
+    "rank": 6,
     "sizeScore": 29,
     "productionScore": 27,
     "filmScore": 27,
@@ -4346,7 +4346,7 @@
   },
   {
     "id": "186",
-    "rank": 28,
+    "rank": 27,
     "stars": 3,
     "firstName": "Edward",
     "lastName": "Tuala",
@@ -4494,7 +4494,7 @@
   },
   {
     "id": "192",
-    "rank": 7,
+    "rank": 9,
     "stars": 4,
     "firstName": "Nehemiah",
     "lastName": "Lauifi",
@@ -4616,7 +4616,7 @@
   },
   {
     "id": "197",
-    "rank": 4,
+    "rank": 5,
     "stars": 4,
     "firstName": "Jamir",
     "lastName": "Alvarez",
@@ -4666,7 +4666,7 @@
   },
   {
     "id": "199",
-    "rank": 65,
+    "rank": 64,
     "stars": 2,
     "firstName": "Steven",
     "lastName": "Wright",
@@ -4691,7 +4691,7 @@
   },
   {
     "id": "200",
-    "rank": 67,
+    "rank": 66,
     "stars": 2,
     "firstName": "Ford",
     "lastName": "Seymour",
@@ -4938,7 +4938,7 @@
   },
   {
     "id": "210",
-    "rank": 68,
+    "rank": 67,
     "stars": 2,
     "firstName": "Sam",
     "lastName": "Williford",
@@ -5013,7 +5013,7 @@
   },
   {
     "id": "213",
-    "rank": 56,
+    "rank": 55,
     "stars": 2,
     "firstName": "Ryan",
     "lastName": "George",
@@ -5088,7 +5088,7 @@
   },
   {
     "id": "216",
-    "rank": 57,
+    "rank": 56,
     "stars": 2,
     "firstName": "Khalonie",
     "lastName": "Jordan",
@@ -5186,7 +5186,7 @@
   },
   {
     "id": "220",
-    "rank": 66,
+    "rank": 65,
     "stars": 2,
     "firstName": "Andres",
     "lastName": "Suarez",
@@ -5269,7 +5269,7 @@
     "weight": 180,
     "gpa": 3.65,
     "stars": 3,
-    "rank": 30,
+    "rank": 29,
     "sizeScore": 20,
     "productionScore": 21,
     "filmScore": 25,
@@ -5547,7 +5547,7 @@
   },
   {
     "id": "235",
-    "rank": 58,
+    "rank": 57,
     "stars": 2,
     "firstName": "Collin",
     "lastName": "Scott",
@@ -5797,7 +5797,7 @@
   },
   {
     "id": "247",
-    "rank": 59,
+    "rank": 58,
     "stars": 2,
     "firstName": "Stephen",
     "lastName": "Guevara",
@@ -5847,7 +5847,7 @@
   },
   {
     "id": "249",
-    "rank": 69,
+    "rank": 68,
     "stars": 2,
     "firstName": "Chris",
     "lastName": "Sturm",
@@ -6189,7 +6189,7 @@
   },
   {
     "id": "263",
-    "rank": 29,
+    "rank": 28,
     "stars": 3,
     "firstName": "Xavier",
     "lastName": "Cruz",
@@ -6214,7 +6214,7 @@
   },
   {
     "id": "264",
-    "rank": 61,
+    "rank": 60,
     "stars": 2,
     "firstName": "Brody",
     "lastName": "Bukich",
@@ -6289,7 +6289,7 @@
   },
   {
     "id": "267",
-    "rank": 63,
+    "rank": 62,
     "stars": 2,
     "firstName": "Kamari",
     "lastName": "Alfred",
@@ -6396,7 +6396,7 @@
     "weight": 180,
     "gpa": 3.7,
     "stars": 4,
-    "rank": 8,
+    "rank": 3,
     "sizeScore": 32,
     "productionScore": 27,
     "filmScore": 27,
@@ -6553,7 +6553,7 @@
   },
   {
     "id": "278",
-    "rank": 70,
+    "rank": 69,
     "stars": 1,
     "firstName": "Xavier",
     "lastName": "Vitela",
