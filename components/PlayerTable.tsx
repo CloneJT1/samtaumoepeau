@@ -90,7 +90,7 @@ export default function PlayerTable({ players }: PlayerTableProps) {
               <td className="px-4 py-3 text-center">
                 <Link href={`/players/${player.id}`} className="block">
                   <span className="font-bold text-sm" style={{ color: '#002147' }}>
-                    {!classYear ? `#${idx + 1}` : player.rank ? `#${player.rank}` : ''}
+                    {`#${idx + 1}`}
                   </span>
                 </Link>
               </td>
