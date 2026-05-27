@@ -514,12 +514,13 @@
     "weight": 185,
     "hudlLink": "https://www.hudl.com/video/3/28364715/6978114f0046ae0a0108e406",
     "gpa": null,
-    "committed": null,
+    "committed": true,
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-19",
     "xHandle": "@parker6johnson",
-    "totalScore": 0
+    "totalScore": 0,
+    "committedTo": "UC Davis"
   },
   {
     "id": "5",
