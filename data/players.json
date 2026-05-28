@@ -6554,7 +6554,7 @@
   },
   {
     "id": "278",
-    "rank": 222,
+    "rank": 223,
     "stars": 1,
     "firstName": "Xavier",
     "lastName": "Vitela",
@@ -6604,7 +6604,7 @@
   },
   {
     "id": "280",
-    "rank": 224,
+    "rank": 225,
     "stars": 1,
     "firstName": "Zander",
     "lastName": "Vulakh",
@@ -6676,5 +6676,30 @@
     "productionScore": 25,
     "filmScore": 25,
     "totalScore": 65
+  },
+  {
+    "id": "283",
+    "rank": 220,
+    "stars": 2,
+    "firstName": "Visi",
+    "lastName": "Nava",
+    "school": "Mater Dei Catholic High School",
+    "position": "ATH",
+    "classYear": 2028,
+    "height": "5'9\"",
+    "heightInches": 69,
+    "weight": 184,
+    "hudlLink": "https://www.hudl.com/video/3/26703029/6904f0dfab529b1a0ee5e1f0",
+    "xHandle": "@visi_nava",
+    "gpa": 3.5,
+    "committed": false,
+    "committedTo": null,
+    "stats": "Visi Nava transferred from Brophy College Prep to Mater Dei Catholic High School for his sophomore season due to father’s military orders.\n\nKey Stats & Highlights (Sophomore Season)\nPosition: Strong Safety (SS), Outside Linebacker (OLB), Middle Linebacker (MLB), Running back (RB)\n\nTackles: Averaged nearly 5 tackles per game, recording 54 total tackles and 40 solo tackles starting the last 7 games during the 2025 season. \n\nDefensive Impact: Totaled 2.0 sacks, highlighting his ability to pressure the quarterback and play near the line of scrimmage.\n\nAwards\n2025 Metro Mesa All League 2ND Team Defense",
+    "approved": true,
+    "createdAt": "2026-05-28T04:39:34.578Z",
+    "sizeScore": 20,
+    "productionScore": 20,
+    "filmScore": 20,
+    "totalScore": 60
   }
 ]
