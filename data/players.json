@@ -6701,5 +6701,30 @@
     "productionScore": 20,
     "filmScore": 20,
     "totalScore": 60
+  },
+  {
+    "id": "284",
+    "rank": 226,
+    "stars": 1,
+    "firstName": "Wyman",
+    "lastName": "Tolbert",
+    "school": "San Ysidro High School",
+    "position": "ATH",
+    "classYear": 2028,
+    "height": "5'11\"",
+    "heightInches": 71,
+    "weight": 170,
+    "hudlLink": "https://www.hudl.com/v/2TDjqL",
+    "xHandle": "@WymanTolbert",
+    "gpa": null,
+    "committed": false,
+    "committedTo": null,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-28T04:42:35.465Z",
+    "sizeScore": 28,
+    "productionScore": 10,
+    "filmScore": 15,
+    "totalScore": 53
   }
 ]
