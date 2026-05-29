@@ -133,13 +133,13 @@ export default function HomePage() {
                   <a href={`/rankings?classYear=${yr}`} className="text-xs font-bold" style={{ color: '#FFD700', WebkitTextStroke: '0.3px #b8960c' }}>View all →</a>
                 </div>
                 <div className="space-y-2">
-                  {top5.map((p) => (
+                  {top5.map((p, idx) => (
                     <a
                       key={p.id}
                       href={`/players/${p.id}`}
                       className="flex items-center gap-3 px-3 py-2.5 rounded-xl border border-gray-100 hover:border-yellow-300 hover:shadow-sm transition-all bg-white"
                     >
-                      <span className="text-xs font-black w-5 text-center" style={{ color: '#002147' }}>#{p.rank}</span>
+                      <span className="text-xs font-black w-5 text-center" style={{ color: '#002147' }}>#{idx + 1}</span>
                       <div className="flex-1 min-w-0">
                         <div className="font-bold text-sm truncate" style={{ color: '#002147' }}>{p.firstName} {p.lastName}</div>
                         <div className="text-xs text-gray-500">{p.school} · {p.position}</div>
