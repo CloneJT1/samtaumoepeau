@@ -6842,5 +6842,30 @@
     "productionScore": 19,
     "filmScore": 19,
     "totalScore": 66
+  },
+  {
+    "id": "290",
+    "rank": 220,
+    "stars": 2,
+    "firstName": "Cyrus",
+    "lastName": "Drury",
+    "school": "Patrick Henry high school",
+    "position": "WR",
+    "classYear": 2029,
+    "height": "6'2\"",
+    "heightInches": 74,
+    "weight": 165,
+    "hudlLink": "https://www.hudl.com/v/2TxMEQ",
+    "xHandle": "@CyrusDrury2029",
+    "gpa": 3.7,
+    "committed": false,
+    "committedTo": null,
+    "stats": "Over 700 yards freshman/jv 13 touchdown",
+    "approved": true,
+    "createdAt": "2026-05-31T21:14:58.606Z",
+    "sizeScore": 25,
+    "productionScore": 20,
+    "filmScore": 15,
+    "totalScore": 60
   }
 ]
