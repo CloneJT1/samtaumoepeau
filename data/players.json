@@ -6869,5 +6869,29 @@
     "productionScore": 20,
     "filmScore": 15,
     "totalScore": 60
+  },
+  {
+    "id": "291",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Lennox",
+    "lastName": "Marcucci",
+    "school": "Southern Utah",
+    "position": "WR",
+    "classYear": 2026,
+    "height": null,
+    "weight": null,
+    "hudlLink": "https://hudl.com/profile/17756033",
+    "gpa": null,
+    "committed": true,
+    "stats": null,
+    "approved": true,
+    "createdAt": "2026-05-31",
+    "committedTo": "Southern Utah",
+    "offers": [
+      "Southern Utah"
+    ],
+    "xHandle": "@lennoxmarcucci",
+    "totalScore": 0
   }
 ]
