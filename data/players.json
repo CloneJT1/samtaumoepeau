@@ -6897,7 +6897,7 @@
   {
     "id": "292",
     "rank": null,
-    "stars": 3,
+    "stars": 5,
     "firstName": "Ryan",
     "lastName": "Banse",
     "school": "La Costa Canyon",
@@ -6907,12 +6907,14 @@
     "weight": 195,
     "hudlLink": null,
     "gpa": 3.4,
-    "committed": false,
+    "committed": true,
     "stats": "#4 in CA | #12 Nationally | Rubio Top 12 Invitee",
     "approved": true,
     "createdAt": "2026-05-31",
-    "committedTo": null,
-    "offers": [],
+    "committedTo": "Northern Arizona",
+    "offers": [
+      "Northern Arizona"
+    ],
     "xHandle": "@Ryan__Banse",
     "totalScore": 0
   }
