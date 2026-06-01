@@ -6941,5 +6941,29 @@
     ],
     "xHandle": "@JustinLee_77",
     "totalScore": 0
+  },
+  {
+    "id": "294",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Ethan",
+    "lastName": "Santiaguel",
+    "school": "Bishop's",
+    "position": "LB/RB",
+    "classYear": 2026,
+    "height": "5'10\"",
+    "weight": 220,
+    "hudlLink": null,
+    "gpa": 3.6,
+    "committed": true,
+    "stats": "3.6 UW / 4.0W GPA | Track & Field",
+    "approved": true,
+    "createdAt": "2026-05-31",
+    "committedTo": "Chapman University",
+    "offers": [
+      "Chapman University"
+    ],
+    "xHandle": "@SonSon5_6",
+    "totalScore": 0
   }
 ]
