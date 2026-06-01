@@ -6931,11 +6931,11 @@
     "weight": 252,
     "hudlLink": null,
     "gpa": 4.4,
-    "committed": false,
+    "committed": true,
     "stats": "SAT: 1470 | 4.73 40yd | 9'6\" broad jump",
     "approved": true,
     "createdAt": "2026-05-31",
-    "committedTo": null,
+    "committedTo": "Air Force",
     "offers": [],
     "xHandle": "@JustinLee_77",
     "totalScore": 0
