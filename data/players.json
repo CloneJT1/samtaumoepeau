@@ -6965,5 +6965,29 @@
     ],
     "xHandle": "@SonSon5_6",
     "totalScore": 0
+  },
+  {
+    "id": "295",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Lukas",
+    "lastName": "Minasian",
+    "school": "Bishop's",
+    "position": "LB",
+    "classYear": 2026,
+    "height": "6'0\"",
+    "weight": 195,
+    "hudlLink": null,
+    "gpa": null,
+    "committed": true,
+    "stats": "34 ACT | 270 lb bench | 4.36 5-10-5 | Captain | 1st team all-league",
+    "approved": true,
+    "createdAt": "2026-05-31",
+    "committedTo": "Claremont McKenna",
+    "offers": [
+      "Claremont McKenna"
+    ],
+    "xHandle": "@LukasMinasian",
+    "totalScore": 0
   }
 ]
