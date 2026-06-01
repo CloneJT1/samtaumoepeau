@@ -6893,5 +6893,27 @@
     ],
     "xHandle": "@lennoxmarcucci",
     "totalScore": 0
+  },
+  {
+    "id": "292",
+    "rank": null,
+    "stars": 3,
+    "firstName": "Ryan",
+    "lastName": "Banse",
+    "school": "La Costa Canyon",
+    "position": "LS",
+    "classYear": 2026,
+    "height": "6'1\"",
+    "weight": 195,
+    "hudlLink": null,
+    "gpa": 3.4,
+    "committed": false,
+    "stats": "#4 in CA | #12 Nationally | Rubio Top 12 Invitee",
+    "approved": true,
+    "createdAt": "2026-05-31",
+    "committedTo": null,
+    "offers": [],
+    "xHandle": "@Ryan__Banse",
+    "totalScore": 0
   }
 ]
