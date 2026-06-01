@@ -1202,7 +1202,7 @@
     "weight": 180,
     "hudlLink": "https://www.hudl.com/video/3/16512251/674ce892f944d22bcd54e6c8",
     "gpa": null,
-    "committed": false,
+    "committed": true,
     "stats": null,
     "approved": true,
     "createdAt": "2026-03-22",
@@ -1212,7 +1212,8 @@
     "sizeScore": 30,
     "productionScore": 30,
     "filmScore": 24,
-    "totalScore": 84
+    "totalScore": 84,
+    "committedTo": "San Diego State"
   },
   {
     "id": "56",
