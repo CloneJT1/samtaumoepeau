@@ -6936,7 +6936,9 @@
     "approved": true,
     "createdAt": "2026-05-31",
     "committedTo": "Air Force",
-    "offers": [],
+    "offers": [
+      "Air Force"
+    ],
     "xHandle": "@JustinLee_77",
     "totalScore": 0
   }
