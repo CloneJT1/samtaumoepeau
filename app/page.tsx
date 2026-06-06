@@ -156,6 +156,90 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      {/* WHERE SD'S BEST ARE SIGNING */}
+      <section className="py-12 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <span className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widests" style={{ backgroundColor: '#FFD700', color: '#002147' }}>
+              Commitment Tracker
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-black mt-3" style={{ color: '#002147' }}>
+              Where San Diego&apos;s Best Are Signing
+            </h2>
+            <p className="text-gray-500 text-sm mt-2">Top programs landing SD County talent by class year.</p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* 2026 */}
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-xs font-black px-3 py-1 rounded-full uppercase tracking-widest text-white" style={{ backgroundColor: '#002147' }}>Class of 2026</span>
+                <div className="h-px flex-1 bg-gray-200" />
+              </div>
+              <div className="space-y-3">
+                {[
+                  { school: 'UC Davis', count: 4, stars: 16, players: 'Coby Herman, Parker Johnson, Trevor Taumoepeau, Lucas Winkler' },
+                  { school: 'Boise State', count: 4, stars: 14, players: 'Cash Herrera, AJ Logan, Romeo Carter, Iosua Faleagafua' },
+                  { school: 'San Diego State', count: 3, stars: 10, players: 'Cammeron Purnell, Carson Diehl, Tyler Prasuhn' },
+                  { school: 'Northern Arizona', count: 2, stars: 9, players: 'Ryan Banse (5★), Kingston Filo' },
+                  { school: 'Army', count: 2, stars: 8, players: 'Keoki Becerra, Kymani Nua' },
+                ].map((s, i) => (
+                  <div key={s.school} className="flex items-start gap-3 p-3 rounded-xl border border-gray-100 hover:border-yellow-300 transition-colors">
+                    <span className="text-xs font-black w-6 text-center shrink-0 mt-0.5" style={{ color: '#002147' }}>#{i+1}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="font-black text-sm" style={{ color: '#002147' }}>{s.school}</span>
+                        <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ backgroundColor: '#FFD700', color: '#002147' }}>{s.count} players</span>
+                        <span className="text-xs text-gray-400">{'★'.repeat(Math.min(s.stars, 5))} {s.stars}★ total</span>
+                      </div>
+                      <p className="text-xs text-gray-500 mt-1 truncate">{s.players}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* 2027 */}
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-xs font-black px-3 py-1 rounded-full uppercase tracking-widest text-white" style={{ backgroundColor: '#CC0000' }}>Class of 2027</span>
+                <div className="h-px flex-1 bg-gray-200" />
+                <span className="text-xs text-gray-400 italic">Early — season in progress</span>
+              </div>
+              <div className="space-y-3">
+                {[
+                  { school: 'San Diego State', count: 3, stars: 12, pts: 251, players: 'Diego Botron, Isaac Cook, Kye Cooper' },
+                  { school: 'USC', count: 1, stars: 5, pts: 100, players: 'Honor Fa'alave-Johnson (5★)' },
+                  { school: 'Hawaii', count: 1, stars: 4, pts: 83, players: 'Asofa Lauifi' },
+                  { school: 'Cornell', count: 1, stars: 3, pts: 76, players: 'Dax Labrum' },
+                  { school: 'Minnesota', count: 1, stars: 3, pts: 65, players: 'Furian Inferrera' },
+                ].map((s, i) => (
+                  <div key={s.school} className="flex items-start gap-3 p-3 rounded-xl border border-gray-100 hover:border-yellow-300 transition-colors">
+                    <span className="text-xs font-black w-6 text-center shrink-0 mt-0.5" style={{ color: '#002147' }}>#{i+1}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="font-black text-sm" style={{ color: '#002147' }}>{s.school}</span>
+                        <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ backgroundColor: '#FFD700', color: '#002147' }}>{s.count} player{s.count > 1 ? 's' : ''}</span>
+                        <span className="text-xs text-gray-400">{'★'.repeat(Math.min(s.stars, 5))} {s.stars}★</span>
+                        <span className="text-xs text-gray-400">{s.pts}pts</span>
+                      </div>
+                      <p className="text-xs text-gray-500 mt-1 truncate">{s.players}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-8">
+            <a href="/rankings?classYear=2026" className="inline-block text-xs font-bold px-5 py-2.5 rounded-full mr-3 border-2 transition-all hover:scale-105" style={{ borderColor: '#002147', color: '#002147' }}>
+              View 2026 Rankings →
+            </a>
+            <a href="/rankings?classYear=2027" className="inline-block text-xs font-bold px-5 py-2.5 rounded-full border-2 transition-all hover:scale-105" style={{ borderColor: '#CC0000', color: '#CC0000' }}>
+              View 2027 Rankings →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Why SD Prospects */}
       <section className="py-10 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
