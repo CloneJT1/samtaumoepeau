@@ -208,7 +208,7 @@ export default function HomePage() {
               <div className="space-y-3">
                 {[
                   { school: 'San Diego State', count: 3, stars: 12, pts: 251, players: 'Diego Botron, Isaac Cook, Kye Cooper' },
-                  { school: 'USC', count: 1, stars: 5, pts: 100, players: 'Honor Fa'alave-Johnson (5★)' },
+                  { school: 'USC', count: 1, stars: 5, pts: 100, players: "Honor Fa'alave-Johnson (5★)" },
                   { school: 'Hawaii', count: 1, stars: 4, pts: 83, players: 'Asofa Lauifi' },
                   { school: 'Cornell', count: 1, stars: 3, pts: 76, players: 'Dax Labrum' },
                   { school: 'Minnesota', count: 1, stars: 3, pts: 65, players: 'Furian Inferrera' },
