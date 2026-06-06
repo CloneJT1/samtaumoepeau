@@ -230,11 +230,8 @@ export default function HomePage() {
             </div>
           </div>
           <div className="text-center mt-8">
-            <a href="/rankings?classYear=2026" className="inline-block text-xs font-bold px-5 py-2.5 rounded-full mr-3 border-2 transition-all hover:scale-105" style={{ borderColor: '#002147', color: '#002147' }}>
-              View 2026 Rankings →
-            </a>
-            <a href="/rankings?classYear=2027" className="inline-block text-xs font-bold px-5 py-2.5 rounded-full border-2 transition-all hover:scale-105" style={{ borderColor: '#CC0000', color: '#CC0000' }}>
-              View 2027 Rankings →
+            <a href="/school-rankings" className="inline-block text-xs font-bold px-5 py-2.5 rounded-full border-2 transition-all hover:scale-105" style={{ borderColor: '#002147', color: '#002147' }}>
+              View All 37 Schools →
             </a>
           </div>
         </div>
