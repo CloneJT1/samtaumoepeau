@@ -190,7 +190,7 @@ export default function HomePage() {
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-black text-sm" style={{ color: '#002147' }}>{s.school}</span>
                         <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ backgroundColor: '#FFD700', color: '#002147' }}>{s.count} players</span>
-                        <span className="text-xs text-gray-400">{'★'.repeat(Math.min(s.stars, 5))} {s.stars}★ total</span>
+                        <span className="text-xs text-gray-400">{s.stars}★ total</span>
                       </div>
                       <p className="text-xs text-gray-500 mt-1 truncate">{s.players}</p>
                     </div>
@@ -218,8 +218,8 @@ export default function HomePage() {
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-black text-sm" style={{ color: '#002147' }}>{s.school}</span>
-                        <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ backgroundColor: '#FFD700', color: '#002147' }}>{s.count} player{s.count > 1 ? 's' : ''}</span>
-                        <span className="text-xs text-gray-400">{'★'.repeat(Math.min(s.stars, 5))} {s.stars}★</span>
+                        <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ backgroundColor: '#FFD700', color: '#002147' }}>{s.count} players</span>
+                        <span className="text-xs text-gray-400">{s.stars}★</span>
                         <span className="text-xs text-gray-400">{s.pts}pts</span>
                       </div>
                       <p className="text-xs text-gray-500 mt-1 truncate">{s.players}</p>
