@@ -161,7 +161,7 @@ export default function HomePage() {
       <section className="py-12 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <span className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widests" style={{ backgroundColor: '#FFD700', color: '#002147' }}>
+            <span className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest" style={{ backgroundColor: '#FFD700', color: '#002147' }}>
               Commitment Tracker
             </span>
             <h2 className="text-2xl sm:text-3xl font-black mt-3" style={{ color: '#002147' }}>
