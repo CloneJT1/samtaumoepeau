@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPlayers } from '@/lib/players';
+import SchoolSigningTracker from '@/components/SchoolSigningTracker';
 import PlayerTable from '@/components/PlayerTable';
 import FilterBar from '@/components/FilterBar';
 import { Suspense } from 'react';
