@@ -16,7 +16,7 @@ export default function SchoolRankingsClient({ data2026, data2027 }: { data2026:
         <Link href="/" className="text-sm font-semibold hover:underline mb-4 inline-block" style={{ color: '#FFD700' }}>← Back to Home</Link>
         <div className="flex items-center gap-3 mb-2">
           <div className="w-1 h-8 rounded-full" style={{ backgroundColor: '#FFD700' }} />
-          <h1 className="text-3xl font-black" style={{ color: '#002147' }}>University Rankings</h1>
+          <h1 className="text-3xl font-black" style={{ color: '#002147' }}>College Rankings</h1>
         </div>
         <p className="text-gray-500 ml-4 pl-3">Which programs are landing San Diego County talent?</p>
       </div>
