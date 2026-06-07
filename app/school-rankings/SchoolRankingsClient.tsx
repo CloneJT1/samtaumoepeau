@@ -96,3 +96,4 @@ export default function SchoolRankingsClient({ data2026, data2027 }: { data2026:
     </div>
   );
 }
+// build: Sat Jun  6 18:05:36 PDT 2026
